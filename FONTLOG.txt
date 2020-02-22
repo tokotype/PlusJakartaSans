@@ -1,0 +1,32 @@
+FONTLOG for Plus Jakarta Sans font.
+
+This file provides detailed information on the Plus Jakarta Sans font.
+This information should be distributed along with the Plus Jakarta Sans font(s) and any
+derivative works.
+
+
+Basic Font Information
+
+The +Jakarta Sans is a versatile modern type family designed for +Jakarta City Branding in 2020, where each glyph has its own varieties with its own different characteristics. Like the city itself, the beauty is in the details. The charms of +Jakarta Sans appear when one looks closer, manifesting in a beauty that emerges once seen as a whole. Each alternate on Display family contains several alternates characters, while the text version has a small adjustment to preserve the legibility of small sizes.
+
+To contribute to the project, Please see <a href="https://github.com/tokotype/PlusJakartaSans">github.com/tokotype/PlusJakartaSans</a> or visit http://www.tokotypefaces.com
+
+
+ChangeLog
+
+21 February 2020 (Gumpita Rahayu) Plus Jakarta Sans v1.000
+- Open sourced.
+- Fine tuning to almost all glyphs.
+- First public released.
+
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N),
+email (E), web-address (if you have one) (W) and
+description (D). This list is in alphabetical order.
+
+N: Gumpita Rahayu
+E: abc@tokotypefaces.com
+W: http://www.tokotypefaces.com
+D: Original designer
