@@ -28,7 +28,7 @@ To contribute to the project, Please see <a href="https://github.com/tokotype/Pl
 - Removed Plus Jakarta Sans Text Version (In addition, Lightest weight added)
 - Adding several opentype features stylistic sets glyphs
 
-**21 February 2020 (Gumpita Rahayu) Plus Jakarta Sans v1.000
+### **21 February 2020 (Gumpita Rahayu) Plus Jakarta Sans v1.000
 **
 
 - Open sourced.
