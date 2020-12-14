@@ -3,13 +3,10 @@
 DisplayStrings = (
 Menteng,
 "Duren/space Sawit\012Kemang/space +Jakarta",
-Rn32o,
-"/zerosuperior",
-Jakartans,
-"Tan/j.ss02 ung/jdotless.ss02",
 "/g.ss01/a.ss01 nteng",
 "/gbreve.ss01/gcaron.ss01/gcircumflex.ss01/gcommaaccent.ss01/gdotaccent.ss01/gmacron.ss01",
-"/g.ss01"
+"/g.ss01",
+"/quotesinglbase/quotedblbase/quotedblleft/quotedblright/quoteleft/quoteright"
 );
 classes = (
 {
@@ -79662,7 +79659,7 @@ unicode = 201A;
 {
 color = 4;
 glyphname = quotedblbase;
-lastChange = "2020-12-04 02:34:23 +0000";
+lastChange = "2020-12-14 06:00:28 +0000";
 layers = (
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -79780,15 +79777,13 @@ width = 378;
 }
 );
 leftKerningGroup = period;
-leftMetricsKey = "=quoteright";
 rightKerningGroup = period;
-rightMetricsKey = "=quoteright";
 unicode = 201E;
 },
 {
 color = 4;
 glyphname = quotedblleft;
-lastChange = "2020-12-04 06:20:15 +0000";
+lastChange = "2020-12-14 06:00:38 +0000";
 layers = (
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -79906,15 +79901,13 @@ width = 378;
 }
 );
 leftKerningGroup = quoteleft;
-leftMetricsKey = "=quoteleft";
 rightKerningGroup = quoteleft;
-rightMetricsKey = "=quoteleft";
 unicode = 201C;
 },
 {
 color = 4;
 glyphname = quotedblright;
-lastChange = "2020-12-04 06:30:43 +0000";
+lastChange = "2020-12-14 06:00:28 +0000";
 layers = (
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -80032,93 +80025,13 @@ width = 378;
 }
 );
 leftKerningGroup = quoteright;
-leftMetricsKey = quoteright;
 rightKerningGroup = quoteright;
-rightMetricsKey = quoteright;
 unicode = 201D;
 },
 {
 color = 4;
 glyphname = quoteleft;
-lastChange = "2020-12-03 09:41:38 +0000";
-layers = (
-{
-layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
-paths = (
-{
-closed = 1;
-nodes = (
-"146 531 OFFCURVE",
-"180 584 OFFCURVE",
-"180 661 CURVE SMOOTH",
-"180 745 LINE",
-"100 745 LINE",
-"100 635 LINE",
-"143 635 LINE",
-"141 590 OFFCURVE",
-"120 556 OFFCURVE",
-"80 545 CURVE",
-"80 515 LINE"
-);
-}
-);
-width = 270;
-},
-{
-layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
-paths = (
-{
-closed = 1;
-nodes = (
-"222 463 OFFCURVE",
-"280 541 OFFCURVE",
-"280 658 CURVE SMOOTH",
-"280 745 LINE",
-"130 745 LINE",
-"130 595 LINE",
-"197 595 LINE",
-"188 556 OFFCURVE",
-"157 526 OFFCURVE",
-"110 515 CURVE",
-"110 440 LINE"
-);
-}
-);
-width = 386;
-},
-{
-layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
-paths = (
-{
-closed = 1;
-nodes = (
-"125 562 OFFCURVE",
-"156 609 OFFCURVE",
-"156 669 CURVE SMOOTH",
-"156 745 LINE",
-"101 745 LINE",
-"101 655 LINE",
-"130 655 LINE",
-"130 616 OFFCURVE",
-"109 583 OFFCURVE",
-"81 577 CURVE",
-"81 550 LINE"
-);
-}
-);
-width = 248;
-}
-);
-leftKerningGroup = quoteleft;
-leftMetricsKey = comma;
-rightKerningGroup = quoteleft;
-rightMetricsKey = comma;
-unicode = 2018;
-},
-{
-color = 4;
-glyphname = quoteright;
-lastChange = "2020-12-03 09:41:38 +0000";
+lastChange = "2020-12-14 06:00:42 +0000";
 layers = (
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -80190,6 +80103,84 @@ width = 248;
 leftKerningGroup = quoteright;
 leftMetricsKey = comma;
 rightKerningGroup = quoteright;
+rightMetricsKey = comma;
+unicode = 2018;
+},
+{
+color = 4;
+glyphname = quoteright;
+lastChange = "2020-12-14 06:00:31 +0000";
+layers = (
+{
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+paths = (
+{
+closed = 1;
+nodes = (
+"146 531 OFFCURVE",
+"180 584 OFFCURVE",
+"180 661 CURVE SMOOTH",
+"180 745 LINE",
+"100 745 LINE",
+"100 635 LINE",
+"143 635 LINE",
+"141 590 OFFCURVE",
+"120 556 OFFCURVE",
+"80 545 CURVE",
+"80 515 LINE"
+);
+}
+);
+width = 270;
+},
+{
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+paths = (
+{
+closed = 1;
+nodes = (
+"222 463 OFFCURVE",
+"280 541 OFFCURVE",
+"280 658 CURVE SMOOTH",
+"280 745 LINE",
+"130 745 LINE",
+"130 595 LINE",
+"197 595 LINE",
+"188 556 OFFCURVE",
+"157 526 OFFCURVE",
+"110 515 CURVE",
+"110 440 LINE"
+);
+}
+);
+width = 386;
+},
+{
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+paths = (
+{
+closed = 1;
+nodes = (
+"125 562 OFFCURVE",
+"156 609 OFFCURVE",
+"156 669 CURVE SMOOTH",
+"156 745 LINE",
+"101 745 LINE",
+"101 655 LINE",
+"130 655 LINE",
+"130 616 OFFCURVE",
+"109 583 OFFCURVE",
+"81 577 CURVE",
+"81 550 LINE"
+);
+}
+);
+width = 248;
+}
+);
+leftKerningGroup = quoteleft;
+leftMetricsKey = comma;
+rightKerningGroup = quoteleft;
 rightMetricsKey = comma;
 unicode = 2019;
 },
