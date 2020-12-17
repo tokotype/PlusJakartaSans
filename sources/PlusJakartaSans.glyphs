@@ -6,7 +6,8 @@ Menteng,
 "/g.ss01/a.ss01 nteng",
 "/gbreve.ss01/gcaron.ss01/gcircumflex.ss01/gcommaaccent.ss01/gdotaccent.ss01/gmacron.ss01",
 "/g.ss01",
-"/quotesinglbase/quotedblbase/quotedblleft/quotedblright/quoteleft/quoteright"
+"/quotesinglbase/quotedblbase/quotedblleft/quotedblright/quoteleft/quoteright",
+"e/quoteright"
 );
 classes = (
 {
