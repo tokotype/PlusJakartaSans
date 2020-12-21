@@ -10,14 +10,14 @@ mkdir -p ./fonts/static ./fonts/vf ./fonts/webfonts
 
 echo "Generating VFs"
 
-fontmake -g ./sources/PlusJakartaSans.glyphs -o variable --round-instances --output-path ./fonts/vf/PlusJakartaSans\[wght\].ttf
-fontmake -g ./sources/PlusJakartaSans-Italic.glyphs -o variable --round-instances --output-path ./fonts/vf/PlusJakartaSans-Italic\[wght\].ttf
+fontmake -g PlusJakartaSans.glyphs -o variable --round-instances --output-path ./fonts/vf/PlusJakartaSans\[wght\].ttf
+fontmake -g PlusJakartaSans-Italic.glyphs -o variable --round-instances --output-path ./fonts/vf/PlusJakartaSans-Italic\[wght\].ttf
 
 
 echo "Generating Statics" ##run fixes on statics as well. 
 
-fontmake -g ./sources/PlusJakartaSans.glyphs -o ttf --round-instances -a --keep-direction -i --output-dir ./fonts/static/
-fontmake -g ./sources/PlusJakartaSans-Italic.glyphs -o ttf --round-instances -a --keep-direction -i --output-dir ./fonts/static/
+fontmake -g PlusJakartaSans.glyphs -o ttf --round-instances -a --keep-direction -i --output-dir ./fonts/static/
+fontmake -g PlusJakartaSans-Italic.glyphs -o ttf --round-instances -a --keep-direction -i --output-dir ./fonts/static/
 
 
 echo "Statics Built" ##run fixes on statics as well. 
@@ -71,3 +71,5 @@ echo "finish vf check"
 echo "show dir now run static fb checks"
 fontbakery check-googlefonts ./fonts/static/*.ttf --ghmarkdown PlusJakartaSans_ttf_checks.md
 echo "fb checks done"
+
+mv fonts ../
