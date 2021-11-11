@@ -14,9 +14,15 @@ The beauty of diversity captured in typography. Like the city itself, the unique
 
 As part of Plus Jakarta as a city of collaboration, fonts are made available for public and use it under the SIL Open Font License.
 
-To contribute to the project, Please see <a href="https://github.com/tokotype/PlusJakartaSans">github.com/tokotype/PlusJakartaSans</a> or visit http://www.tokotypefaces.com
+To contribute to the project, Please see <a href="https://github.com/tokotype/PlusJakartaSans">github.com/tokotype/PlusJakartaSans</a> or visit http://www.tokotype.com
 
 ## FONTLOG for Plus Jakarta Sans fonts
+
+### **21 December 2020 (Gumpita Rahayu) Plus Jakarta Sans v2.500
+
+- Extending ascender character lowercase
+- Fixed duplicated alternates
+
 
 ### **4 December 2020 (Gumpita Rahayu) Plus Jakarta Sans v2.400**
 
