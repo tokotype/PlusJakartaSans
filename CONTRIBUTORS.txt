@@ -7,4 +7,4 @@
 # name or J's organization's name should be added to AUTHORS.txt
 #
 # Names should be added to this file as:
-# Name <email address> 
+# Gumpita Rahayu <mail@tokotype.com> 
