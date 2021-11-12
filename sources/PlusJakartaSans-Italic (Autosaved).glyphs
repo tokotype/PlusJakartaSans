@@ -60097,6 +60097,7 @@ width = 818;
 leftMetricsKey = one.numr;
 rightMetricsKey = one.numr;
 unicode = 00BD;
+changeCount = 1;
 },
 {
 glyphname = onethird;
@@ -60157,6 +60158,7 @@ width = 822;
 leftMetricsKey = one.numr;
 rightMetricsKey = one.numr;
 unicode = 2153;
+changeCount = 1;
 },
 {
 glyphname = twothirds;
@@ -60217,6 +60219,7 @@ width = 886;
 leftMetricsKey = two.numr;
 rightMetricsKey = two.numr;
 unicode = 2154;
+changeCount = 1;
 },
 {
 glyphname = onequarter;
@@ -60277,6 +60280,7 @@ width = 870;
 leftMetricsKey = one.numr;
 rightMetricsKey = one.numr;
 unicode = 00BC;
+changeCount = 1;
 },
 {
 glyphname = threequarters;
@@ -60337,6 +60341,7 @@ width = 937;
 leftMetricsKey = three.numr;
 rightMetricsKey = three.numr;
 unicode = 00BE;
+changeCount = 1;
 },
 {
 glyphname = oneeighth;
@@ -60397,6 +60402,7 @@ width = 848;
 leftMetricsKey = one.numr;
 rightMetricsKey = one.numr;
 unicode = 215B;
+changeCount = 1;
 },
 {
 glyphname = threeeighths;
@@ -60457,6 +60463,7 @@ width = 915;
 leftMetricsKey = three.numr;
 rightMetricsKey = three.numr;
 unicode = 215C;
+changeCount = 1;
 },
 {
 glyphname = fiveeighths;
@@ -60517,6 +60524,7 @@ width = 914;
 leftMetricsKey = five.numr;
 rightMetricsKey = five.numr;
 unicode = 215D;
+changeCount = 1;
 },
 {
 glyphname = seveneighths;
@@ -60577,6 +60585,7 @@ width = 888;
 leftMetricsKey = seven.numr;
 rightMetricsKey = seven.numr;
 unicode = 215E;
+changeCount = 1;
 },
 {
 color = 4;
