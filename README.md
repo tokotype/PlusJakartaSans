@@ -18,7 +18,15 @@ To contribute to the project, Please see <a href="https://github.com/tokotype/Pl
 
 ## FONTLOG for Plus Jakarta Sans fonts
 
-### **21 December 2020 (Gumpita Rahayu) Plus Jakarta Sans v2.500
+### 12 November 2021 (Gumpita Rahayu) Plus Jakarta Sans v2.600
+
+- Adding SemiBold instance on static files
+- Fixed missing kerning values
+- Increasing quote character weight
+- Redesigned diacritics glyphs
+- Adding Tabular Figures (.tf)
+
+### 21 December 2020 (Gumpita Rahayu) Plus Jakarta Sans v2.500
 
 - Extending ascender character lowercase
 - Fixed duplicated alternates
