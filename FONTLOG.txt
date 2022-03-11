@@ -27,6 +27,8 @@ ChangeLog
   for many of the previous fragmented build scripts.
   Since the fonts built with it haven't changed data-wise, 
   a version bump and new release on the repo is unnecessary.
+- Added DESCRIPTION.html consisting of the first paragraphs of the README,
+  adjusted for grammar and spelling.
 
 12 November 2021 (Gumpita Rahayu) Plus Jakarta Sans v2.600
 
