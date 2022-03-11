@@ -20,6 +20,14 @@ To contribute to the project, Please see https://github.com/tokotype/PlusJakarta
 
 ChangeLog
 
+11 March 2022 (Yanone) Plus Jakarta Sans v2.600
+
+- Cleaned up file structure
+- Moved build system to `gftools builder` which is an abstract replacement
+  for many of the previous fragmented build scripts.
+  Since the fonts built with it haven't changed data-wise, 
+  a version bump and new release on the repo is unnecessary.
+
 12 November 2021 (Gumpita Rahayu) Plus Jakarta Sans v2.600
 
 - Adding SemiBold instance on static files

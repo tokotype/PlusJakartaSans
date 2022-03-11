@@ -1,0 +1,9 @@
+sources:
+  - PlusJakartaSans.glyphs
+  - PlusJakartaSans-Italic.glyphs
+outputDir: "../fonts"
+buildStatic: true
+buildVariable: true
+buildTTF: true
+buildOTF: false
+buildWebfont: false

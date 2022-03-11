@@ -16,6 +16,14 @@ As part of Plus Jakarta as a city of collaboration, fonts are made available for
 
 To contribute to the project, Please see <a href="https://github.com/tokotype/PlusJakartaSans">github.com/tokotype/PlusJakartaSans</a> or visit http://www.tokotype.com
 
+## Build
+
+Build the fonts with `gftools builder sources/builder.yaml` from the repository’s root folder
+
+## Test
+
+Test the fonts with `fontbakery check-googlefonts fonts/variable/*.ttf` and `fontbakery check-googlefonts fonts/ttf/*.ttf` from the repository’s root folder
+
 ## FONTLOG for Plus Jakarta Sans fonts
 
 ### 12 November 2021 (Gumpita Rahayu) Plus Jakarta Sans v2.600
