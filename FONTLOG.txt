@@ -20,6 +20,13 @@ To contribute to the project, Please see https://github.com/tokotype/PlusJakarta
 
 ChangeLog
 
+19 May 2023 (Gumpita Rahayu) Plus Jakarta Sans v2.700
+
+- Fixed shapeshifting glyphs on 'ohorn' and 'registered symbol'
+- Removed tail on 'æ'
+- Adjusted vertical metrics to compensate line-height issues
+- Add  two strokes on '₦' (Naira symbol)
+
 11 March 2022 (Yanone) Plus Jakarta Sans v2.600
 
 - Cleaned up file structure
