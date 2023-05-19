@@ -26,6 +26,13 @@ Test the fonts with `fontbakery check-googlefonts fonts/variable/*.ttf` and `fon
 
 ## FONTLOG for Plus Jakarta Sans fonts
 
+### 19 May 2023 (Gumpita Rahayu) Plus Jakarta Sans v2.700
+
+- Fixed shapeshifting glyphs on 'ohorn' and 'registered symbol'
+- Removed tail on 'æ'
+- Adjusted vertical metrics to compensate line-height issues
+- Add  two strokes on '₦' (Naira symbol)
+
 ### 12 November 2021 (Gumpita Rahayu) Plus Jakarta Sans v2.600
 
 - Adding SemiBold instance on static files
