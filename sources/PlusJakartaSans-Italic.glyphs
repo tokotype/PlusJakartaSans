@@ -1,12 +1,6 @@
 {
-.appVersion = "3151";
+.appVersion = "3191";
 .formatVersion = 3;
-DisplayStrings = (
-"Available for Mac, iOS, Windows, and Android. Suns Fans Find Meaning—and Connection—in Devin Booker and His Mexican Heritage. That is the mindset of the USA Basketball Women’s National Team following a second-straight exhibition loss, a 70-67 setback to Australia on Friday at the Michelob ULTRA Arena at Mandalay Bay in Las Vegas. 2 containers allow you to run 2x parallelism and 2x concurrency. Can be disabled by setting collector.cookie.enabled to false. ",
-"æn",
-"₤₦",
-"ở̃ơỡ®"
-);
 axes = (
 {
 name = Weight;
@@ -37,6 +31,10 @@ value = 1;
 name = fsType;
 value = (
 );
+},
+{
+name = "Write DisplayStrings";
+value = 1;
 }
 );
 date = "2023-05-19 07:52:05 +0000";
@@ -808,11 +806,11 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 972;
+value = 1038;
 },
 {
 name = typoDescender;
-value = -228;
+value = -222;
 },
 {
 name = typoLineGap;
@@ -824,15 +822,15 @@ value = 1294;
 },
 {
 name = winDescent;
-value = 354;
+value = 358;
 },
 {
 name = hheaAscender;
-value = 972;
+value = 1038;
 },
 {
 name = hheaDescender;
-value = -228;
+value = -222;
 },
 {
 name = hheaLineGap;
@@ -922,11 +920,11 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 972;
+value = 1038;
 },
 {
 name = typoDescender;
-value = -228;
+value = -222;
 },
 {
 name = typoLineGap;
@@ -938,15 +936,15 @@ value = 1294;
 },
 {
 name = winDescent;
-value = 354;
+value = 358;
 },
 {
 name = hheaAscender;
-value = 972;
+value = 1038;
 },
 {
 name = hheaDescender;
-value = -228;
+value = -222;
 },
 {
 name = hheaLineGap;
@@ -1035,11 +1033,11 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 972;
+value = 1038;
 },
 {
 name = typoDescender;
-value = -228;
+value = -222;
 },
 {
 name = typoLineGap;
@@ -1051,15 +1049,15 @@ value = 1294;
 },
 {
 name = winDescent;
-value = 354;
+value = 358;
 },
 {
 name = hheaAscender;
-value = 972;
+value = 1038;
 },
 {
 name = hheaDescender;
-value = -228;
+value = -222;
 },
 {
 name = hheaLineGap;
@@ -12170,7 +12168,7 @@ unicode = 526;
 glyphname = Omacron;
 kernLeft = O;
 kernRight = O;
-lastChange = "2021-11-11 09:55:14 +0000";
+lastChange = "2021-11-10 07:58:16 +0000";
 layers = (
 {
 layerId = "1C1CFC13-4213-4775-A214-C31251F9A91A";
@@ -21500,7 +21498,7 @@ width = 583;
 glyphname = abrevehookabove;
 kernLeft = a;
 kernRight = a;
-lastChange = "2021-11-11 09:55:14 +0000";
+lastChange = "2021-11-10 07:58:16 +0000";
 layers = (
 {
 layerId = "1C1CFC13-4213-4775-A214-C31251F9A91A";
@@ -23722,7 +23720,7 @@ width = 584;
 glyphname = agrave.ss02;
 kernLeft = a;
 kernRight = a;
-lastChange = "2021-11-11 09:55:14 +0000";
+lastChange = "2021-01-30 07:37:07 +0000";
 layers = (
 {
 layerId = "1C1CFC13-4213-4775-A214-C31251F9A91A";
@@ -39005,7 +39003,7 @@ metricRight = "=n";
 glyphname = nj;
 kernLeft = n;
 kernRight = j;
-lastChange = "2021-11-11 09:41:17 +0000";
+lastChange = "2023-01-30 07:37:07 +0000";
 layers = (
 {
 layerId = "1C1CFC13-4213-4775-A214-C31251F9A91A";
@@ -52382,7 +52380,7 @@ width = 602;
 glyphname = ytilde.ss03;
 kernLeft = u;
 kernRight = u;
-lastChange = "2021-11-11 09:55:14 +0000";
+lastChange = "2023-01-30 07:37:07 +0000";
 layers = (
 {
 layerId = "1C1CFC13-4213-4775-A214-C31251F9A91A";
@@ -62784,7 +62782,7 @@ width = 399;
 layerId = "F445EC8D-29E3-46C7-99DD-9E4BBA6B70C5";
 shapes = (
 {
-pos = (12,80);
+pos = (11,80);
 ref = slash;
 }
 );
@@ -62877,7 +62875,7 @@ width = 394;
 layerId = "F445EC8D-29E3-46C7-99DD-9E4BBA6B70C5";
 shapes = (
 {
-pos = (12,80);
+pos = (11,80);
 ref = backslash;
 }
 );
@@ -63172,17 +63170,17 @@ pos = (10,70);
 ref = parenleft;
 }
 );
-width = 312;
+width = 311;
 },
 {
 layerId = "9D27F576-B54C-4464-AC1E-5B62749637F3";
 shapes = (
 {
-pos = (12,90);
+pos = (13,90);
 ref = parenleft;
 }
 );
-width = 424;
+width = 425;
 }
 );
 metricLeft = parenleft;
@@ -63491,11 +63489,11 @@ width = 318;
 layerId = "9D27F576-B54C-4464-AC1E-5B62749637F3";
 shapes = (
 {
-pos = (12,90);
+pos = (13,90);
 ref = braceleft;
 }
 );
-width = 425;
+width = 426;
 }
 );
 metricLeft = braceleft;
@@ -63683,11 +63681,11 @@ width = 317;
 layerId = "9D27F576-B54C-4464-AC1E-5B62749637F3";
 shapes = (
 {
-pos = (12,90);
+pos = (13,90);
 ref = braceright;
 }
 );
-width = 425;
+width = 426;
 }
 );
 metricLeft = braceright;
@@ -63885,17 +63883,17 @@ pos = (10,70);
 ref = bracketright;
 }
 );
-width = 316;
+width = 315;
 },
 {
 layerId = "9D27F576-B54C-4464-AC1E-5B62749637F3";
 shapes = (
 {
-pos = (12,90);
+pos = (13,90);
 ref = bracketright;
 }
 );
-width = 449;
+width = 450;
 }
 );
 metricLeft = bracketright;
@@ -65336,7 +65334,7 @@ pos = (13,90);
 ref = guillemetleft;
 }
 );
-width = 729;
+width = 728;
 }
 );
 metricLeft = guillemetleft;
@@ -65567,7 +65565,7 @@ pos = (13,90);
 ref = guilsinglleft;
 }
 );
-width = 429;
+width = 428;
 }
 );
 metricLeft = guilsinglleft;
@@ -72029,11 +72027,11 @@ layers = (
 layerId = "1C1CFC13-4213-4775-A214-C31251F9A91A";
 shapes = (
 {
-pos = (17,125);
+pos = (18,125);
 ref = equal;
 }
 );
-width = 595;
+width = 596;
 },
 {
 layerId = "F445EC8D-29E3-46C7-99DD-9E4BBA6B70C5";
@@ -72175,11 +72173,11 @@ layers = (
 layerId = "1C1CFC13-4213-4775-A214-C31251F9A91A";
 shapes = (
 {
-pos = (17,125);
+pos = (18,125);
 ref = notequal;
 }
 );
-width = 595;
+width = 596;
 },
 {
 layerId = "F445EC8D-29E3-46C7-99DD-9E4BBA6B70C5";
@@ -72279,7 +72277,7 @@ layers = (
 layerId = "1C1CFC13-4213-4775-A214-C31251F9A91A";
 shapes = (
 {
-pos = (17,125);
+pos = (18,125);
 ref = greater;
 }
 );
@@ -72398,7 +72396,7 @@ pos = (17,120);
 ref = less;
 }
 );
-width = 608;
+width = 607;
 },
 {
 layerId = "9D27F576-B54C-4464-AC1E-5B62749637F3";
@@ -72715,11 +72713,11 @@ layers = (
 layerId = "1C1CFC13-4213-4775-A214-C31251F9A91A";
 shapes = (
 {
-pos = (17,125);
+pos = (18,125);
 ref = plusminus;
 }
 );
-width = 595;
+width = 596;
 },
 {
 layerId = "F445EC8D-29E3-46C7-99DD-9E4BBA6B70C5";
@@ -72729,7 +72727,7 @@ pos = (17,120);
 ref = plusminus;
 }
 );
-width = 608;
+width = 607;
 },
 {
 layerId = "9D27F576-B54C-4464-AC1E-5B62749637F3";
@@ -73096,7 +73094,7 @@ pos = (18,125);
 ref = asciitilde;
 }
 );
-width = 597;
+width = 596;
 },
 {
 layerId = "F445EC8D-29E3-46C7-99DD-9E4BBA6B70C5";
@@ -95876,18 +95874,12 @@ name = "ExtraBold Italic";
 weightClass = 800;
 },
 {
-axesValues = (
-0
-);
 customParameters = (
 {
 name = "Variable Font Origin";
 value = "F445EC8D-29E3-46C7-99DD-9E4BBA6B70C5";
 }
 );
-instanceInterpolations = {
-"1C1CFC13-4213-4775-A214-C31251F9A91A" = 1;
-};
 name = Regular;
 type = variable;
 }
@@ -97200,13 +97192,13 @@ key = licenses;
 values = (
 {
 language = dflt;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
 }
 );
 },
 {
 key = licenseURL;
-value = "http://scripts.sil.org/OFL";
+value = "https://scripts.sil.org/OFL";
 }
 );
 settings = {
@@ -97292,5 +97284,5 @@ tH = "40";
 };
 };
 versionMajor = 2;
-versionMinor = 7;
+versionMinor = 107;
 }

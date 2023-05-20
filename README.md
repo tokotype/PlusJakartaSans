@@ -1,10 +1,18 @@
 # Plus Jakarta Sans
 
-![/documentation/img/plusjakartasans.png](/documentation/img/plusjakartasans.png)
+[![][Fontbakery]](https://ottta.github.io/PlusJakartaSans.git/fontbakery/fontbakery-report.html)
+[![][Universal]](https://ottta.github.io/PlusJakartaSans.git/fontbakery/fontbakery-report.html)
+[![][GF Profile]](https://ottta.github.io/PlusJakartaSans.git/fontbakery/fontbakery-report.html)
+[![][Outline Correctness]](https://ottta.github.io/PlusJakartaSans.git/fontbakery/fontbakery-report.html)
+[![][Shaping]](https://ottta.github.io/PlusJakartaSans.git/fontbakery/fontbakery-report.html)
 
-![/documentation/img/plusjakartasans-alt.gif](/documentation/img/plusjakartasans-alt.gif)
+[Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fottta%2FPlusJakartaSans.git%2Fgh-pages%2Fbadges%2Foverall.json
+[GF Profile]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fottta%2FPlusJakartaSans.git%2Fgh-pages%2Fbadges%2FGoogleFonts.json
+[Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fottta%2FPlusJakartaSans.git%2Fgh-pages%2Fbadges%2FOutlineCorrectnessChecks.json
+[Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fottta%2FPlusJakartaSans.git%2Fgh-pages%2Fbadges%2FShapingChecks.json
+[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fottta%2FPlusJakartaSans.git%2Fgh-pages%2Fbadges%2FUniversal.json
 
-## About Plus Jakarta Sans Project
+## About
 
 Plus Jakarta Sans is a font family that takes geometric sans serif styles, designed by Gumpita Rahayu from Tokotype, the fonts were originally commissioned by 6616 Studio for Jakarta Provincial Government program's +Jakarta City of Collaboration identity in 2020.
 
@@ -16,15 +24,31 @@ As part of Plus Jakarta as a city of collaboration, fonts are made available for
 
 To contribute to the project, Please see <a href="https://github.com/tokotype/PlusJakartaSans">github.com/tokotype/PlusJakartaSans</a> or visit http://www.tokotype.com
 
-## Build
+![/documentation/img/plusjakartasans.png](/documentation/img/plusjakartasans.png)
 
-Build the fonts with `gftools builder sources/builder.yaml` from the repository’s root folder
+![/documentation/img/plusjakartasans-alt.gif](/documentation/img/plusjakartasans-alt.gif)
 
-## Test
+## Building
 
-Test the fonts with `fontbakery check-googlefonts fonts/variable/*.ttf` and `fontbakery check-googlefonts fonts/ttf/*.ttf` from the repository’s root folder
+Fonts are built automatically by GitHub Actions - take a look in the "Actions" tab for the latest build.
 
-## FONTLOG for Plus Jakarta Sans fonts
+If you want to build fonts manually on your own computer:
+
+* `make build` will produce font files.
+* `make test` will run [FontBakery](https://github.com/googlefonts/fontbakery)'s quality assurance tests.
+* `make proof` will generate HTML proof files.
+
+The proof files and QA tests are also available automatically via GitHub Actions - look at https://ottta.github.io/PlusJakartaSans.git.
+
+## Changelog
+
+### **20 May 2023 (Taufik Oktama) Plus Jakarta Sans v2.107
+- Update font repository to [googlefonts-project-template](https://github.com/googlefonts/googlefonts-project-template)
+- Fix inconsistent vertical metrics and make sure all glyphs will not be clipping
+- Increase significant version number 2.007 > 2.107
+- Write Display String in font info glyphsapp to `false`
+- Fix all http to https due to fontbakery warning
+- Restructure this README.md
 
 ### 19 May 2023 (Gumpita Rahayu) Plus Jakarta Sans v2.700
 
@@ -65,18 +89,6 @@ Test the fonts with `fontbakery check-googlefonts fonts/variable/*.ttf` and `fon
 
 ![/documentation/img/plusjakartasans.gif](/documentation/img/plusjakartasans.gif)
 
-
-### [↓ Download the latest release ↓](https://github.com/tokotype/plusjakartasans/releases/latest)
-
-After downloading the zip from above:
-
-- Double-click the downloaded zip file to unpack or open it.
-- Mac OSX: Use FontBook Software (Default App on Mac). Select the fonts files you want to install and drag the fonts into your library or you can find Macintosh HD/Library/Fonts and copy the font files to the directory.
-- Windows: Select all fonts you want to install and pop-up of the fonts file will show, click install and done. Or Go to Start > Control Panel > Fonts, then locate fonts file and click install.
-
-## Authors
-[Gumpita Rahayu - Tokotype](https://www.tokotype.com)
-
 ## Contribution
 
 If you want to contribute to develop improvements of this font family, you can fork this project and create an issue or email us at mail@tokotype.com
@@ -85,3 +97,7 @@ If you want to contribute to develop improvements of this font family, you can f
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
 http://scripts.sil.org/OFL
+
+## Repository Layout
+
+This font repository structure is inspired by [Unified Font Repository v0.3](https://github.com/unified-font-repository/Unified-Font-Repository), modified for the Google Fonts workflow.

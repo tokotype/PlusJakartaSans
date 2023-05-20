@@ -1,0 +1,101 @@
+name: Build font and specimen
+
+on: [push, release]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - name: Install sys tools/deps
+      run: |
+        sudo apt-get update
+        sudo apt-get install ttfautohint
+        sudo snap install yq
+    - uses: actions/cache@v2
+      with:
+        path: ./venv/
+        key: ${{ runner.os }}-venv-${{ hashFiles('**/requirements*.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-venv-
+    - name: Do first-run script if necessary
+      run: make .init.stamp
+      if: github.repository != 'googlefonts/googlefonts-project-template'
+    - uses: stefanzweifel/git-auto-commit-action@v4
+      name: First-run setup
+      if: github.repository != 'googlefonts/googlefonts-project-template'
+      with:
+        file_pattern: .init.stamp README.md requirements.txt OFL.txt
+        commit_message: "Personalize for this repo"
+    - name: gen zip file name
+      id: zip-name
+      shell: bash
+      # Set the archive name to repo name + "-assets" e.g "MavenPro-assets"
+      run: echo "ZIP_NAME=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')-fonts" >> $GITHUB_ENV
+      # If a new release is cut, use the release tag to auto-bump the source files
+    - name: Bump release
+      if: github.event_name == 'release'
+      run: |
+        . venv/bin/activate
+        SRCS=$(yq e ".sources[]" sources/config.yaml)
+        TAG_NAME=${GITHUB_REF/refs\/tags\//}
+        echo "Bumping $SRCS to $TAG_NAME"
+        for src in $SRCS
+        do
+          bumpfontversion sources/$src --new-version $TAG_NAME;
+        done
+    - name: Build font
+      run: make build
+    - name: Check with fontbakery
+      run: make test
+      continue-on-error: true
+    - name: proof
+      run: make proof
+    - name: setup site
+      run: cp scripts/index.html out/index.html
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      if: ${{ github.ref == 'refs/heads/main' }}
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./out
+    - name: Archive artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: ${{ env.ZIP_NAME }}
+        path: |
+          fonts
+          out
+    outputs:
+      zip_name: ${{ env.ZIP_NAME }}
+  release:
+    # only run if the commit is tagged...
+    if: github.event_name == 'release'
+    # ... and it builds successfully
+    needs:
+      - build
+    runs-on: ubuntu-latest
+    env:
+      ZIP_NAME: ${{ needs.build.outputs.zip_name }}
+    steps:
+      - uses: actions/checkout@v2
+      - name: Download artefact files
+        uses: actions/download-artifact@v2
+        with:
+          name: ${{ env.ZIP_NAME }}
+          path: ${{ env.ZIP_NAME }}
+      - name: Zip files
+        run: zip -r ${{ env.ZIP_NAME }}.zip ${{ env.ZIP_NAME }}
+      - name: Upload binaries to release
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: ${{ env.ZIP_NAME }}.zip
+          asset_name: ${{ env.ZIP_NAME }}.zip
+          tag: ${{ github.ref }}
+          overwrite: true
+          body: "Production ready fonts"

@@ -1,16 +1,6 @@
 {
-.appVersion = "3151";
+.appVersion = "3191";
 .formatVersion = 3;
-DisplayStrings = (
-"rðdysa",
-",‚„“”‘’",
-"/bullet.case/bullet.case/bullet.case",
-"a/a.ss01/a.ss02/a.ss03 æbcdðe/e.ss03 əf/f.ss01 g/g.ss01/g.ss03 h/h.ss01/h.ss03 i/i.ss01 ı/idotless.ss01/idotless.wide j/j.ss01/j.ss02 ȷ/jdotless.ss01/jdotless.ss02 k/k.ss01 ĸl/l.ss01/l.ss03 m/m.ss01/m.ss03 n/n.ss01/n.ss03 ŋ/eng.ss01/eng.ss03 oơœp/p.ss02 þq/q.ss02 r/r.ss01/r.ss02 sßt/t.ss01 u/u.ss01/u.ss03 ư/uhorn.ss01/uhorn.ss03 vwxy/y.ss01/y.ss02/y.ss03 z",
-"New research shows how nearly 6,000 sales professionals are selling in a global crisis. Nevada's highest recorded temperature is 125 °F (52 °C) at Laughlin on June 29, 1994, and the lowest recorded temperature is −50 °F (−46 °C) at San Jacinto on January 8, 1937. The unexpected NFT gold rush. Jun 08, 2021 | ISBN 9780593188132. We offer client and server libraries in everything from React and PHP to .NET and iOS. ",
-"€₦",
-"æ",
-"®ơ"
-);
 axes = (
 {
 name = Weight;
@@ -51,6 +41,10 @@ value = 1;
 name = fsType;
 value = (
 );
+},
+{
+name = "Write DisplayStrings";
+value = 0;
 }
 );
 date = "2023-05-19 07:40:27 +0000";
@@ -826,11 +820,11 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 972;
+value = 1038;
 },
 {
 name = typoDescender;
-value = -228;
+value = -222;
 },
 {
 name = typoLineGap;
@@ -842,15 +836,15 @@ value = 1294;
 },
 {
 name = winDescent;
-value = 2;
+value = 358;
 },
 {
 name = hheaAscender;
-value = 972;
+value = 1038;
 },
 {
 name = hheaDescender;
-value = -228;
+value = -222;
 },
 {
 name = hheaLineGap;
@@ -937,11 +931,11 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 972;
+value = 1038;
 },
 {
 name = typoDescender;
-value = -228;
+value = -222;
 },
 {
 name = typoLineGap;
@@ -953,15 +947,15 @@ value = 1294;
 },
 {
 name = winDescent;
-value = 354;
+value = 358;
 },
 {
 name = hheaAscender;
-value = 972;
+value = 1038;
 },
 {
 name = hheaDescender;
-value = -228;
+value = -222;
 },
 {
 name = hheaLineGap;
@@ -1047,11 +1041,11 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 972;
+value = 1038;
 },
 {
 name = typoDescender;
-value = -228;
+value = -222;
 },
 {
 name = typoLineGap;
@@ -1063,15 +1057,15 @@ value = 1294;
 },
 {
 name = winDescent;
-value = 354;
+value = 358;
 },
 {
 name = hheaAscender;
-value = 972;
+value = 1038;
 },
 {
 name = hheaDescender;
-value = -228;
+value = -222;
 },
 {
 name = hheaLineGap;
@@ -1154,7 +1148,7 @@ visible = 1;
 glyphs = (
 {
 glyphname = A;
-lastChange = "2023-01-30 07:37:07 +0000";
+lastChange = "2021-11-11 09:43:54 +0000";
 layers = (
 {
 anchors = (
@@ -7127,7 +7121,7 @@ unicode = 300;
 glyphname = Ibreve.ss01;
 kernLeft = H;
 kernRight = H;
-lastChange = "2021-11-10 07:58:16 +0000";
+lastChange = "2021-11-11 09:55:14 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -8538,7 +8532,7 @@ metricRight = "=J";
 glyphname = Jcircumflex;
 kernLeft = J;
 kernRight = J;
-lastChange = "2021-11-10 07:58:16 +0000";
+lastChange = "2021-11-11 09:41:25 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -10293,7 +10287,7 @@ unicode = 7750;
 },
 {
 glyphname = Eng;
-lastChange = "2023-01-30 07:37:07 +0000";
+lastChange = "2021-11-11 09:55:14 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -26516,7 +26510,7 @@ unicode = 7693;
 glyphname = dlinebelow;
 kernLeft = o;
 kernRight = d;
-lastChange = "2021-11-10 07:58:16 +0000";
+lastChange = "2021-11-11 09:55:14 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -32091,7 +32085,7 @@ metricRight = "=i";
 },
 {
 glyphname = idotless;
-lastChange = "2023-01-30 07:37:07 +0000";
+lastChange = "2021-11-11 09:55:14 +0000";
 layers = (
 {
 anchors = (
@@ -70136,7 +70130,7 @@ unicode = 8725;
 },
 {
 glyphname = equalinferior;
-lastChange = "2023-01-30 07:37:07 +0000";
+lastChange = "2021-11-11 09:41:25 +0000";
 layers = (
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -94768,18 +94762,12 @@ name = ExtraBold;
 weightClass = 800;
 },
 {
-axesValues = (
-0
-);
 customParameters = (
 {
 name = "Variable Font Origin";
 value = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
 }
 );
-instanceInterpolations = {
-"C1DB0BE6-5704-4A8C-8C00-D80E72C16D98" = 1;
-};
 name = Regular;
 type = variable;
 }
@@ -94859,13 +94847,13 @@ key = licenses;
 values = (
 {
 language = dflt;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
 }
 );
 },
 {
 key = licenseURL;
-value = "http://scripts.sil.org/OFL";
+value = "https://scripts.sil.org/OFL";
 }
 );
 settings = {
@@ -94951,5 +94939,5 @@ tH = "40";
 };
 };
 versionMajor = 2;
-versionMinor = 7;
+versionMinor = 107;
 }

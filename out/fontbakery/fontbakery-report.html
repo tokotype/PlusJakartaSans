@@ -1,0 +1,3708 @@
+<!DOCTYPE html>
+                <html lang="en">
+                    <head>
+                        <meta charset="utf-8">
+                        <title>Fontbakery Check Report</title>
+                        <style>
+                            
+            html {
+                font-family: sans-serif;
+            }
+
+            h2 {
+                margin-top: 2em;
+            }
+
+            h3 {
+                margin-bottom: 1px;
+            }
+
+            table {
+                border-collapse: collapse;
+            }
+
+            th,
+            td {
+                border: 1px solid #ddd;
+                padding: 0.5em
+            }
+
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            tr {
+                text-align: left;
+            }
+
+            ul {
+                margin-top: 0;
+            }
+
+            .details_item {
+                list-style: none;
+                display: flex;
+                align-items: baseline;
+            }
+
+            .details_indicator {
+                flex: 0 0 5em;
+                font-weight: bold;
+                padding-right: 0.5em;
+                text-align: right;
+            }
+
+            .details_text {
+                flex: 1 0;
+            }
+            
+                        </style>
+                    </head>
+                    <body>
+                    <h1>Fontbakery Technical Report</h1>
+<div>If you think a check is flawed or have an idea for a check, please  file an issue at <a href='https://github.com/googlefonts/fontbakery/issues'>https://github.com/googlefonts/fontbakery/issues</a> and remember to include a pointer to the repo and branch you're checking.</div>
+<h2>Summary</h2>
+            <table>
+            <tr>
+                <th>💥 ERROR</th>
+                <th>🔥 FAIL</th>
+                <th>⚠️ WARN</th>
+                <th>⏩ SKIP</th>
+                <th>ℹ️ INFO</th>
+                <th>✅ PASS</th>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>28</td>
+                <td>129</td>
+                <td>1612</td>
+                <td>85</td>
+                <td>1326</td>
+            </tr>
+            <tr>
+                <td>0%</td>
+                <td>1%</td>
+                <td>5%</td>
+                <td>68%</td>
+                <td>4%</td>
+                <td>56%</td>
+            </tr>
+            </table>
+            
+<p><strong>Note:</strong> The following loglevels were omitted in this report: SKIP, INFO, PASS, DEBUG</p>
+<h2>&lt;Section: Google Fonts&gt; 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+<h3>Check Google Fonts glyph coverage.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/glyph_coverage&gt;</div>
+
+<details><summary>🔥 <strong>fonts/ttf/PlusJakartaSans-MediumItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x0132 (LATIN CAPITAL LIGATURE IJ)
+
+
+- 0x0133 (LATIN SMALL LIGATURE IJ)
+</code></pre>
+<p>[code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/PlusJakartaSans-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x0132 (LATIN CAPITAL LIGATURE IJ)
+
+
+- 0x0133 (LATIN SMALL LIGATURE IJ)
+</code></pre>
+<p>[code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/PlusJakartaSans-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x0132 (LATIN CAPITAL LIGATURE IJ)
+
+
+- 0x0133 (LATIN SMALL LIGATURE IJ)
+</code></pre>
+<p>[code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/PlusJakartaSans-ExtraBoldItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x0132 (LATIN CAPITAL LIGATURE IJ)
+
+
+- 0x0133 (LATIN SMALL LIGATURE IJ)
+</code></pre>
+<p>[code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/PlusJakartaSans-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x0132 (LATIN CAPITAL LIGATURE IJ)
+
+
+- 0x0133 (LATIN SMALL LIGATURE IJ)
+</code></pre>
+<p>[code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/PlusJakartaSans-SemiBoldItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x0132 (LATIN CAPITAL LIGATURE IJ)
+
+
+- 0x0133 (LATIN SMALL LIGATURE IJ)
+</code></pre>
+<p>[code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/PlusJakartaSans-ExtraLightItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x0132 (LATIN CAPITAL LIGATURE IJ)
+
+
+- 0x0133 (LATIN SMALL LIGATURE IJ)
+</code></pre>
+<p>[code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/PlusJakartaSans-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x0132 (LATIN CAPITAL LIGATURE IJ)
+
+
+- 0x0133 (LATIN SMALL LIGATURE IJ)
+</code></pre>
+<p>[code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/PlusJakartaSans-LightItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x0132 (LATIN CAPITAL LIGATURE IJ)
+
+
+- 0x0133 (LATIN SMALL LIGATURE IJ)
+</code></pre>
+<p>[code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/PlusJakartaSans-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x0132 (LATIN CAPITAL LIGATURE IJ)
+
+
+- 0x0133 (LATIN SMALL LIGATURE IJ)
+</code></pre>
+<p>[code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/PlusJakartaSans-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x0132 (LATIN CAPITAL LIGATURE IJ)
+
+
+- 0x0133 (LATIN SMALL LIGATURE IJ)
+</code></pre>
+<p>[code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/PlusJakartaSans-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x0132 (LATIN CAPITAL LIGATURE IJ)
+
+
+- 0x0133 (LATIN SMALL LIGATURE IJ)
+</code></pre>
+<p>[code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/PlusJakartaSans-Italic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x0132 (LATIN CAPITAL LIGATURE IJ)
+
+
+- 0x0133 (LATIN SMALL LIGATURE IJ)
+</code></pre>
+<p>[code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/PlusJakartaSans-BoldItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x0132 (LATIN CAPITAL LIGATURE IJ)
+
+
+- 0x0133 (LATIN SMALL LIGATURE IJ)
+</code></pre>
+<p>[code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<h3>Glyphs are similiar to Google Fonts version?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/production_glyphs_similarity&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-MediumItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Following glyphs differ greatly from Google Fonts version:
+* Dcroat
+* Eth
+* Euro
+* Hbar
+* K.ss01
+* Lslash
+* Oslash
+* Oslashacute
+* Q
+* Tbar
+* ae
+* aeacute
+* ampersand
+* arrowboth
+* arrowupdn
+* cent
+* colonmonetary
+* dcroat
+* dollar
+* dong
+* emptyset
+* f_f
+* f_f_i
+* f_f_l
+* franc
+* hbar
+* hbar.ss01
+* hbar.ss03
+* infinity
+* k.ss01
+* kgreenlandic
+* lira
+* lslash
+* lslash.ss01
+* lslash.ss03
+* notequal
+* notequal.case
+* notequalinferior
+* notequalsuperior
+* oslash
+* oslashacute
+* peseta
+* section
+* sterling
+* uni0136.ss01
+* uni0137.ss01
+* uni0E3F
+* uni20A6
+* uni20A9
+* uni20AD
+* uni20AE
+* uni20B1
+* uni20B2
+* uni20B3
+* uni20B5
+* uni20B9
+* uni20BA
+* uni20BD
+* uni20BE
+* uni20BF
+* uni2113 and yen</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Following glyphs differ greatly from Google Fonts version:
+* Euro
+* Hbar
+* Oslash
+* Oslashacute
+* ae
+* aeacute
+* ampersand
+* colonmonetary
+* dollar
+* f_f_i
+* lira
+* notequal
+* notequal.case
+* oslash
+* oslashacute
+* peseta
+* uni0E3F
+* uni20A6
+* uni20A9
+* uni20AD
+* uni20AE
+* uni20B1
+* uni20B2
+* uni20B3
+* uni20BA
+* uni20BE
+* uni20BF and yen</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Following glyphs differ greatly from Google Fonts version:
+* Dcroat
+* Eth
+* Euro
+* Hbar
+* K.ss01
+* Lslash
+* Oslash
+* Oslashacute
+* Q
+* Tbar
+* ae
+* aeacute
+* ampersand
+* arrowboth
+* arrowupdn
+* cent
+* colonmonetary
+* dcroat
+* dollar
+* emptyset
+* f_f
+* f_f_i
+* f_f_l
+* franc
+* hbar
+* hbar.ss01
+* hbar.ss03
+* k.ss01
+* kgreenlandic
+* lira
+* lslash
+* lslash.ss01
+* lslash.ss03
+* notequal
+* notequal.case
+* notequalinferior
+* notequalsuperior
+* oslash
+* oslashacute
+* peseta
+* section
+* sterling
+* uni0136.ss01
+* uni0137.ss01
+* uni0E3F
+* uni20A9
+* uni20AD
+* uni20AE
+* uni20B1
+* uni20B2
+* uni20B3
+* uni20B5
+* uni20B9
+* uni20BA
+* uni20BD
+* uni20BE
+* uni20BF
+* uni2113 and yen</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-ExtraBoldItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Following glyphs differ greatly from Google Fonts version:
+* Aringacute
+* Dcroat
+* Eth
+* Euro
+* Hbar
+* K.ss01
+* Lslash
+* M
+* Oslash
+* Oslashacute
+* Q
+* Q.ss03
+* Tbar
+* W
+* Wacute
+* Wcircumflex
+* Wdieresis
+* Wgrave
+* ae
+* aeacute
+* ampersand
+* aringacute
+* aringacute.ss01
+* aringacute.ss02
+* aringacute.ss03
+* arrowboth
+* arrowdown
+* arrowleft
+* arrowright
+* arrowup
+* arrowupdn
+* cent
+* colonmonetary
+* dcroat
+* dollar
+* dong
+* emptyset
+* eth
+* f_f
+* f_f_i
+* f_f_l
+* franc
+* h.ss01
+* hbar
+* hbar.ss01
+* hbar.ss03
+* hcircumflex.ss01
+* infinity
+* k.ss01
+* kgreenlandic
+* lira
+* lslash
+* lslash.ss01
+* lslash.ss03
+* notequal
+* notequal.case
+* notequalinferior
+* notequalsuperior
+* oslash
+* oslashacute
+* partialdiff
+* peseta
+* section
+* sterling
+* uni0136.ss01
+* uni0137.ss01
+* uni030A0301
+* uni0E3F
+* uni1E25.ss01
+* uni1E2B.ss01
+* uni1E42
+* uni20A6
+* uni20A9
+* uni20AD
+* uni20AE
+* uni20B1
+* uni20B2
+* uni20B3
+* uni20B5
+* uni20B9
+* uni20BA
+* uni20BC
+* uni20BD
+* uni20BE
+* uni20BF
+* uni2113
+* uni2196
+* uni2197
+* uni2198
+* uni2199
+* uni21A9
+* uni21AA
+* uni21B0
+* uni21B1
+* uni21B2
+* uni21B3
+* uni2B0E
+* uni2B10 and yen</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Following glyphs differ greatly from Google Fonts version:
+* Dcroat
+* Eth
+* Euro
+* Hbar
+* K.ss01
+* Lslash
+* Oslash
+* Oslashacute
+* Q
+* Tbar
+* ae
+* aeacute
+* ampersand
+* arrowboth
+* arrowupdn
+* cent
+* colonmonetary
+* dcroat
+* dollar
+* dong
+* emptyset
+* eth
+* f_f
+* f_f_i
+* f_f_l
+* franc
+* hbar
+* hbar.ss01
+* hbar.ss03
+* infinity
+* k.ss01
+* kgreenlandic
+* lira
+* lslash
+* lslash.ss01
+* lslash.ss03
+* notequal
+* notequal.case
+* notequalinferior
+* notequalsuperior
+* oslash
+* oslashacute
+* peseta
+* section
+* sterling
+* uni0136.ss01
+* uni0137.ss01
+* uni0E3F
+* uni20A9
+* uni20AD
+* uni20AE
+* uni20B1
+* uni20B2
+* uni20B3
+* uni20B5
+* uni20B9
+* uni20BA
+* uni20BC
+* uni20BD
+* uni20BE
+* uni20BF
+* uni2113
+* uni2198 and yen</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-SemiBoldItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Following glyphs differ greatly from Google Fonts version:
+* Dcroat
+* Eth
+* Euro
+* Hbar
+* K.ss01
+* Lslash
+* Oslash
+* Oslashacute
+* Q
+* Tbar
+* ae
+* aeacute
+* ampersand
+* arrowboth
+* arrowupdn
+* cent
+* colonmonetary
+* dcroat
+* dollar
+* dong
+* emptyset
+* eth
+* f_f
+* f_f_i
+* f_f_l
+* franc
+* hbar
+* hbar.ss01
+* hbar.ss03
+* infinity
+* k.ss01
+* kgreenlandic
+* lira
+* lslash
+* lslash.ss01
+* lslash.ss03
+* notequal
+* notequal.case
+* notequalinferior
+* notequalsuperior
+* oslash
+* oslashacute
+* peseta
+* section
+* sterling
+* uni0136.ss01
+* uni0137.ss01
+* uni0E3F
+* uni20A9
+* uni20AD
+* uni20AE
+* uni20B1
+* uni20B2
+* uni20B3
+* uni20B5
+* uni20B9
+* uni20BA
+* uni20BC
+* uni20BD
+* uni20BE
+* uni20BF
+* uni2113
+* uni2198 and yen</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-ExtraLightItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Following glyphs differ greatly from Google Fonts version:
+* colonmonetary
+* uni20A6
+* uni20A9
+* uni20B1 and uni20B3</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Following glyphs differ greatly from Google Fonts version:
+* Euro
+* Hbar
+* Oslash
+* Oslashacute
+* ae
+* aeacute
+* ampersand
+* cent
+* colonmonetary
+* dollar
+* emptyset
+* f_f_i
+* f_f_l
+* lira
+* notequal
+* notequal.case
+* notequalinferior
+* notequalsuperior
+* oslash
+* oslashacute
+* peseta
+* section
+* uni0E3F
+* uni20A6
+* uni20A9
+* uni20AD
+* uni20AE
+* uni20B1
+* uni20B2
+* uni20B3
+* uni20B5
+* uni20BA
+* uni20BE
+* uni20BF and yen</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-LightItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Following glyphs differ greatly from Google Fonts version:
+* Euro
+* Hbar
+* Oslash
+* Oslashacute
+* ampersand
+* colonmonetary
+* dollar
+* f_f_i
+* lira
+* notequal
+* notequal.case
+* oslash
+* oslashacute
+* uni0E3F
+* uni20A6
+* uni20A9
+* uni20AD
+* uni20AE
+* uni20B1
+* uni20B2
+* uni20B3
+* uni20BA
+* uni20BE
+* uni20BF and yen</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Following glyphs differ greatly from Google Fonts version:
+* Aringacute
+* Dcroat
+* Eth
+* Euro
+* Hbar
+* K.ss01
+* Lslash
+* Oslash
+* Oslashacute
+* Q
+* Q.ss03
+* Tbar
+* ae
+* aeacute
+* ampersand
+* aringacute
+* aringacute.ss01
+* aringacute.ss02
+* aringacute.ss03
+* arrowboth
+* arrowdown
+* arrowleft
+* arrowright
+* arrowup
+* arrowupdn
+* cent
+* colonmonetary
+* dcroat
+* dollar
+* dong
+* emptyset
+* eth
+* f_f_i
+* f_f_l
+* franc
+* hbar
+* hbar.ss01
+* hbar.ss03
+* infinity
+* k.ss01
+* kgreenlandic
+* lira
+* lslash
+* lslash.ss01
+* lslash.ss03
+* notequal
+* notequal.case
+* notequalinferior
+* notequalsuperior
+* oslash
+* oslashacute
+* peseta
+* section
+* sterling
+* uni0136.ss01
+* uni0137.ss01
+* uni0E3F
+* uni20A6
+* uni20A9
+* uni20AD
+* uni20AE
+* uni20B1
+* uni20B2
+* uni20B3
+* uni20B5
+* uni20B9
+* uni20BA
+* uni20BC
+* uni20BD
+* uni20BE
+* uni20BF
+* uni2113
+* uni2196
+* uni2197
+* uni2198
+* uni2199
+* uni21A9
+* uni21AA
+* uni21B0
+* uni21B1
+* uni21B2
+* uni21B3
+* uni2B0E
+* uni2B10 and yen</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Following glyphs differ greatly from Google Fonts version:
+* colonmonetary
+* oslash
+* oslashacute
+* uni20A6
+* uni20A9
+* uni20B1 and uni20B3</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Following glyphs differ greatly from Google Fonts version:
+* Aringacute
+* Dcroat
+* Eth
+* Euro
+* Hbar
+* K.ss01
+* Lslash
+* Oslash
+* Oslashacute
+* Q
+* Q.ss03
+* Tbar
+* ae
+* aeacute
+* ampersand
+* aringacute
+* aringacute.ss01
+* aringacute.ss02
+* aringacute.ss03
+* arrowboth
+* arrowdown
+* arrowleft
+* arrowright
+* arrowup
+* arrowupdn
+* cent
+* colonmonetary
+* dcroat
+* dollar
+* dong
+* emptyset
+* eth
+* f_f_i
+* f_f_l
+* franc
+* h.ss01
+* hbar
+* hbar.ss01
+* hbar.ss03
+* hcircumflex.ss01
+* infinity
+* k.ss01
+* kgreenlandic
+* lira
+* lslash
+* lslash.ss01
+* lslash.ss03
+* notequal
+* notequal.case
+* notequalinferior
+* notequalsuperior
+* oslash
+* oslashacute
+* partialdiff
+* peseta
+* section
+* sterling
+* uni0136.ss01
+* uni0137.ss01
+* uni030A0301
+* uni0E3F
+* uni1E25.ss01
+* uni1E2B.ss01
+* uni20A6
+* uni20A9
+* uni20AD
+* uni20AE
+* uni20B1
+* uni20B2
+* uni20B3
+* uni20B5
+* uni20B9
+* uni20BA
+* uni20BC
+* uni20BD
+* uni20BE
+* uni20BF
+* uni2113
+* uni2196
+* uni2197
+* uni2198
+* uni2199
+* uni21A9
+* uni21AA
+* uni21B0
+* uni21B1
+* uni21B2
+* uni21B3
+* uni2B0E
+* uni2B10 and yen</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-Italic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Following glyphs differ greatly from Google Fonts version:
+* Euro
+* Hbar
+* Oslash
+* Oslashacute
+* ae
+* aeacute
+* ampersand
+* cent
+* colonmonetary
+* dollar
+* emptyset
+* f_f
+* f_f_i
+* f_f_l
+* hbar.ss01
+* lira
+* notequal
+* notequal.case
+* notequalinferior
+* notequalsuperior
+* oslash
+* oslashacute
+* peseta
+* section
+* uni0E3F
+* uni20A6
+* uni20A9
+* uni20AD
+* uni20AE
+* uni20B1
+* uni20B2
+* uni20B3
+* uni20B5
+* uni20BA
+* uni20BE
+* uni20BF and yen</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-BoldItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Following glyphs differ greatly from Google Fonts version:
+* Aringacute
+* Dcroat
+* Eth
+* Euro
+* Hbar
+* K.ss01
+* Lslash
+* Oslash
+* Oslashacute
+* Q
+* Q.ss03
+* Tbar
+* ae
+* aeacute
+* ampersand
+* aringacute
+* aringacute.ss01
+* aringacute.ss02
+* aringacute.ss03
+* arrowboth
+* arrowdown
+* arrowleft
+* arrowright
+* arrowup
+* arrowupdn
+* cent
+* colonmonetary
+* dcroat
+* dollar
+* dong
+* emptyset
+* eth
+* f_f
+* f_f_i
+* f_f_l
+* franc
+* hbar
+* hbar.ss01
+* hbar.ss03
+* infinity
+* k.ss01
+* kgreenlandic
+* lira
+* lslash
+* lslash.ss01
+* lslash.ss03
+* notequal
+* notequal.case
+* notequalinferior
+* notequalsuperior
+* oslash
+* oslashacute
+* peseta
+* section
+* sterling
+* uni0136.ss01
+* uni0137.ss01
+* uni0E3F
+* uni20A6
+* uni20A9
+* uni20AD
+* uni20AE
+* uni20B1
+* uni20B2
+* uni20B3
+* uni20B5
+* uni20B9
+* uni20BA
+* uni20BC
+* uni20BD
+* uni20BE
+* uni20BF
+* uni2113
+* uni2196
+* uni2197
+* uni2198
+* uni2199
+* uni21A9
+* uni21AA
+* uni21B0
+* uni21B1
+* uni21B2
+* uni21B3
+* uni2B0E
+* uni2B10 and yen</p>
+</span></li></ul></div></details>
+<h3>Is there kerning info for non-ligated sequences?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/kerning_for_non_ligated_sequences&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-MediumItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning info for the following non-ligated sequences:</p>
+<pre><code>- f + f
+
+- f + i
+
+- i + f
+
+- f + l
+
+- l + f 
+
+- i + l [code: lacks-kern-info]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-ExtraBoldItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning info for the following non-ligated sequences:</p>
+<pre><code>- f + f
+
+- f + i
+
+- i + f
+
+- f + l
+
+- l + f 
+
+- i + l [code: lacks-kern-info]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-SemiBoldItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning info for the following non-ligated sequences:</p>
+<pre><code>- f + f
+
+- f + i
+
+- i + f
+
+- f + l
+
+- l + f 
+
+- i + l [code: lacks-kern-info]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-ExtraLightItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning info for the following non-ligated sequences:</p>
+<pre><code>- f + f
+
+- f + i
+
+- i + f
+
+- f + l
+
+- l + f 
+
+- i + l [code: lacks-kern-info]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-LightItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning info for the following non-ligated sequences:</p>
+<pre><code>- f + f
+
+- f + i
+
+- i + f
+
+- f + l
+
+- l + f 
+
+- i + l [code: lacks-kern-info]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-Italic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning info for the following non-ligated sequences:</p>
+<pre><code>- f + f
+
+- f + i
+
+- i + f
+
+- f + l
+
+- l + f 
+
+- i + l [code: lacks-kern-info]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-BoldItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning info for the following non-ligated sequences:</p>
+<pre><code>- f + f
+
+- f + i
+
+- i + f
+
+- f + l
+
+- l + f 
+
+- i + l [code: lacks-kern-info]
+</code></pre>
+</span></li></ul></div></details>
+<h3>Combined length of family and style must not exceed 27 characters.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/family_and_style_max_length&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-MediumItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Plus Jakarta Sans Medium' / SUBFAMILY_NAME = 'Italic'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Plus Jakarta Sans Light' / SUBFAMILY_NAME = 'Regular'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Plus Jakarta Sans Medium' / SUBFAMILY_NAME = 'Regular'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-ExtraBoldItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Plus Jakarta Sans ExtraBold' / SUBFAMILY_NAME = 'Italic'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Plus Jakarta Sans SemiBold' / SUBFAMILY_NAME = 'Regular'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-SemiBoldItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Plus Jakarta Sans SemiBold' / SUBFAMILY_NAME = 'Italic'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-ExtraLightItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Plus Jakarta Sans ExtraLight' / SUBFAMILY_NAME = 'Italic'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-LightItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Plus Jakarta Sans Light' / SUBFAMILY_NAME = 'Italic'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Plus Jakarta Sans ExtraLight' / SUBFAMILY_NAME = 'Regular'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Plus Jakarta Sans ExtraBold' / SUBFAMILY_NAME = 'Regular'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-BoldItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Plus Jakarta Sans' / SUBFAMILY_NAME = 'Bold Italic'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<h3>Ensure fonts have ScriptLangTags declared on the 'meta' table.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/meta/script_lang_tags&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-MediumItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-ExtraBoldItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-SemiBoldItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-ExtraLightItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-LightItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-Italic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-BoldItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Universal&gt; 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+<h3>Check font contains no unreachable glyphs</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/unreachable_glyphs&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-MediumItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- periodcentered.001 
+
+- registered.alt
+</code></pre>
+<p>[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- dotlessi.wide 
+
+- registered.alt
+</code></pre>
+<p>[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- dotlessi.wide 
+
+- registered.alt
+</code></pre>
+<p>[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-ExtraBoldItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- periodcentered.001 
+
+- registered.alt
+</code></pre>
+<p>[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- dotlessi.wide 
+
+- registered.alt
+</code></pre>
+<p>[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-SemiBoldItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- periodcentered.001 
+
+- registered.alt
+</code></pre>
+<p>[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-ExtraLightItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- periodcentered.001 
+
+- registered.alt
+</code></pre>
+<p>[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- dotlessi.wide 
+
+- registered.alt
+</code></pre>
+<p>[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-LightItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- periodcentered.001 
+
+- registered.alt
+</code></pre>
+<p>[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- dotlessi.wide 
+
+- registered.alt
+</code></pre>
+<p>[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- dotlessi.wide 
+
+- registered.alt
+</code></pre>
+<p>[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- dotlessi.wide 
+
+- registered.alt
+</code></pre>
+<p>[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-Italic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- periodcentered.001 
+
+- registered.alt
+</code></pre>
+<p>[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-BoldItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- periodcentered.001 
+
+- registered.alt
+</code></pre>
+<p>[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<h3>Check if each glyph has the recommended amount of contours.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/contour_count&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-MediumItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uni01EA	Contours detected: 3	Expected: 2
+
+- Glyph name: uni01EB	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: fi	Contours detected: 1	Expected: 3
+
+- Glyph name: fl	Contours detected: 1	Expected: 2
+
+- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1E9E	Contours detected: 2	Expected: 1 
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uni01EA	Contours detected: 3	Expected: 2
+
+- Glyph name: uni01EB	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: fi	Contours detected: 1	Expected: 3
+
+- Glyph name: fl	Contours detected: 1	Expected: 2
+
+- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1E9E	Contours detected: 2	Expected: 1 
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uni01EA	Contours detected: 3	Expected: 2
+
+- Glyph name: uni01EB	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: fi	Contours detected: 1	Expected: 3
+
+- Glyph name: fl	Contours detected: 1	Expected: 2
+
+- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1E9E	Contours detected: 2	Expected: 1 
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-ExtraBoldItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uni01EA	Contours detected: 3	Expected: 2
+
+- Glyph name: uni01EB	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: fi	Contours detected: 1	Expected: 3
+
+- Glyph name: fl	Contours detected: 1	Expected: 2
+
+- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1E9E	Contours detected: 2	Expected: 1 
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uni01EA	Contours detected: 3	Expected: 2
+
+- Glyph name: uni01EB	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: fi	Contours detected: 1	Expected: 3
+
+- Glyph name: fl	Contours detected: 1	Expected: 2
+
+- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1E9E	Contours detected: 2	Expected: 1 
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-SemiBoldItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uni01EA	Contours detected: 3	Expected: 2
+
+- Glyph name: uni01EB	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: fi	Contours detected: 1	Expected: 3
+
+- Glyph name: fl	Contours detected: 1	Expected: 2
+
+- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1E9E	Contours detected: 2	Expected: 1 
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-ExtraLightItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uni01EA	Contours detected: 3	Expected: 2
+
+- Glyph name: uni01EB	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: fi	Contours detected: 1	Expected: 3
+
+- Glyph name: fl	Contours detected: 1	Expected: 2
+
+- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1E9E	Contours detected: 2	Expected: 1 
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uni01EA	Contours detected: 3	Expected: 2
+
+- Glyph name: uni01EB	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: fi	Contours detected: 1	Expected: 3
+
+- Glyph name: fl	Contours detected: 1	Expected: 2
+
+- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1E9E	Contours detected: 2	Expected: 1 
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-LightItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uni01EA	Contours detected: 3	Expected: 2
+
+- Glyph name: uni01EB	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: fi	Contours detected: 1	Expected: 3
+
+- Glyph name: fl	Contours detected: 1	Expected: 2
+
+- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1E9E	Contours detected: 2	Expected: 1 
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uni01EA	Contours detected: 3	Expected: 2
+
+- Glyph name: uni01EB	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: fi	Contours detected: 1	Expected: 3
+
+- Glyph name: fl	Contours detected: 1	Expected: 2
+
+- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1E9E	Contours detected: 2	Expected: 1 
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uni01EA	Contours detected: 3	Expected: 2
+
+- Glyph name: uni01EB	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: fi	Contours detected: 1	Expected: 3
+
+- Glyph name: fl	Contours detected: 1	Expected: 2
+
+- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1E9E	Contours detected: 2	Expected: 1 
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uni01EA	Contours detected: 3	Expected: 2
+
+- Glyph name: uni01EB	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: fi	Contours detected: 1	Expected: 3
+
+- Glyph name: fl	Contours detected: 1	Expected: 2
+
+- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1E9E	Contours detected: 2	Expected: 1 
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-Italic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uni01EA	Contours detected: 3	Expected: 2
+
+- Glyph name: uni01EB	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: fi	Contours detected: 1	Expected: 3
+
+- Glyph name: fl	Contours detected: 1	Expected: 2
+
+- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1E9E	Contours detected: 2	Expected: 1 
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-BoldItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uni01EA	Contours detected: 3	Expected: 2
+
+- Glyph name: uni01EB	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: fi	Contours detected: 1	Expected: 3
+
+- Glyph name: fl	Contours detected: 1	Expected: 2
+
+- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1E9E	Contours detected: 2	Expected: 1 
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<h3>Does the font contain a soft hyphen?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/soft_hyphen&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-MediumItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character. [code: softhyphen]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character. [code: softhyphen]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character. [code: softhyphen]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-ExtraBoldItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character. [code: softhyphen]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character. [code: softhyphen]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-SemiBoldItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character. [code: softhyphen]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-ExtraLightItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character. [code: softhyphen]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character. [code: softhyphen]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-LightItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character. [code: softhyphen]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character. [code: softhyphen]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character. [code: softhyphen]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character. [code: softhyphen]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-Italic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character. [code: softhyphen]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-BoldItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character. [code: softhyphen]</p>
+</span></li></ul></div></details>
+<h3>Ensure dotted circle glyph is present and can attach marks.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/dotted_circle&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-MediumItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>No dotted circle glyph present [code: missing-dotted-circle]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>No dotted circle glyph present [code: missing-dotted-circle]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>No dotted circle glyph present [code: missing-dotted-circle]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-ExtraBoldItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>No dotted circle glyph present [code: missing-dotted-circle]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>No dotted circle glyph present [code: missing-dotted-circle]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-SemiBoldItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>No dotted circle glyph present [code: missing-dotted-circle]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-ExtraLightItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>No dotted circle glyph present [code: missing-dotted-circle]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>No dotted circle glyph present [code: missing-dotted-circle]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-LightItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>No dotted circle glyph present [code: missing-dotted-circle]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>No dotted circle glyph present [code: missing-dotted-circle]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>No dotted circle glyph present [code: missing-dotted-circle]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>No dotted circle glyph present [code: missing-dotted-circle]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-Italic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>No dotted circle glyph present [code: missing-dotted-circle]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-BoldItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>No dotted circle glyph present [code: missing-dotted-circle]</p>
+</span></li></ul></div></details>
+<h3>Ensure soft_dotted characters lose their dot when combined with marks that replace the dot.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/soft_dotted&gt;</div>
+
+<details><summary>🔥 <strong>fonts/ttf/PlusJakartaSans-MediumItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄</p>
+<p>The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̏ j̦̑ j̦̒ į̆ [code: soft-dotted]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/PlusJakartaSans-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄</p>
+<p>The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̏ j̦̑ j̦̒ į̆ [code: soft-dotted]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/PlusJakartaSans-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄</p>
+<p>The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̏ j̦̑ j̦̒ į̆ [code: soft-dotted]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/PlusJakartaSans-ExtraBoldItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄</p>
+<p>The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̏ j̦̑ j̦̒ į̆ [code: soft-dotted]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/PlusJakartaSans-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄</p>
+<p>The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̏ j̦̑ j̦̒ į̆ [code: soft-dotted]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/PlusJakartaSans-SemiBoldItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄</p>
+<p>The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̏ j̦̑ j̦̒ į̆ [code: soft-dotted]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/PlusJakartaSans-ExtraLightItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄</p>
+<p>The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̏ j̦̑ j̦̒ į̆ [code: soft-dotted]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/PlusJakartaSans-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄</p>
+<p>The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̏ j̦̑ j̦̒ į̆ [code: soft-dotted]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/PlusJakartaSans-LightItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄</p>
+<p>The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̏ j̦̑ j̦̒ į̆ [code: soft-dotted]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/PlusJakartaSans-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄</p>
+<p>The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̏ j̦̑ j̦̒ į̆ [code: soft-dotted]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/PlusJakartaSans-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄</p>
+<p>The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̏ j̦̑ j̦̒ į̆ [code: soft-dotted]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/PlusJakartaSans-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄</p>
+<p>The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̏ j̦̑ j̦̒ į̆ [code: soft-dotted]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/PlusJakartaSans-Italic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄</p>
+<p>The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̏ j̦̑ j̦̒ į̆ [code: soft-dotted]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/PlusJakartaSans-BoldItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄</p>
+<p>The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̏ j̦̑ j̦̒ į̆ [code: soft-dotted]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: fontbakery.profiles.gpos&gt; ⚠️⚠️⚠️⚠️⚠️⚠️⚠️</h2>
+<h3>Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gpos_kerning_info&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Outline Correctness Checks&gt; ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩</h2>
+<h3>Are there any misaligned on-curve points?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_alignment_miss&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
+<pre><code>* g (U+0067): X=325.0,Y=-220.0 (should be at descender -222?)
+
+* g (U+0067): X=325.0,Y=-220.0 (should be at descender -222?)
+
+* j (U+006A): X=-14.0,Y=-221.0 (should be at descender -222?)
+
+* j (U+006A): X=-41.0,Y=-220.0 (should be at descender -222?)
+
+* j (U+006A): X=-14.0,Y=-221.0 (should be at descender -222?)
+
+* y (U+0079): X=127.0,Y=-221.0 (should be at descender -222?)
+
+* y (U+0079): X=127.0,Y=-221.0 (should be at descender -222?)
+
+* Oslash (U+00D8): X=544.0,Y=744.0 (should be at cap-height 745?)
+
+* Oslash (U+00D8): X=334.0,Y=1.0 (should be at baseline 0?)
+
+* oslash (U+00F8): X=247.5,Y=-2.0 (should be at baseline 0?)
+
+* yacute (U+00FD): X=127.0,Y=-221.0 (should be at descender -222?)
+
+* yacute (U+00FD): X=127.0,Y=-221.0 (should be at descender -222?)
+
+* ydieresis (U+00FF): X=127.0,Y=-221.0 (should be at descender -222?)
+
+* ydieresis (U+00FF): X=127.0,Y=-221.0 (should be at descender -222?)
+
+* gcircumflex (U+011D): X=325.0,Y=-220.0 (should be at descender -222?)
+
+* gcircumflex (U+011D): X=325.0,Y=-220.0 (should be at descender -222?)
+
+* gbreve (U+011F): X=325.0,Y=-220.0 (should be at descender -222?)
+
+* gbreve (U+011F): X=325.0,Y=-220.0 (should be at descender -222?)
+
+* gdotaccent (U+0121): X=325.0,Y=-220.0 (should be at descender -222?)
+
+* gdotaccent (U+0121): X=325.0,Y=-220.0 (should be at descender -222?)
+
+* uni0123 (U+0123): X=325.0,Y=-220.0 (should be at descender -222?)
+
+* uni0123 (U+0123): X=325.0,Y=-220.0 (should be at descender -222?)
+
+* jcircumflex (U+0135): X=-14.0,Y=-221.0 (should be at descender -222?)
+
+* jcircumflex (U+0135): X=-41.0,Y=-220.0 (should be at descender -222?)
+
+* jcircumflex (U+0135): X=-14.0,Y=-221.0 (should be at descender -222?)
+
+* Eng (U+014A): X=463.0,Y=-221.0 (should be at descender -222?)
+
+* Eng (U+014A): X=436.0,Y=-220.0 (should be at descender -222?)
+
+* Eng (U+014A): X=463.0,Y=-221.0 (should be at descender -222?)
+
+* eng (U+014B): X=331.0,Y=-221.0 (should be at descender -222?)
+
+* eng (U+014B): X=303.5,Y=-220.0 (should be at descender -222?)
+
+* eng (U+014B): X=331.0,Y=-221.0 (should be at descender -222?)
+
+* ycircumflex (U+0177): X=127.0,Y=-221.0 (should be at descender -222?)
+
+* ycircumflex (U+0177): X=127.0,Y=-221.0 (should be at descender -222?)
+
+* uni01C8 (U+01C8): X=529.0,Y=-221.0 (should be at descender -222?)
+
+* uni01C8 (U+01C8): X=502.0,Y=-220.0 (should be at descender -222?)
+
+* uni01C8 (U+01C8): X=529.0,Y=-221.0 (should be at descender -222?)
+
+* uni01C9 (U+01C9): X=238.0,Y=-221.0 (should be at descender -222?)
+
+* uni01C9 (U+01C9): X=211.0,Y=-220.0 (should be at descender -222?)
+
+* uni01C9 (U+01C9): X=238.0,Y=-221.0 (should be at descender -222?)
+
+* uni01CB (U+01CB): X=727.0,Y=-221.0 (should be at descender -222?)
+
+* uni01CB (U+01CB): X=700.0,Y=-220.0 (should be at descender -222?)
+
+* uni01CB (U+01CB): X=727.0,Y=-221.0 (should be at descender -222?)
+
+* uni01CC (U+01CC): X=579.0,Y=-221.0 (should be at descender -222?)
+
+* uni01CC (U+01CC): X=552.0,Y=-220.0 (should be at descender -222?)
+
+* uni01CC (U+01CC): X=579.0,Y=-221.0 (should be at descender -222?)
+
+* gcaron (U+01E7): X=325.0,Y=-220.0 (should be at descender -222?)
+
+* gcaron (U+01E7): X=325.0,Y=-220.0 (should be at descender -222?)
+
+* Oslashacute (U+01FE): X=544.0,Y=744.0 (should be at cap-height 745?)
+
+* Oslashacute (U+01FE): X=334.0,Y=1.0 (should be at baseline 0?)
+
+* oslashacute (U+01FF): X=247.5,Y=-2.0 (should be at baseline 0?)
+
+* uni022A (U+022A): X=278.0,Y=1040.0 (should be at ascender 1038?)
+
+* uni022A (U+022A): X=600.0,Y=1040.0 (should be at ascender 1038?)
+
+* uni0230 (U+0230): X=278.0,Y=1040.0 (should be at ascender 1038?)
+
+* uni0230 (U+0230): X=600.0,Y=1040.0 (should be at ascender 1038?)
+
+* uni0233 (U+0233): X=127.0,Y=-221.0 (should be at descender -222?)
+
+* uni0233 (U+0233): X=127.0,Y=-221.0 (should be at descender -222?)
+
+* uni0237 (U+0237): X=-14.0,Y=-221.0 (should be at descender -222?)
+
+* uni0237 (U+0237): X=-41.0,Y=-220.0 (should be at descender -222?)
+
+* uni0237 (U+0237): X=-14.0,Y=-221.0 (should be at descender -222?)
+
+* uni1E21 (U+1E21): X=325.0,Y=-220.0 (should be at descender -222?)
+
+* uni1E21 (U+1E21): X=325.0,Y=-220.0 (should be at descender -222?)
+
+* uni1E4E (U+1E4E): X=261.0,Y=1037.0 (should be at ascender 1038?)
+
+* uni1E4E (U+1E4E): X=399.0,Y=1037.0 (should be at ascender 1038?)
+
+* uni1E4E (U+1E4E): X=479.0,Y=1037.0 (should be at ascender 1038?)
+
+* uni1E4E (U+1E4E): X=616.0,Y=1037.0 (should be at ascender 1038?)
+
+* uni1E66 (U+1E66): X=251.0,Y=1037.0 (should be at ascender 1038?)
+
+* uni1E66 (U+1E66): X=389.0,Y=1037.0 (should be at ascender 1038?)
+
+* uni1E7A (U+1E7A): X=182.0,Y=1037.0 (should be at ascender 1038?)
+
+* uni1E7A (U+1E7A): X=319.0,Y=1037.0 (should be at ascender 1038?)
+
+* uni1E7A (U+1E7A): X=399.0,Y=1037.0 (should be at ascender 1038?)
+
+* uni1E7A (U+1E7A): X=537.0,Y=1037.0 (should be at ascender 1038?)
+
+* uni1E8F (U+1E8F): X=127.0,Y=-221.0 (should be at descender -222?)
+
+* uni1E8F (U+1E8F): X=127.0,Y=-221.0 (should be at descender -222?)
+
+* ygrave (U+1EF3): X=127.0,Y=-221.0 (should be at descender -222?)
+
+* ygrave (U+1EF3): X=127.0,Y=-221.0 (should be at descender -222?)
+
+* uni1EF5 (U+1EF5): X=127.0,Y=-221.0 (should be at descender -222?)
+
+* uni1EF5 (U+1EF5): X=127.0,Y=-221.0 (should be at descender -222?)
+
+* uni1EF7 (U+1EF7): X=127.0,Y=-221.0 (should be at descender -222?)
+
+* uni1EF7 (U+1EF7): X=127.0,Y=-221.0 (should be at descender -222?)
+
+* uni1EF9 (U+1EF9): X=127.0,Y=-221.0 (should be at descender -222?)
+
+* uni1EF9 (U+1EF9): X=127.0,Y=-221.0 (should be at descender -222?)
+
+* uni2077 (U+2077): X=15.0,Y=746.0 (should be at cap-height 745?)
+
+* uni2077 (U+2077): X=370.0,Y=746.0 (should be at cap-height 745?)
+
+* colonmonetary (U+20A1): X=330.0,Y=-1.0 (should be at baseline 0?)
+
+* uni20BE (U+20BE): X=331.0,Y=743.0 (should be at cap-height 745?)
+
+* uni20BE (U+20BE): X=549.0,Y=744.0 (should be at cap-height 745?)
+
+* uni20BF (U+20BF): X=415.0,Y=1.0 (should be at baseline 0?)
+
+* seveneighths (U+215E): X=15.0,Y=746.0 (should be at cap-height 745?) 
+
+* seveneighths (U+215E): X=303.0,Y=746.0 (should be at cap-height 745?) [code: found-misalignments]
+</code></pre>
+</span></li></ul></div></details>
+<h3>Are any segments inordinately short?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_short_segments&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-MediumItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:</p>
+<pre><code>* M (U+004D) contains a short segment L&lt;&lt;425.0,220.0&gt;--&lt;417.0,220.0&gt;&gt;
+
+* e (U+0065) contains a short segment L&lt;&lt;147.0,242.0&gt;--&lt;147.0,236.0&gt;&gt;
+
+* ae (U+00E6) contains a short segment L&lt;&lt;419.0,342.0&gt;--&lt;421.0,359.0&gt;&gt;
+
+* egrave (U+00E8) contains a short segment L&lt;&lt;147.0,242.0&gt;--&lt;147.0,236.0&gt;&gt;
+
+* eacute (U+00E9) contains a short segment L&lt;&lt;147.0,242.0&gt;--&lt;147.0,236.0&gt;&gt;
+
+* ecircumflex (U+00EA) contains a short segment L&lt;&lt;147.0,242.0&gt;--&lt;147.0,236.0&gt;&gt;
+
+* edieresis (U+00EB) contains a short segment L&lt;&lt;147.0,242.0&gt;--&lt;147.0,236.0&gt;&gt;
+
+* emacron (U+0113) contains a short segment L&lt;&lt;147.0,242.0&gt;--&lt;147.0,236.0&gt;&gt;
+
+* ebreve (U+0115) contains a short segment L&lt;&lt;147.0,242.0&gt;--&lt;147.0,236.0&gt;&gt;
+
+* edotaccent (U+0117) contains a short segment L&lt;&lt;147.0,242.0&gt;--&lt;147.0,236.0&gt;&gt;
+
+* eogonek (U+0119) contains a short segment L&lt;&lt;147.0,242.0&gt;--&lt;147.0,236.0&gt;&gt;
+
+* ecaron (U+011B) contains a short segment L&lt;&lt;147.0,242.0&gt;--&lt;147.0,236.0&gt;&gt;
+
+* Eng (U+014A) contains a short segment B&lt;&lt;401.0,-220.0&gt;-&lt;392.0,-220.0&gt;-&lt;379.0,-219.0&gt;&gt;
+
+* Eng (U+014A) contains a short segment B&lt;&lt;379.0,-219.0&gt;-&lt;366.0,-218.0&gt;-&lt;358.0,-216.0&gt;&gt;
+
+* eng (U+014B) contains a short segment B&lt;&lt;221.0,-133.0&gt;-&lt;231.0,-134.0&gt;-&lt;241.0,-134.5&gt;&gt;
+
+* eng (U+014B) contains a short segment B&lt;&lt;241.0,-134.5&gt;-&lt;251.0,-135.0&gt;-&lt;259.0,-135.0&gt;&gt;
+
+* florin (U+0192) contains a short segment B&lt;&lt;60.5,73.5&gt;-&lt;71.0,73.0&gt;-&lt;76.0,73.0&gt;&gt;
+
+* florin (U+0192) contains a short segment B&lt;&lt;488.0,671.5&gt;-&lt;477.0,672.0&gt;-&lt;473.0,672.0&gt;&gt;
+
+* Aringacute (U+01FA) contains a short segment B&lt;&lt;445.0,1043.0&gt;-&lt;447.0,1043.0&gt;-&lt;448.0,1043.0&gt;&gt;
+
+* aringacute (U+01FB) contains a short segment B&lt;&lt;369.0,836.0&gt;-&lt;371.0,836.0&gt;-&lt;372.0,836.0&gt;&gt;
+
+* aeacute (U+01FD) contains a short segment L&lt;&lt;419.0,342.0&gt;--&lt;421.0,359.0&gt;&gt;
+
+* uni0205 (U+0205) contains a short segment L&lt;&lt;147.0,242.0&gt;--&lt;147.0,236.0&gt;&gt;
+
+* uni0207 (U+0207) contains a short segment L&lt;&lt;147.0,242.0&gt;--&lt;147.0,236.0&gt;&gt;
+
+* uni0259 (U+0259) contains a short segment L&lt;&lt;468.0,297.0&gt;--&lt;469.0,303.0&gt;&gt;
+
+* uni0E3F (U+0E3F) contains a short segment L&lt;&lt;437.0,745.0&gt;--&lt;450.0,745.0&gt;&gt;
+
+* uni1E15 (U+1E15) contains a short segment L&lt;&lt;147.0,242.0&gt;--&lt;147.0,236.0&gt;&gt;
+
+* uni1E17 (U+1E17) contains a short segment L&lt;&lt;147.0,242.0&gt;--&lt;147.0,236.0&gt;&gt;
+
+* uni1E1D (U+1E1D) contains a short segment L&lt;&lt;147.0,242.0&gt;--&lt;147.0,236.0&gt;&gt;
+
+* uni1E42 (U+1E42) contains a short segment L&lt;&lt;425.0,220.0&gt;--&lt;417.0,220.0&gt;&gt;
+
+* uni1EB9 (U+1EB9) contains a short segment L&lt;&lt;147.0,242.0&gt;--&lt;147.0,236.0&gt;&gt;
+
+* uni1EBB (U+1EBB) contains a short segment L&lt;&lt;147.0,242.0&gt;--&lt;147.0,236.0&gt;&gt;
+
+* uni1EBD (U+1EBD) contains a short segment L&lt;&lt;147.0,242.0&gt;--&lt;147.0,236.0&gt;&gt;
+
+* uni1EBF (U+1EBF) contains a short segment L&lt;&lt;147.0,242.0&gt;--&lt;147.0,236.0&gt;&gt;
+
+* uni1EC1 (U+1EC1) contains a short segment L&lt;&lt;147.0,242.0&gt;--&lt;147.0,236.0&gt;&gt;
+
+* uni1EC3 (U+1EC3) contains a short segment L&lt;&lt;147.0,242.0&gt;--&lt;147.0,236.0&gt;&gt;
+
+* uni1EC5 (U+1EC5) contains a short segment L&lt;&lt;147.0,242.0&gt;--&lt;147.0,236.0&gt;&gt;
+
+* uni1EC7 (U+1EC7) contains a short segment L&lt;&lt;147.0,242.0&gt;--&lt;147.0,236.0&gt;&gt;
+
+* colonmonetary (U+20A1) contains a short segment B&lt;&lt;416.0,-12.0&gt;-&lt;413.0,-12.0&gt;-&lt;410.0,-12.0&gt;&gt;
+
+* colonmonetary (U+20A1) contains a short segment L&lt;&lt;462.0,666.0&gt;--&lt;462.0,666.0&gt;&gt;
+
+* Euro (U+20AC) contains a short segment L&lt;&lt;133.0,333.0&gt;--&lt;133.0,339.0&gt;&gt;
+
+* Euro (U+20AC) contains a short segment B&lt;&lt;230.0,342.0&gt;-&lt;230.0,337.0&gt;-&lt;231.0,333.0&gt;&gt;
+
+* uni20B5 (U+20B5) contains a short segment B&lt;&lt;416.0,-12.0&gt;-&lt;413.0,-12.0&gt;-&lt;411.0,-12.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;456.0,756.0&gt;-&lt;469.0,757.0&gt;-&lt;482.0,757.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;505.0,664.0&gt;-&lt;491.0,666.0&gt;-&lt;476.0,666.0&gt;&gt;
+
+* trademark (U+2122) contains a short segment L&lt;&lt;675.0,414.0&gt;--&lt;664.0,414.0&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;215.0,341.0&gt;-&lt;210.0,341.0&gt;-&lt;210.0,335.0&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;210.0,140.0&gt;-&lt;210.0,133.0&gt;-&lt;211.5,129.5&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;211.5,129.5&gt;-&lt;213.0,126.0&gt;-&lt;220.0,118.0&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;673.0,360.0&gt;-&lt;677.0,360.0&gt;-&lt;677.0,366.0&gt;&gt;
+
+* uni21A9 (U+21A9) contains a short segment L&lt;&lt;666.0,630.0&gt;--&lt;676.0,630.0&gt;&gt;
+
+* uni21AA (U+21AA) contains a short segment L&lt;&lt;317.0,541.0&gt;--&lt;307.0,541.0&gt;&gt;
+
+* integral (U+222B) contains a short segment B&lt;&lt;36.5,-94.5&gt;-&lt;47.0,-95.0&gt;-&lt;51.0,-95.0&gt;&gt;
+
+* integral (U+222B) contains a short segment B&lt;&lt;487.5,671.5&gt;-&lt;477.0,672.0&gt;-&lt;473.0,672.0&gt;&gt;
+
+* fi (U+FB01) contains a short segment B&lt;&lt;423.0,669.0&gt;-&lt;415.0,671.0&gt;-&lt;404.5,671.5&gt;&gt;
+
+* fi (U+FB01) contains a short segment B&lt;&lt;404.5,671.5&gt;-&lt;394.0,672.0&gt;-&lt;390.0,672.0&gt;&gt;
+
+* fl (U+FB02) contains a short segment B&lt;&lt;423.0,669.0&gt;-&lt;415.0,671.0&gt;-&lt;404.5,671.5&gt;&gt; 
+
+* fl (U+FB02) contains a short segment B&lt;&lt;404.5,671.5&gt;-&lt;394.0,672.0&gt;-&lt;390.0,672.0&gt;&gt; [code: found-short-segments]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:</p>
+<pre><code>* question (U+003F) contains a short segment L&lt;&lt;164.0,211.0&gt;--&lt;164.0,218.0&gt;&gt;
+
+* M (U+004D) contains a short segment L&lt;&lt;415.0,238.0&gt;--&lt;412.0,238.0&gt;&gt;
+
+* questiondown (U+00BF) contains a short segment L&lt;&lt;323.0,320.0&gt;--&lt;323.0,313.0&gt;&gt;
+
+* Eng (U+014A) contains a short segment B&lt;&lt;478.0,-220.0&gt;-&lt;469.0,-220.0&gt;-&lt;457.5,-219.0&gt;&gt;
+
+* Eng (U+014A) contains a short segment B&lt;&lt;457.5,-219.0&gt;-&lt;446.0,-218.0&gt;-&lt;439.0,-215.0&gt;&gt;
+
+* eng (U+014B) contains a short segment B&lt;&lt;305.0,-219.0&gt;-&lt;294.0,-218.0&gt;-&lt;286.0,-215.0&gt;&gt;
+
+* uni018F (U+018F) contains a short segment L&lt;&lt;141.0,334.0&gt;--&lt;141.0,329.0&gt;&gt;
+
+* uni1E42 (U+1E42) contains a short segment L&lt;&lt;415.0,238.0&gt;--&lt;412.0,238.0&gt;&gt;
+
+* colonmonetary (U+20A1) contains a short segment L&lt;&lt;428.0,757.0&gt;--&lt;429.0,757.0&gt;&gt;
+
+* trademark (U+2122) contains a short segment L&lt;&lt;625.0,428.0&gt;--&lt;618.0,428.0&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;212.0,341.0&gt;-&lt;207.0,341.0&gt;-&lt;207.0,335.0&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;207.0,140.0&gt;-&lt;207.0,133.0&gt;-&lt;208.0,129.5&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;208.0,129.5&gt;-&lt;209.0,126.0&gt;-&lt;217.0,118.0&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;670.0,360.0&gt;-&lt;674.0,360.0&gt;-&lt;674.0,366.0&gt;&gt;
+
+* uni21A9 (U+21A9) contains a short segment L&lt;&lt;641.0,630.0&gt;--&lt;651.0,630.0&gt;&gt;
+
+* uni21AA (U+21AA) contains a short segment L&lt;&lt;267.0,573.0&gt;--&lt;257.0,573.0&gt;&gt;
+
+* fi (U+FB01) contains a short segment B&lt;&lt;350.0,698.0&gt;-&lt;342.0,699.0&gt;-&lt;331.0,700.0&gt;&gt;
+
+* fi (U+FB01) contains a short segment B&lt;&lt;331.0,700.0&gt;-&lt;320.0,701.0&gt;-&lt;314.0,701.0&gt;&gt;
+
+* fl (U+FB02) contains a short segment B&lt;&lt;350.0,698.0&gt;-&lt;342.0,699.0&gt;-&lt;331.0,700.0&gt;&gt; 
+
+* fl (U+FB02) contains a short segment B&lt;&lt;331.0,700.0&gt;-&lt;320.0,701.0&gt;-&lt;314.0,701.0&gt;&gt; [code: found-short-segments]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:</p>
+<pre><code>* M (U+004D) contains a short segment L&lt;&lt;432.0,220.0&gt;--&lt;424.0,220.0&gt;&gt;
+
+* ae (U+00E6) contains a short segment B&lt;&lt;928.0,292.0&gt;-&lt;928.0,281.0&gt;-&lt;927.0,267.5&gt;&gt;
+
+* Eng (U+014A) contains a short segment B&lt;&lt;470.0,-220.0&gt;-&lt;461.0,-220.0&gt;-&lt;447.5,-219.0&gt;&gt;
+
+* Eng (U+014A) contains a short segment B&lt;&lt;447.5,-219.0&gt;-&lt;434.0,-218.0&gt;-&lt;426.0,-216.0&gt;&gt;
+
+* uni018F (U+018F) contains a short segment L&lt;&lt;169.0,318.0&gt;--&lt;169.0,315.0&gt;&gt;
+
+* aeacute (U+01FD) contains a short segment B&lt;&lt;928.0,292.0&gt;-&lt;928.0,281.0&gt;-&lt;927.0,267.5&gt;&gt;
+
+* uni1E42 (U+1E42) contains a short segment L&lt;&lt;432.0,220.0&gt;--&lt;424.0,220.0&gt;&gt;
+
+* uni20AA (U+20AA) contains a short segment B&lt;&lt;459.0,91.0&gt;-&lt;468.0,91.0&gt;-&lt;474.5,97.0&gt;&gt;
+
+* uni20AA (U+20AA) contains a short segment B&lt;&lt;474.5,97.0&gt;-&lt;481.0,103.0&gt;-&lt;481.0,113.0&gt;&gt;
+
+* uni20AA (U+20AA) contains a short segment B&lt;&lt;355.0,632.0&gt;-&lt;355.0,641.0&gt;-&lt;349.5,647.0&gt;&gt;
+
+* uni20AA (U+20AA) contains a short segment B&lt;&lt;349.5,647.0&gt;-&lt;344.0,653.0&gt;-&lt;335.0,653.0&gt;&gt;
+
+* uni20BA (U+20BA) contains a short segment L&lt;&lt;235.0,90.0&gt;--&lt;252.0,90.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;408.0,756.0&gt;-&lt;423.0,757.0&gt;-&lt;439.0,757.0&gt;&gt;
+
+* trademark (U+2122) contains a short segment L&lt;&lt;654.0,414.0&gt;--&lt;643.0,414.0&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;201.0,341.0&gt;-&lt;196.0,341.0&gt;-&lt;196.0,335.0&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;196.0,140.0&gt;-&lt;196.0,133.0&gt;-&lt;197.0,129.5&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;197.0,129.5&gt;-&lt;198.0,126.0&gt;-&lt;206.0,118.0&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;659.0,360.0&gt;-&lt;663.0,360.0&gt;-&lt;663.0,366.0&gt;&gt;
+
+* uni21A9 (U+21A9) contains a short segment L&lt;&lt;662.0,630.0&gt;--&lt;672.0,630.0&gt;&gt;
+
+* uni21AA (U+21AA) contains a short segment L&lt;&lt;243.0,541.0&gt;--&lt;233.0,541.0&gt;&gt;
+
+* fi (U+FB01) contains a short segment B&lt;&lt;364.0,669.0&gt;-&lt;356.0,671.0&gt;-&lt;345.0,671.5&gt;&gt;
+
+* fi (U+FB01) contains a short segment B&lt;&lt;345.0,671.5&gt;-&lt;334.0,672.0&gt;-&lt;328.0,672.0&gt;&gt;
+
+* fl (U+FB02) contains a short segment B&lt;&lt;341.5,755.5&gt;-&lt;355.0,754.0&gt;-&lt;364.0,752.0&gt;&gt;
+
+* fl (U+FB02) contains a short segment B&lt;&lt;364.0,669.0&gt;-&lt;356.0,671.0&gt;-&lt;345.0,671.5&gt;&gt; 
+
+* fl (U+FB02) contains a short segment B&lt;&lt;345.0,671.5&gt;-&lt;334.0,672.0&gt;-&lt;328.0,672.0&gt;&gt; [code: found-short-segments]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-ExtraBoldItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:</p>
+<pre><code>* six (U+0036) contains a short segment B&lt;&lt;349.0,478.0&gt;-&lt;352.0,478.0&gt;-&lt;355.0,478.0&gt;&gt;
+
+* nine (U+0039) contains a short segment B&lt;&lt;286.0,267.0&gt;-&lt;283.0,267.0&gt;-&lt;280.0,267.0&gt;&gt;
+
+* M (U+004D) contains a short segment L&lt;&lt;454.0,190.0&gt;--&lt;434.0,190.0&gt;&gt;
+
+* a (U+0061) contains a short segment L&lt;&lt;387.0,346.0&gt;--&lt;389.0,360.0&gt;&gt;
+
+* f (U+0066) contains a short segment L&lt;&lt;159.0,546.0&gt;--&lt;161.0,558.0&gt;&gt;
+
+* f (U+0066) contains a short segment B&lt;&lt;425.0,627.0&gt;-&lt;418.0,627.0&gt;-&lt;413.0,627.0&gt;&gt;
+
+* t (U+0074) contains a short segment L&lt;&lt;56.0,546.0&gt;--&lt;58.0,546.0&gt;&gt;
+
+* ordfeminine (U+00AA) contains a short segment L&lt;&lt;317.0,606.0&gt;--&lt;318.0,615.0&gt;&gt;
+
+* agrave (U+00E0) contains a short segment L&lt;&lt;387.0,346.0&gt;--&lt;389.0,360.0&gt;&gt;
+
+* aacute (U+00E1) contains a short segment L&lt;&lt;387.0,346.0&gt;--&lt;389.0,360.0&gt;&gt;
+
+* acircumflex (U+00E2) contains a short segment L&lt;&lt;387.0,346.0&gt;--&lt;389.0,360.0&gt;&gt;
+
+* atilde (U+00E3) contains a short segment L&lt;&lt;387.0,346.0&gt;--&lt;389.0,360.0&gt;&gt;
+
+* adieresis (U+00E4) contains a short segment L&lt;&lt;387.0,346.0&gt;--&lt;389.0,360.0&gt;&gt;
+
+* aring (U+00E5) contains a short segment L&lt;&lt;387.0,346.0&gt;--&lt;389.0,360.0&gt;&gt;
+
+* ae (U+00E6) contains a short segment L&lt;&lt;387.0,346.0&gt;--&lt;389.0,360.0&gt;&gt;
+
+* amacron (U+0101) contains a short segment L&lt;&lt;387.0,346.0&gt;--&lt;389.0,360.0&gt;&gt;
+
+* abreve (U+0103) contains a short segment L&lt;&lt;387.0,346.0&gt;--&lt;389.0,360.0&gt;&gt;
+
+* aogonek (U+0105) contains a short segment L&lt;&lt;387.0,346.0&gt;--&lt;389.0,360.0&gt;&gt;
+
+* eng (U+014B) contains a short segment B&lt;&lt;225.0,-90.0&gt;-&lt;233.0,-91.0&gt;-&lt;241.0,-91.5&gt;&gt;
+
+* eng (U+014B) contains a short segment B&lt;&lt;241.0,-91.5&gt;-&lt;249.0,-92.0&gt;-&lt;255.0,-92.0&gt;&gt;
+
+* uni0163 (U+0163) contains a short segment L&lt;&lt;56.0,546.0&gt;--&lt;58.0,546.0&gt;&gt;
+
+* tcaron (U+0165) contains a short segment L&lt;&lt;56.0,546.0&gt;--&lt;58.0,546.0&gt;&gt;
+
+* tbar (U+0167) contains a short segment L&lt;&lt;56.0,546.0&gt;--&lt;58.0,546.0&gt;&gt;
+
+* florin (U+0192) contains a short segment B&lt;&lt;101.0,118.5&gt;-&lt;108.0,118.0&gt;-&lt;113.0,118.0&gt;&gt;
+
+* florin (U+0192) contains a short segment B&lt;&lt;531.0,627.0&gt;-&lt;524.0,627.0&gt;-&lt;519.0,627.0&gt;&gt;
+
+* Uhorn (U+01AF) contains a short segment B&lt;&lt;707.0,745.0&gt;-&lt;717.0,745.0&gt;-&lt;729.5,748.5&gt;&gt;
+
+* aringacute (U+01FB) contains a short segment L&lt;&lt;387.0,346.0&gt;--&lt;389.0,360.0&gt;&gt;
+
+* aeacute (U+01FD) contains a short segment L&lt;&lt;387.0,346.0&gt;--&lt;389.0,360.0&gt;&gt;
+
+* uni0201 (U+0201) contains a short segment L&lt;&lt;387.0,346.0&gt;--&lt;389.0,360.0&gt;&gt;
+
+* uni0203 (U+0203) contains a short segment L&lt;&lt;387.0,346.0&gt;--&lt;389.0,360.0&gt;&gt;
+
+* uni021B (U+021B) contains a short segment L&lt;&lt;56.0,546.0&gt;--&lt;58.0,546.0&gt;&gt;
+
+* uni031B (U+031B) contains a short segment L&lt;&lt;195.0,743.0&gt;--&lt;199.0,743.0&gt;&gt;
+
+* uni1E42 (U+1E42) contains a short segment L&lt;&lt;454.0,190.0&gt;--&lt;434.0,190.0&gt;&gt;
+
+* uni1E6D (U+1E6D) contains a short segment L&lt;&lt;56.0,546.0&gt;--&lt;58.0,546.0&gt;&gt;
+
+* uni1E6F (U+1E6F) contains a short segment L&lt;&lt;56.0,546.0&gt;--&lt;58.0,546.0&gt;&gt;
+
+* uni1E97 (U+1E97) contains a short segment L&lt;&lt;56.0,546.0&gt;--&lt;58.0,546.0&gt;&gt;
+
+* uni1EA1 (U+1EA1) contains a short segment L&lt;&lt;387.0,346.0&gt;--&lt;389.0,360.0&gt;&gt;
+
+* uni1EA3 (U+1EA3) contains a short segment L&lt;&lt;387.0,346.0&gt;--&lt;389.0,360.0&gt;&gt;
+
+* uni1EA5 (U+1EA5) contains a short segment L&lt;&lt;387.0,346.0&gt;--&lt;389.0,360.0&gt;&gt;
+
+* uni1EA7 (U+1EA7) contains a short segment L&lt;&lt;387.0,346.0&gt;--&lt;389.0,360.0&gt;&gt;
+
+* uni1EA9 (U+1EA9) contains a short segment L&lt;&lt;387.0,346.0&gt;--&lt;389.0,360.0&gt;&gt;
+
+* uni1EAB (U+1EAB) contains a short segment L&lt;&lt;387.0,346.0&gt;--&lt;389.0,360.0&gt;&gt;
+
+* uni1EAD (U+1EAD) contains a short segment L&lt;&lt;387.0,346.0&gt;--&lt;389.0,360.0&gt;&gt;
+
+* uni1EAF (U+1EAF) contains a short segment L&lt;&lt;387.0,346.0&gt;--&lt;389.0,360.0&gt;&gt;
+
+* uni1EB1 (U+1EB1) contains a short segment L&lt;&lt;387.0,346.0&gt;--&lt;389.0,360.0&gt;&gt;
+
+* uni1EB3 (U+1EB3) contains a short segment L&lt;&lt;387.0,346.0&gt;--&lt;389.0,360.0&gt;&gt;
+
+* uni1EB5 (U+1EB5) contains a short segment L&lt;&lt;387.0,346.0&gt;--&lt;389.0,360.0&gt;&gt;
+
+* uni1EB7 (U+1EB7) contains a short segment L&lt;&lt;387.0,346.0&gt;--&lt;389.0,360.0&gt;&gt;
+
+* uni1EE8 (U+1EE8) contains a short segment B&lt;&lt;707.0,745.0&gt;-&lt;717.0,745.0&gt;-&lt;729.5,748.5&gt;&gt;
+
+* uni1EEA (U+1EEA) contains a short segment B&lt;&lt;707.0,745.0&gt;-&lt;717.0,745.0&gt;-&lt;729.5,748.5&gt;&gt;
+
+* uni1EEC (U+1EEC) contains a short segment B&lt;&lt;707.0,745.0&gt;-&lt;717.0,745.0&gt;-&lt;729.5,748.5&gt;&gt;
+
+* uni1EEE (U+1EEE) contains a short segment B&lt;&lt;707.0,745.0&gt;-&lt;717.0,745.0&gt;-&lt;729.5,748.5&gt;&gt;
+
+* uni1EF0 (U+1EF0) contains a short segment B&lt;&lt;707.0,745.0&gt;-&lt;717.0,745.0&gt;-&lt;729.5,748.5&gt;&gt;
+
+* lira (U+20A4) contains a short segment L&lt;&lt;163.0,488.0&gt;--&lt;166.0,509.0&gt;&gt;
+
+* uni20AA (U+20AA) contains a short segment B&lt;&lt;400.0,154.0&gt;-&lt;408.0,154.0&gt;-&lt;415.0,160.5&gt;&gt;
+
+* uni20AA (U+20AA) contains a short segment B&lt;&lt;415.0,160.5&gt;-&lt;422.0,167.0&gt;-&lt;423.0,175.0&gt;&gt;
+
+* uni20AD (U+20AD) contains a short segment L&lt;&lt;288.0,418.0&gt;--&lt;303.0,418.0&gt;&gt;
+
+* uni20B1 (U+20B1) contains a short segment L&lt;&lt;695.0,523.0&gt;--&lt;695.0,520.0&gt;&gt;
+
+* uni20B1 (U+20B1) contains a short segment B&lt;&lt;539.0,520.0&gt;-&lt;539.0,520.0&gt;-&lt;539.0,520.5&gt;&gt;
+
+* uni20B1 (U+20B1) contains a short segment B&lt;&lt;539.0,520.5&gt;-&lt;539.0,521.0&gt;-&lt;539.0,523.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;470.0,757.0&gt;-&lt;476.0,757.0&gt;-&lt;483.0,757.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;483.0,757.0&gt;-&lt;496.0,757.0&gt;-&lt;509.0,756.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;490.0,617.0&gt;-&lt;481.0,617.0&gt;-&lt;472.0,617.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;472.0,617.0&gt;-&lt;461.0,617.0&gt;-&lt;450.0,616.0&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;198.0,341.0&gt;-&lt;193.0,341.0&gt;-&lt;193.0,335.0&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;193.0,140.0&gt;-&lt;193.0,133.0&gt;-&lt;194.5,129.5&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;194.5,129.5&gt;-&lt;196.0,126.0&gt;-&lt;203.0,118.0&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;656.0,360.0&gt;-&lt;660.0,360.0&gt;-&lt;660.0,366.0&gt;&gt;
+
+* uni21A9 (U+21A9) contains a short segment L&lt;&lt;704.0,630.0&gt;--&lt;714.0,630.0&gt;&gt;
+
+* uni21AA (U+21AA) contains a short segment L&lt;&lt;341.0,500.0&gt;--&lt;331.0,500.0&gt;&gt;
+
+* integral (U+222B) contains a short segment B&lt;&lt;78.5,-49.5&gt;-&lt;86.0,-50.0&gt;-&lt;90.0,-50.0&gt;&gt;
+
+* integral (U+222B) contains a short segment B&lt;&lt;532.0,627.0&gt;-&lt;525.0,627.0&gt;-&lt;520.0,627.0&gt;&gt;
+
+* fi (U+FB01) contains a short segment L&lt;&lt;159.0,546.0&gt;--&lt;161.0,558.0&gt;&gt;
+
+* fi (U+FB01) contains a short segment B&lt;&lt;442.0,625.0&gt;-&lt;432.0,627.0&gt;-&lt;425.0,627.0&gt;&gt;
+
+* fi (U+FB01) contains a short segment B&lt;&lt;425.0,627.0&gt;-&lt;418.0,627.0&gt;-&lt;413.0,627.0&gt;&gt;
+
+* fl (U+FB02) contains a short segment L&lt;&lt;159.0,546.0&gt;--&lt;161.0,558.0&gt;&gt;
+
+* fl (U+FB02) contains a short segment B&lt;&lt;442.0,625.0&gt;-&lt;432.0,627.0&gt;-&lt;425.0,627.0&gt;&gt; 
+
+* fl (U+FB02) contains a short segment B&lt;&lt;425.0,627.0&gt;-&lt;418.0,627.0&gt;-&lt;413.0,627.0&gt;&gt; [code: found-short-segments]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:</p>
+<pre><code>* M (U+004D) contains a short segment L&lt;&lt;443.0,210.0&gt;--&lt;431.0,210.0&gt;&gt;
+
+* ae (U+00E6) contains a short segment L&lt;&lt;399.0,343.0&gt;--&lt;399.0,364.0&gt;&gt;
+
+* Eng (U+014A) contains a short segment B&lt;&lt;467.0,-221.0&gt;-&lt;456.0,-221.0&gt;-&lt;442.0,-220.0&gt;&gt;
+
+* Eng (U+014A) contains a short segment B&lt;&lt;442.0,-220.0&gt;-&lt;428.0,-219.0&gt;-&lt;420.0,-216.0&gt;&gt;
+
+* aeacute (U+01FD) contains a short segment L&lt;&lt;399.0,343.0&gt;--&lt;399.0,364.0&gt;&gt;
+
+* uni0E3F (U+0E3F) contains a short segment L&lt;&lt;380.0,745.0&gt;--&lt;391.0,745.0&gt;&gt;
+
+* uni1E42 (U+1E42) contains a short segment L&lt;&lt;443.0,210.0&gt;--&lt;431.0,210.0&gt;&gt;
+
+* colonmonetary (U+20A1) contains a short segment B&lt;&lt;424.0,650.0&gt;-&lt;422.0,650.0&gt;-&lt;421.0,649.0&gt;&gt;
+
+* uni20BA (U+20BA) contains a short segment L&lt;&lt;246.0,105.0&gt;--&lt;265.0,105.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;412.0,756.0&gt;-&lt;426.0,757.0&gt;-&lt;440.0,757.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;440.0,757.0&gt;-&lt;453.0,757.0&gt;-&lt;467.0,756.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;467.0,648.0&gt;-&lt;453.0,650.0&gt;-&lt;439.0,650.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;439.0,650.0&gt;-&lt;425.0,650.0&gt;-&lt;412.0,648.0&gt;&gt;
+
+* trademark (U+2122) contains a short segment L&lt;&lt;672.0,409.0&gt;--&lt;659.0,409.0&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;195.0,341.0&gt;-&lt;190.0,341.0&gt;-&lt;190.0,335.0&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;190.0,140.0&gt;-&lt;190.0,133.0&gt;-&lt;191.5,129.5&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;191.5,129.5&gt;-&lt;193.0,126.0&gt;-&lt;200.0,118.0&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;653.0,360.0&gt;-&lt;657.0,360.0&gt;-&lt;657.0,366.0&gt;&gt;
+
+* uni21A9 (U+21A9) contains a short segment L&lt;&lt;675.0,630.0&gt;--&lt;685.0,630.0&gt;&gt;
+
+* uni21AA (U+21AA) contains a short segment L&lt;&lt;235.0,528.0&gt;--&lt;225.0,528.0&gt;&gt;
+
+* fi (U+FB01) contains a short segment B&lt;&lt;372.0,654.0&gt;-&lt;364.0,656.0&gt;-&lt;354.0,656.5&gt;&gt;
+
+* fi (U+FB01) contains a short segment B&lt;&lt;354.0,656.5&gt;-&lt;344.0,657.0&gt;-&lt;338.0,657.0&gt;&gt;
+
+* fl (U+FB02) contains a short segment B&lt;&lt;349.0,755.5&gt;-&lt;363.0,754.0&gt;-&lt;372.0,752.0&gt;&gt;
+
+* fl (U+FB02) contains a short segment B&lt;&lt;372.0,654.0&gt;-&lt;364.0,656.0&gt;-&lt;354.0,656.5&gt;&gt; 
+
+* fl (U+FB02) contains a short segment B&lt;&lt;354.0,656.5&gt;-&lt;344.0,657.0&gt;-&lt;338.0,657.0&gt;&gt; [code: found-short-segments]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-SemiBoldItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:</p>
+<pre><code>* M (U+004D) contains a short segment L&lt;&lt;435.0,210.0&gt;--&lt;423.0,210.0&gt;&gt;
+
+* f (U+0066) contains a short segment B&lt;&lt;411.5,656.5&gt;-&lt;402.0,657.0&gt;-&lt;398.0,657.0&gt;&gt;
+
+* t (U+0074) contains a short segment L&lt;&lt;64.0,541.0&gt;--&lt;76.0,541.0&gt;&gt;
+
+* ordfeminine (U+00AA) contains a short segment L&lt;&lt;335.0,608.0&gt;--&lt;336.0,618.0&gt;&gt;
+
+* ae (U+00E6) contains a short segment L&lt;&lt;409.0,344.0&gt;--&lt;411.0,360.0&gt;&gt;
+
+* Eng (U+014A) contains a short segment B&lt;&lt;398.0,-221.0&gt;-&lt;387.0,-221.0&gt;-&lt;373.0,-220.0&gt;&gt;
+
+* Eng (U+014A) contains a short segment B&lt;&lt;373.0,-220.0&gt;-&lt;359.0,-219.0&gt;-&lt;352.0,-216.0&gt;&gt;
+
+* eng (U+014B) contains a short segment B&lt;&lt;223.0,-118.0&gt;-&lt;232.0,-120.0&gt;-&lt;241.0,-120.5&gt;&gt;
+
+* eng (U+014B) contains a short segment B&lt;&lt;241.0,-120.5&gt;-&lt;250.0,-121.0&gt;-&lt;258.0,-121.0&gt;&gt;
+
+* uni0163 (U+0163) contains a short segment L&lt;&lt;64.0,541.0&gt;--&lt;76.0,541.0&gt;&gt;
+
+* tcaron (U+0165) contains a short segment L&lt;&lt;64.0,541.0&gt;--&lt;76.0,541.0&gt;&gt;
+
+* tbar (U+0167) contains a short segment L&lt;&lt;64.0,541.0&gt;--&lt;76.0,541.0&gt;&gt;
+
+* florin (U+0192) contains a short segment B&lt;&lt;74.5,88.5&gt;-&lt;84.0,88.0&gt;-&lt;88.0,88.0&gt;&gt;
+
+* florin (U+0192) contains a short segment B&lt;&lt;502.5,656.5&gt;-&lt;493.0,657.0&gt;-&lt;489.0,657.0&gt;&gt;
+
+* aeacute (U+01FD) contains a short segment L&lt;&lt;409.0,344.0&gt;--&lt;411.0,360.0&gt;&gt;
+
+* uni021B (U+021B) contains a short segment L&lt;&lt;64.0,541.0&gt;--&lt;76.0,541.0&gt;&gt;
+
+* uni0E3F (U+0E3F) contains a short segment L&lt;&lt;443.0,745.0&gt;--&lt;445.0,745.0&gt;&gt;
+
+* uni1E42 (U+1E42) contains a short segment L&lt;&lt;435.0,210.0&gt;--&lt;423.0,210.0&gt;&gt;
+
+* uni1E6D (U+1E6D) contains a short segment L&lt;&lt;64.0,541.0&gt;--&lt;76.0,541.0&gt;&gt;
+
+* uni1E6F (U+1E6F) contains a short segment L&lt;&lt;64.0,541.0&gt;--&lt;76.0,541.0&gt;&gt;
+
+* uni1E97 (U+1E97) contains a short segment L&lt;&lt;64.0,541.0&gt;--&lt;76.0,541.0&gt;&gt;
+
+* uni20AA (U+20AA) contains a short segment B&lt;&lt;422.0,112.0&gt;-&lt;430.0,112.0&gt;-&lt;438.0,119.0&gt;&gt;
+
+* Euro (U+20AC) contains a short segment L&lt;&lt;128.0,338.0&gt;--&lt;128.0,339.0&gt;&gt;
+
+* Euro (U+20AC) contains a short segment B&lt;&lt;244.0,344.0&gt;-&lt;244.0,340.0&gt;-&lt;244.0,338.0&gt;&gt;
+
+* uni20B1 (U+20B1) contains a short segment B&lt;&lt;676.0,538.0&gt;-&lt;676.0,531.0&gt;-&lt;676.0,524.0&gt;&gt;
+
+* uni20B2 (U+20B2) contains a short segment L&lt;&lt;413.0,-12.0&gt;--&lt;413.0,-12.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;460.0,756.0&gt;-&lt;471.0,757.0&gt;-&lt;483.0,757.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;500.0,648.0&gt;-&lt;488.0,650.0&gt;-&lt;474.0,650.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;474.0,650.0&gt;-&lt;460.0,650.0&gt;-&lt;445.0,648.0&gt;&gt;
+
+* trademark (U+2122) contains a short segment L&lt;&lt;692.0,409.0&gt;--&lt;679.0,409.0&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;210.0,341.0&gt;-&lt;205.0,341.0&gt;-&lt;205.0,335.0&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;205.0,140.0&gt;-&lt;205.0,133.0&gt;-&lt;206.0,129.5&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;206.0,129.5&gt;-&lt;207.0,126.0&gt;-&lt;215.0,118.0&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;668.0,360.0&gt;-&lt;672.0,360.0&gt;-&lt;672.0,366.0&gt;&gt;
+
+* uni21A9 (U+21A9) contains a short segment L&lt;&lt;679.0,630.0&gt;--&lt;689.0,630.0&gt;&gt;
+
+* uni21AA (U+21AA) contains a short segment L&lt;&lt;325.0,528.0&gt;--&lt;315.0,528.0&gt;&gt;
+
+* integral (U+222B) contains a short segment B&lt;&lt;50.5,-79.5&gt;-&lt;60.0,-80.0&gt;-&lt;64.0,-80.0&gt;&gt;
+
+* integral (U+222B) contains a short segment B&lt;&lt;502.5,656.5&gt;-&lt;493.0,657.0&gt;-&lt;489.0,657.0&gt;&gt;
+
+* fi (U+FB01) contains a short segment B&lt;&lt;429.0,655.0&gt;-&lt;421.0,656.0&gt;-&lt;411.5,656.5&gt;&gt;
+
+* fi (U+FB01) contains a short segment B&lt;&lt;411.5,656.5&gt;-&lt;402.0,657.0&gt;-&lt;398.0,657.0&gt;&gt;
+
+* fl (U+FB02) contains a short segment B&lt;&lt;429.0,655.0&gt;-&lt;421.0,656.0&gt;-&lt;411.5,656.5&gt;&gt; 
+
+* fl (U+FB02) contains a short segment B&lt;&lt;411.5,656.5&gt;-&lt;402.0,657.0&gt;-&lt;398.0,657.0&gt;&gt; [code: found-short-segments]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-ExtraLightItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:</p>
+<pre><code>* dollar (U+0024) contains a short segment B&lt;&lt;357.0,757.0&gt;-&lt;361.0,757.0&gt;-&lt;366.0,757.0&gt;&gt;
+
+* dollar (U+0024) contains a short segment B&lt;&lt;310.0,-12.0&gt;-&lt;306.0,-12.0&gt;-&lt;303.0,-12.0&gt;&gt;
+
+* dollar (U+0024) contains a short segment L&lt;&lt;309.0,31.0&gt;--&lt;311.0,31.0&gt;&gt;
+
+* question (U+003F) contains a short segment L&lt;&lt;180.0,208.0&gt;--&lt;181.0,212.0&gt;&gt;
+
+* M (U+004D) contains a short segment L&lt;&lt;408.0,246.0&gt;--&lt;406.0,246.0&gt;&gt;
+
+* e (U+0065) contains a short segment B&lt;&lt;112.0,249.0&gt;-&lt;112.0,246.0&gt;-&lt;112.0,242.0&gt;&gt;
+
+* cent (U+00A2) contains a short segment L&lt;&lt;326.0,140.0&gt;--&lt;327.0,140.0&gt;&gt;
+
+* cent (U+00A2) contains a short segment B&lt;&lt;327.0,98.0&gt;-&lt;323.0,98.0&gt;-&lt;320.0,98.0&gt;&gt;
+
+* questiondown (U+00BF) contains a short segment L&lt;&lt;293.0,318.0&gt;--&lt;292.0,314.0&gt;&gt;
+
+* ae (U+00E6) contains a short segment L&lt;&lt;450.0,334.0&gt;--&lt;453.0,356.0&gt;&gt;
+
+* egrave (U+00E8) contains a short segment B&lt;&lt;112.0,249.0&gt;-&lt;112.0,246.0&gt;-&lt;112.0,242.0&gt;&gt;
+
+* eacute (U+00E9) contains a short segment B&lt;&lt;112.0,249.0&gt;-&lt;112.0,246.0&gt;-&lt;112.0,242.0&gt;&gt;
+
+* ecircumflex (U+00EA) contains a short segment B&lt;&lt;112.0,249.0&gt;-&lt;112.0,246.0&gt;-&lt;112.0,242.0&gt;&gt;
+
+* edieresis (U+00EB) contains a short segment B&lt;&lt;112.0,249.0&gt;-&lt;112.0,246.0&gt;-&lt;112.0,242.0&gt;&gt;
+
+* emacron (U+0113) contains a short segment B&lt;&lt;112.0,249.0&gt;-&lt;112.0,246.0&gt;-&lt;112.0,242.0&gt;&gt;
+
+* ebreve (U+0115) contains a short segment B&lt;&lt;112.0,249.0&gt;-&lt;112.0,246.0&gt;-&lt;112.0,242.0&gt;&gt;
+
+* edotaccent (U+0117) contains a short segment B&lt;&lt;112.0,249.0&gt;-&lt;112.0,246.0&gt;-&lt;112.0,242.0&gt;&gt;
+
+* eogonek (U+0119) contains a short segment B&lt;&lt;112.0,249.0&gt;-&lt;112.0,246.0&gt;-&lt;112.0,242.0&gt;&gt;
+
+* ecaron (U+011B) contains a short segment B&lt;&lt;112.0,249.0&gt;-&lt;112.0,246.0&gt;-&lt;112.0,242.0&gt;&gt;
+
+* eng (U+014B) contains a short segment B&lt;&lt;244.0,-218.0&gt;-&lt;234.0,-216.0&gt;-&lt;226.0,-214.0&gt;&gt;
+
+* eng (U+014B) contains a short segment B&lt;&lt;228.0,-174.0&gt;-&lt;236.0,-175.0&gt;-&lt;245.5,-176.0&gt;&gt;
+
+* eng (U+014B) contains a short segment B&lt;&lt;245.5,-176.0&gt;-&lt;255.0,-177.0&gt;-&lt;262.0,-177.0&gt;&gt;
+
+* uni018F (U+018F) contains a short segment B&lt;&lt;738.0,388.0&gt;-&lt;738.0,393.0&gt;-&lt;738.0,399.0&gt;&gt;
+
+* uni018F (U+018F) contains a short segment B&lt;&lt;143.0,324.0&gt;-&lt;143.0,322.0&gt;-&lt;143.0,317.0&gt;&gt;
+
+* aeacute (U+01FD) contains a short segment L&lt;&lt;450.0,334.0&gt;--&lt;453.0,356.0&gt;&gt;
+
+* uni0205 (U+0205) contains a short segment B&lt;&lt;112.0,249.0&gt;-&lt;112.0,246.0&gt;-&lt;112.0,242.0&gt;&gt;
+
+* uni0207 (U+0207) contains a short segment B&lt;&lt;112.0,249.0&gt;-&lt;112.0,246.0&gt;-&lt;112.0,242.0&gt;&gt;
+
+* uni0259 (U+0259) contains a short segment B&lt;&lt;516.0,277.0&gt;-&lt;516.0,280.0&gt;-&lt;516.0,284.0&gt;&gt;
+
+* uni1E15 (U+1E15) contains a short segment B&lt;&lt;112.0,249.0&gt;-&lt;112.0,246.0&gt;-&lt;112.0,242.0&gt;&gt;
+
+* uni1E17 (U+1E17) contains a short segment B&lt;&lt;112.0,249.0&gt;-&lt;112.0,246.0&gt;-&lt;112.0,242.0&gt;&gt;
+
+* uni1E1D (U+1E1D) contains a short segment B&lt;&lt;112.0,249.0&gt;-&lt;112.0,246.0&gt;-&lt;112.0,242.0&gt;&gt;
+
+* uni1E42 (U+1E42) contains a short segment L&lt;&lt;408.0,246.0&gt;--&lt;406.0,246.0&gt;&gt;
+
+* uni1EB9 (U+1EB9) contains a short segment B&lt;&lt;112.0,249.0&gt;-&lt;112.0,246.0&gt;-&lt;112.0,242.0&gt;&gt;
+
+* uni1EBB (U+1EBB) contains a short segment B&lt;&lt;112.0,249.0&gt;-&lt;112.0,246.0&gt;-&lt;112.0,242.0&gt;&gt;
+
+* uni1EBD (U+1EBD) contains a short segment B&lt;&lt;112.0,249.0&gt;-&lt;112.0,246.0&gt;-&lt;112.0,242.0&gt;&gt;
+
+* uni1EBF (U+1EBF) contains a short segment B&lt;&lt;112.0,249.0&gt;-&lt;112.0,246.0&gt;-&lt;112.0,242.0&gt;&gt;
+
+* uni1EC1 (U+1EC1) contains a short segment B&lt;&lt;112.0,249.0&gt;-&lt;112.0,246.0&gt;-&lt;112.0,242.0&gt;&gt;
+
+* uni1EC3 (U+1EC3) contains a short segment B&lt;&lt;112.0,249.0&gt;-&lt;112.0,246.0&gt;-&lt;112.0,242.0&gt;&gt;
+
+* uni1EC5 (U+1EC5) contains a short segment B&lt;&lt;112.0,249.0&gt;-&lt;112.0,246.0&gt;-&lt;112.0,242.0&gt;&gt;
+
+* uni1EC7 (U+1EC7) contains a short segment B&lt;&lt;112.0,249.0&gt;-&lt;112.0,246.0&gt;-&lt;112.0,242.0&gt;&gt;
+
+* Euro (U+20AC) contains a short segment B&lt;&lt;145.0,318.0&gt;-&lt;145.0,328.0&gt;-&lt;145.0,339.0&gt;&gt;
+
+* Euro (U+20AC) contains a short segment B&lt;&lt;195.0,342.0&gt;-&lt;195.0,330.0&gt;-&lt;196.0,318.0&gt;&gt;
+
+* uni20B2 (U+20B2) contains a short segment B&lt;&lt;476.0,757.0&gt;-&lt;479.0,757.0&gt;-&lt;481.0,757.0&gt;&gt;
+
+* uni20B2 (U+20B2) contains a short segment B&lt;&lt;424.0,-12.0&gt;-&lt;421.0,-12.0&gt;-&lt;418.0,-12.0&gt;&gt;
+
+* uni20B2 (U+20B2) contains a short segment L&lt;&lt;425.0,36.0&gt;--&lt;426.0,36.0&gt;&gt;
+
+* uni20B5 (U+20B5) contains a short segment B&lt;&lt;404.0,36.0&gt;-&lt;410.0,36.0&gt;-&lt;417.0,36.0&gt;&gt;
+
+* uni20B5 (U+20B5) contains a short segment B&lt;&lt;418.0,-12.0&gt;-&lt;408.0,-12.0&gt;-&lt;397.0,-11.0&gt;&gt;
+
+* uni20BF (U+20BF) contains a short segment B&lt;&lt;455.0,745.0&gt;-&lt;461.0,745.0&gt;-&lt;467.0,745.0&gt;&gt;
+
+* trademark (U+2122) contains a short segment L&lt;&lt;638.0,435.0&gt;--&lt;634.0,435.0&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;233.0,341.0&gt;-&lt;228.0,341.0&gt;-&lt;228.0,335.0&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;228.0,140.0&gt;-&lt;228.0,133.0&gt;-&lt;229.5,129.5&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;229.5,129.5&gt;-&lt;231.0,126.0&gt;-&lt;238.0,118.0&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;691.0,360.0&gt;-&lt;695.0,360.0&gt;-&lt;695.0,366.0&gt;&gt;
+
+* uni21A9 (U+21A9) contains a short segment L&lt;&lt;636.0,630.0&gt;--&lt;646.0,630.0&gt;&gt;
+
+* uni21AA (U+21AA) contains a short segment L&lt;&lt;309.0,590.0&gt;--&lt;299.0,590.0&gt;&gt;
+
+* fi (U+FB01) contains a short segment B&lt;&lt;409.0,711.0&gt;-&lt;401.0,713.0&gt;-&lt;391.5,713.5&gt;&gt;
+
+* fi (U+FB01) contains a short segment B&lt;&lt;391.5,713.5&gt;-&lt;382.0,714.0&gt;-&lt;375.0,714.0&gt;&gt;
+
+* fl (U+FB02) contains a short segment B&lt;&lt;409.0,711.0&gt;-&lt;401.0,713.0&gt;-&lt;391.5,713.5&gt;&gt; 
+
+* fl (U+FB02) contains a short segment B&lt;&lt;391.5,713.5&gt;-&lt;382.0,714.0&gt;-&lt;375.0,714.0&gt;&gt; [code: found-short-segments]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:</p>
+<pre><code>* question (U+003F) contains a short segment L&lt;&lt;167.0,214.0&gt;--&lt;167.0,224.0&gt;&gt;
+
+* M (U+004D) contains a short segment L&lt;&lt;420.0,230.0&gt;--&lt;416.0,230.0&gt;&gt;
+
+* questiondown (U+00BF) contains a short segment L&lt;&lt;332.0,322.0&gt;--&lt;332.0,312.0&gt;&gt;
+
+* ae (U+00E6) contains a short segment B&lt;&lt;928.0,293.0&gt;-&lt;928.0,283.0&gt;-&lt;927.0,270.5&gt;&gt;
+
+* Eng (U+014A) contains a short segment B&lt;&lt;473.0,-220.0&gt;-&lt;466.0,-220.0&gt;-&lt;453.5,-219.0&gt;&gt;
+
+* Eng (U+014A) contains a short segment B&lt;&lt;453.5,-219.0&gt;-&lt;441.0,-218.0&gt;-&lt;433.0,-216.0&gt;&gt;
+
+* eng (U+014B) contains a short segment B&lt;&lt;320.0,-220.0&gt;-&lt;313.0,-220.0&gt;-&lt;300.5,-219.0&gt;&gt;
+
+* aeacute (U+01FD) contains a short segment B&lt;&lt;928.0,293.0&gt;-&lt;928.0,283.0&gt;-&lt;927.0,270.5&gt;&gt;
+
+* uni1E42 (U+1E42) contains a short segment L&lt;&lt;420.0,230.0&gt;--&lt;416.0,230.0&gt;&gt;
+
+* colonmonetary (U+20A1) contains a short segment B&lt;&lt;428.0,682.0&gt;-&lt;426.0,682.0&gt;-&lt;424.0,682.0&gt;&gt;
+
+* uni20AA (U+20AA) contains a short segment B&lt;&lt;472.0,70.0&gt;-&lt;482.0,70.0&gt;-&lt;488.5,77.0&gt;&gt;
+
+* uni20AA (U+20AA) contains a short segment B&lt;&lt;488.5,77.0&gt;-&lt;495.0,84.0&gt;-&lt;495.0,94.0&gt;&gt;
+
+* uni20AA (U+20AA) contains a short segment B&lt;&lt;360.0,651.0&gt;-&lt;360.0,661.0&gt;-&lt;354.0,667.5&gt;&gt;
+
+* uni20AA (U+20AA) contains a short segment B&lt;&lt;354.0,667.5&gt;-&lt;348.0,674.0&gt;-&lt;339.0,674.0&gt;&gt;
+
+* uni20BA (U+20BA) contains a short segment L&lt;&lt;224.0,75.0&gt;--&lt;239.0,75.0&gt;&gt;
+
+* trademark (U+2122) contains a short segment L&lt;&lt;636.0,420.0&gt;--&lt;627.0,420.0&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;206.0,341.0&gt;-&lt;201.0,341.0&gt;-&lt;201.0,335.0&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;201.0,140.0&gt;-&lt;201.0,133.0&gt;-&lt;202.5,129.5&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;202.5,129.5&gt;-&lt;204.0,126.0&gt;-&lt;211.0,118.0&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;664.0,360.0&gt;-&lt;668.0,360.0&gt;-&lt;668.0,366.0&gt;&gt;
+
+* uni21A9 (U+21A9) contains a short segment L&lt;&lt;649.0,630.0&gt;--&lt;659.0,630.0&gt;&gt;
+
+* uni21AA (U+21AA) contains a short segment L&lt;&lt;251.0,555.0&gt;--&lt;241.0,555.0&gt;&gt;
+
+* fi (U+FB01) contains a short segment B&lt;&lt;334.0,755.5&gt;-&lt;347.0,754.0&gt;-&lt;355.0,752.0&gt;&gt;
+
+* fi (U+FB01) contains a short segment B&lt;&lt;355.0,684.0&gt;-&lt;348.0,686.0&gt;-&lt;336.0,686.5&gt;&gt;
+
+* fi (U+FB01) contains a short segment B&lt;&lt;336.0,686.5&gt;-&lt;324.0,687.0&gt;-&lt;319.0,687.0&gt;&gt;
+
+* fl (U+FB02) contains a short segment B&lt;&lt;311.0,757.0&gt;-&lt;321.0,757.0&gt;-&lt;334.0,755.5&gt;&gt;
+
+* fl (U+FB02) contains a short segment B&lt;&lt;334.0,755.5&gt;-&lt;347.0,754.0&gt;-&lt;355.0,752.0&gt;&gt;
+
+* fl (U+FB02) contains a short segment B&lt;&lt;355.0,684.0&gt;-&lt;348.0,686.0&gt;-&lt;336.0,686.5&gt;&gt; 
+
+* fl (U+FB02) contains a short segment B&lt;&lt;336.0,686.5&gt;-&lt;324.0,687.0&gt;-&lt;319.0,687.0&gt;&gt; [code: found-short-segments]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-LightItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:</p>
+<pre><code>* dollar (U+0024) contains a short segment B&lt;&lt;357.0,757.0&gt;-&lt;360.0,757.0&gt;-&lt;363.0,757.0&gt;&gt;
+
+* question (U+003F) contains a short segment L&lt;&lt;183.0,211.0&gt;--&lt;185.0,218.0&gt;&gt;
+
+* M (U+004D) contains a short segment L&lt;&lt;412.0,238.0&gt;--&lt;409.0,238.0&gt;&gt;
+
+* e (U+0065) contains a short segment B&lt;&lt;123.0,247.0&gt;-&lt;123.0,242.0&gt;-&lt;123.0,237.0&gt;&gt;
+
+* questiondown (U+00BF) contains a short segment L&lt;&lt;304.0,320.0&gt;--&lt;302.0,313.0&gt;&gt;
+
+* ae (U+00E6) contains a short segment L&lt;&lt;440.0,338.0&gt;--&lt;443.0,358.0&gt;&gt;
+
+* egrave (U+00E8) contains a short segment B&lt;&lt;123.0,247.0&gt;-&lt;123.0,242.0&gt;-&lt;123.0,237.0&gt;&gt;
+
+* eacute (U+00E9) contains a short segment B&lt;&lt;123.0,247.0&gt;-&lt;123.0,242.0&gt;-&lt;123.0,237.0&gt;&gt;
+
+* ecircumflex (U+00EA) contains a short segment B&lt;&lt;123.0,247.0&gt;-&lt;123.0,242.0&gt;-&lt;123.0,237.0&gt;&gt;
+
+* edieresis (U+00EB) contains a short segment B&lt;&lt;123.0,247.0&gt;-&lt;123.0,242.0&gt;-&lt;123.0,237.0&gt;&gt;
+
+* emacron (U+0113) contains a short segment B&lt;&lt;123.0,247.0&gt;-&lt;123.0,242.0&gt;-&lt;123.0,237.0&gt;&gt;
+
+* ebreve (U+0115) contains a short segment B&lt;&lt;123.0,247.0&gt;-&lt;123.0,242.0&gt;-&lt;123.0,237.0&gt;&gt;
+
+* edotaccent (U+0117) contains a short segment B&lt;&lt;123.0,247.0&gt;-&lt;123.0,242.0&gt;-&lt;123.0,237.0&gt;&gt;
+
+* eogonek (U+0119) contains a short segment B&lt;&lt;123.0,247.0&gt;-&lt;123.0,242.0&gt;-&lt;123.0,237.0&gt;&gt;
+
+* ecaron (U+011B) contains a short segment B&lt;&lt;123.0,247.0&gt;-&lt;123.0,242.0&gt;-&lt;123.0,237.0&gt;&gt;
+
+* Eng (U+014A) contains a short segment B&lt;&lt;410.0,-220.0&gt;-&lt;401.0,-220.0&gt;-&lt;389.5,-219.0&gt;&gt;
+
+* Eng (U+014A) contains a short segment B&lt;&lt;389.5,-219.0&gt;-&lt;378.0,-218.0&gt;-&lt;372.0,-215.0&gt;&gt;
+
+* florin (U+0192) contains a short segment B&lt;&lt;43.5,45.5&gt;-&lt;54.0,45.0&gt;-&lt;59.0,45.0&gt;&gt;
+
+* aeacute (U+01FD) contains a short segment L&lt;&lt;440.0,338.0&gt;--&lt;443.0,358.0&gt;&gt;
+
+* uni0205 (U+0205) contains a short segment B&lt;&lt;123.0,247.0&gt;-&lt;123.0,242.0&gt;-&lt;123.0,237.0&gt;&gt;
+
+* uni0207 (U+0207) contains a short segment B&lt;&lt;123.0,247.0&gt;-&lt;123.0,242.0&gt;-&lt;123.0,237.0&gt;&gt;
+
+* uni0259 (U+0259) contains a short segment B&lt;&lt;499.0,284.0&gt;-&lt;500.0,289.0&gt;-&lt;500.0,294.0&gt;&gt;
+
+* uni1E15 (U+1E15) contains a short segment B&lt;&lt;123.0,247.0&gt;-&lt;123.0,242.0&gt;-&lt;123.0,237.0&gt;&gt;
+
+* uni1E17 (U+1E17) contains a short segment B&lt;&lt;123.0,247.0&gt;-&lt;123.0,242.0&gt;-&lt;123.0,237.0&gt;&gt;
+
+* uni1E1D (U+1E1D) contains a short segment B&lt;&lt;123.0,247.0&gt;-&lt;123.0,242.0&gt;-&lt;123.0,237.0&gt;&gt;
+
+* uni1E42 (U+1E42) contains a short segment L&lt;&lt;412.0,238.0&gt;--&lt;409.0,238.0&gt;&gt;
+
+* uni1EB9 (U+1EB9) contains a short segment B&lt;&lt;123.0,247.0&gt;-&lt;123.0,242.0&gt;-&lt;123.0,237.0&gt;&gt;
+
+* uni1EBB (U+1EBB) contains a short segment B&lt;&lt;123.0,247.0&gt;-&lt;123.0,242.0&gt;-&lt;123.0,237.0&gt;&gt;
+
+* uni1EBD (U+1EBD) contains a short segment B&lt;&lt;123.0,247.0&gt;-&lt;123.0,242.0&gt;-&lt;123.0,237.0&gt;&gt;
+
+* uni1EBF (U+1EBF) contains a short segment B&lt;&lt;123.0,247.0&gt;-&lt;123.0,242.0&gt;-&lt;123.0,237.0&gt;&gt;
+
+* uni1EC1 (U+1EC1) contains a short segment B&lt;&lt;123.0,247.0&gt;-&lt;123.0,242.0&gt;-&lt;123.0,237.0&gt;&gt;
+
+* uni1EC3 (U+1EC3) contains a short segment B&lt;&lt;123.0,247.0&gt;-&lt;123.0,242.0&gt;-&lt;123.0,237.0&gt;&gt;
+
+* uni1EC5 (U+1EC5) contains a short segment B&lt;&lt;123.0,247.0&gt;-&lt;123.0,242.0&gt;-&lt;123.0,237.0&gt;&gt;
+
+* uni1EC7 (U+1EC7) contains a short segment B&lt;&lt;123.0,247.0&gt;-&lt;123.0,242.0&gt;-&lt;123.0,237.0&gt;&gt;
+
+* colonmonetary (U+20A1) contains a short segment B&lt;&lt;467.0,696.0&gt;-&lt;463.0,696.0&gt;-&lt;461.0,695.0&gt;&gt;
+
+* Euro (U+20AC) contains a short segment B&lt;&lt;142.0,323.0&gt;-&lt;141.0,331.0&gt;-&lt;142.0,339.0&gt;&gt;
+
+* Euro (U+20AC) contains a short segment B&lt;&lt;206.0,342.0&gt;-&lt;206.0,332.0&gt;-&lt;206.0,323.0&gt;&gt;
+
+* uni20B2 (U+20B2) contains a short segment B&lt;&lt;420.0,-12.0&gt;-&lt;416.0,-12.0&gt;-&lt;413.0,-12.0&gt;&gt;
+
+* uni20B2 (U+20B2) contains a short segment L&lt;&lt;422.0,50.0&gt;--&lt;425.0,50.0&gt;&gt;
+
+* uni20B5 (U+20B5) contains a short segment L&lt;&lt;412.0,50.0&gt;--&lt;418.0,50.0&gt;&gt;
+
+* uni20B5 (U+20B5) contains a short segment B&lt;&lt;417.0,-12.0&gt;-&lt;410.0,-12.0&gt;-&lt;403.0,-12.0&gt;&gt;
+
+* trademark (U+2122) contains a short segment L&lt;&lt;648.0,428.0&gt;--&lt;642.0,428.0&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;227.0,341.0&gt;-&lt;222.0,341.0&gt;-&lt;222.0,335.0&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;222.0,140.0&gt;-&lt;222.0,133.0&gt;-&lt;223.5,129.5&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;223.5,129.5&gt;-&lt;225.0,126.0&gt;-&lt;232.0,118.0&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;685.0,360.0&gt;-&lt;689.0,360.0&gt;-&lt;689.0,366.0&gt;&gt;
+
+* uni21A9 (U+21A9) contains a short segment L&lt;&lt;645.0,630.0&gt;--&lt;655.0,630.0&gt;&gt;
+
+* uni21AA (U+21AA) contains a short segment L&lt;&lt;309.0,573.0&gt;--&lt;299.0,573.0&gt;&gt;
+
+* fi (U+FB01) contains a short segment B&lt;&lt;413.0,698.0&gt;-&lt;405.0,699.0&gt;-&lt;394.5,700.0&gt;&gt;
+
+* fi (U+FB01) contains a short segment B&lt;&lt;394.5,700.0&gt;-&lt;384.0,701.0&gt;-&lt;379.0,701.0&gt;&gt;
+
+* fl (U+FB02) contains a short segment B&lt;&lt;413.0,698.0&gt;-&lt;405.0,699.0&gt;-&lt;394.5,700.0&gt;&gt; 
+
+* fl (U+FB02) contains a short segment B&lt;&lt;394.5,700.0&gt;-&lt;384.0,701.0&gt;-&lt;379.0,701.0&gt;&gt; [code: found-short-segments]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:</p>
+<pre><code>* M (U+004D) contains a short segment L&lt;&lt;455.0,200.0&gt;--&lt;439.0,200.0&gt;&gt;
+
+* t (U+0074) contains a short segment L&lt;&lt;22.0,544.0&gt;--&lt;32.0,544.0&gt;&gt;
+
+* ordfeminine (U+00AA) contains a short segment L&lt;&lt;280.0,606.0&gt;--&lt;280.0,616.0&gt;&gt;
+
+* ae (U+00E6) contains a short segment L&lt;&lt;389.0,344.0&gt;--&lt;389.0,362.0&gt;&gt;
+
+* Eng (U+014A) contains a short segment B&lt;&lt;463.0,-221.0&gt;-&lt;450.0,-221.0&gt;-&lt;436.0,-220.0&gt;&gt;
+
+* Eng (U+014A) contains a short segment B&lt;&lt;436.0,-220.0&gt;-&lt;422.0,-219.0&gt;-&lt;413.0,-217.0&gt;&gt;
+
+* uni0163 (U+0163) contains a short segment L&lt;&lt;22.0,544.0&gt;--&lt;32.0,544.0&gt;&gt;
+
+* tcaron (U+0165) contains a short segment L&lt;&lt;22.0,544.0&gt;--&lt;32.0,544.0&gt;&gt;
+
+* tbar (U+0167) contains a short segment L&lt;&lt;22.0,544.0&gt;--&lt;32.0,544.0&gt;&gt;
+
+* aeacute (U+01FD) contains a short segment L&lt;&lt;389.0,344.0&gt;--&lt;389.0,362.0&gt;&gt;
+
+* uni021B (U+021B) contains a short segment L&lt;&lt;22.0,544.0&gt;--&lt;32.0,544.0&gt;&gt;
+
+* uni0E3F (U+0E3F) contains a short segment L&lt;&lt;385.0,745.0&gt;--&lt;386.0,745.0&gt;&gt;
+
+* uni1E42 (U+1E42) contains a short segment L&lt;&lt;455.0,200.0&gt;--&lt;439.0,200.0&gt;&gt;
+
+* uni1E6D (U+1E6D) contains a short segment L&lt;&lt;22.0,544.0&gt;--&lt;32.0,544.0&gt;&gt;
+
+* uni1E6F (U+1E6F) contains a short segment L&lt;&lt;22.0,544.0&gt;--&lt;32.0,544.0&gt;&gt;
+
+* uni1E97 (U+1E97) contains a short segment L&lt;&lt;22.0,544.0&gt;--&lt;32.0,544.0&gt;&gt;
+
+* uni2076 (U+2076) contains a short segment B&lt;&lt;221.0,558.0&gt;-&lt;225.0,559.0&gt;-&lt;230.0,559.0&gt;&gt;
+
+* uni2086 (U+2086) contains a short segment B&lt;&lt;221.0,334.0&gt;-&lt;225.0,335.0&gt;-&lt;230.0,335.0&gt;&gt;
+
+* colonmonetary (U+20A1) contains a short segment B&lt;&lt;422.0,633.0&gt;-&lt;420.0,633.0&gt;-&lt;419.0,633.0&gt;&gt;
+
+* uni20BA (U+20BA) contains a short segment L&lt;&lt;257.0,120.0&gt;--&lt;277.0,120.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;416.0,756.0&gt;-&lt;428.0,757.0&gt;-&lt;440.0,757.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;440.0,757.0&gt;-&lt;452.0,757.0&gt;-&lt;464.0,756.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;464.0,632.0&gt;-&lt;451.0,633.0&gt;-&lt;439.0,633.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;439.0,633.0&gt;-&lt;427.0,633.0&gt;-&lt;416.0,632.0&gt;&gt;
+
+* trademark (U+2122) contains a short segment L&lt;&lt;690.0,403.0&gt;--&lt;674.0,403.0&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;190.0,341.0&gt;-&lt;185.0,341.0&gt;-&lt;185.0,335.0&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;185.0,140.0&gt;-&lt;185.0,133.0&gt;-&lt;186.0,129.5&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;186.0,129.5&gt;-&lt;187.0,126.0&gt;-&lt;195.0,118.0&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;648.0,360.0&gt;-&lt;652.0,360.0&gt;-&lt;652.0,366.0&gt;&gt;
+
+* uni21A9 (U+21A9) contains a short segment L&lt;&lt;687.0,630.0&gt;--&lt;697.0,630.0&gt;&gt;
+
+* uni21AA (U+21AA) contains a short segment L&lt;&lt;226.0,514.0&gt;--&lt;216.0,514.0&gt;&gt;
+
+* fi (U+FB01) contains a short segment L&lt;&lt;124.0,544.0&gt;--&lt;124.0,562.0&gt;&gt; 
+
+* fl (U+FB02) contains a short segment L&lt;&lt;124.0,544.0&gt;--&lt;124.0,562.0&gt;&gt; [code: found-short-segments]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:</p>
+<pre><code>* three (U+0033) contains a short segment B&lt;&lt;294.0,404.0&gt;-&lt;285.0,404.0&gt;-&lt;272.5,403.0&gt;&gt;
+
+* question (U+003F) contains a short segment L&lt;&lt;160.0,208.0&gt;--&lt;160.0,212.0&gt;&gt;
+
+* M (U+004D) contains a short segment L&lt;&lt;410.0,246.0&gt;--&lt;408.0,246.0&gt;&gt;
+
+* questiondown (U+00BF) contains a short segment L&lt;&lt;314.0,318.0&gt;--&lt;314.0,314.0&gt;&gt;
+
+* uni1E42 (U+1E42) contains a short segment L&lt;&lt;410.0,246.0&gt;--&lt;408.0,246.0&gt;&gt;
+
+* colonmonetary (U+20A1) contains a short segment B&lt;&lt;421.0,757.0&gt;-&lt;425.0,757.0&gt;-&lt;430.0,757.0&gt;&gt;
+
+* colonmonetary (U+20A1) contains a short segment B&lt;&lt;438.0,-12.0&gt;-&lt;434.0,-12.0&gt;-&lt;430.0,-12.0&gt;&gt;
+
+* uni20BF (U+20BF) contains a short segment B&lt;&lt;400.0,745.0&gt;-&lt;403.0,745.0&gt;-&lt;406.0,745.0&gt;&gt;
+
+* uni20BF (U+20BF) contains a short segment L&lt;&lt;406.0,0.0&gt;--&lt;400.0,0.0&gt;&gt;
+
+* trademark (U+2122) contains a short segment L&lt;&lt;613.0,435.0&gt;--&lt;609.0,435.0&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;217.0,341.0&gt;-&lt;212.0,341.0&gt;-&lt;212.0,335.0&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;212.0,140.0&gt;-&lt;212.0,133.0&gt;-&lt;213.5,129.5&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;213.5,129.5&gt;-&lt;215.0,126.0&gt;-&lt;222.0,118.0&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;675.0,360.0&gt;-&lt;679.0,360.0&gt;-&lt;679.0,366.0&gt;&gt;
+
+* uni21A9 (U+21A9) contains a short segment L&lt;&lt;632.0,630.0&gt;--&lt;642.0,630.0&gt;&gt; 
+
+* uni21AA (U+21AA) contains a short segment L&lt;&lt;282.0,590.0&gt;--&lt;272.0,590.0&gt;&gt; [code: found-short-segments]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:</p>
+<pre><code>* six (U+0036) contains a short segment B&lt;&lt;318.0,478.0&gt;-&lt;324.0,478.0&gt;-&lt;330.0,478.0&gt;&gt;
+
+* nine (U+0039) contains a short segment B&lt;&lt;286.0,267.0&gt;-&lt;280.0,267.0&gt;-&lt;274.0,267.0&gt;&gt;
+
+* M (U+004D) contains a short segment L&lt;&lt;466.0,190.0&gt;--&lt;446.0,190.0&gt;&gt;
+
+* a (U+0061) contains a short segment L&lt;&lt;378.0,345.0&gt;--&lt;378.0,360.0&gt;&gt;
+
+* f (U+0066) contains a short segment L&lt;&lt;121.0,546.0&gt;--&lt;121.0,554.0&gt;&gt;
+
+* t (U+0074) contains a short segment L&lt;&lt;18.0,546.0&gt;--&lt;23.0,546.0&gt;&gt;
+
+* ordfeminine (U+00AA) contains a short segment L&lt;&lt;271.0,605.0&gt;--&lt;271.0,613.0&gt;&gt;
+
+* agrave (U+00E0) contains a short segment L&lt;&lt;378.0,345.0&gt;--&lt;378.0,360.0&gt;&gt;
+
+* aacute (U+00E1) contains a short segment L&lt;&lt;378.0,345.0&gt;--&lt;378.0,360.0&gt;&gt;
+
+* acircumflex (U+00E2) contains a short segment L&lt;&lt;378.0,345.0&gt;--&lt;378.0,360.0&gt;&gt;
+
+* atilde (U+00E3) contains a short segment L&lt;&lt;378.0,345.0&gt;--&lt;378.0,360.0&gt;&gt;
+
+* adieresis (U+00E4) contains a short segment L&lt;&lt;378.0,345.0&gt;--&lt;378.0,360.0&gt;&gt;
+
+* aring (U+00E5) contains a short segment L&lt;&lt;378.0,345.0&gt;--&lt;378.0,360.0&gt;&gt;
+
+* ae (U+00E6) contains a short segment L&lt;&lt;378.0,345.0&gt;--&lt;378.0,360.0&gt;&gt;
+
+* amacron (U+0101) contains a short segment L&lt;&lt;378.0,345.0&gt;--&lt;378.0,360.0&gt;&gt;
+
+* abreve (U+0103) contains a short segment L&lt;&lt;378.0,345.0&gt;--&lt;378.0,360.0&gt;&gt;
+
+* aogonek (U+0105) contains a short segment L&lt;&lt;378.0,345.0&gt;--&lt;378.0,360.0&gt;&gt;
+
+* uni0163 (U+0163) contains a short segment L&lt;&lt;18.0,546.0&gt;--&lt;23.0,546.0&gt;&gt;
+
+* tcaron (U+0165) contains a short segment L&lt;&lt;18.0,546.0&gt;--&lt;23.0,546.0&gt;&gt;
+
+* tbar (U+0167) contains a short segment L&lt;&lt;18.0,546.0&gt;--&lt;23.0,546.0&gt;&gt;
+
+* Ohorn (U+01A0) contains a short segment B&lt;&lt;639.0,757.0&gt;-&lt;645.0,757.0&gt;-&lt;656.0,758.5&gt;&gt;
+
+* aringacute (U+01FB) contains a short segment L&lt;&lt;378.0,345.0&gt;--&lt;378.0,360.0&gt;&gt;
+
+* aeacute (U+01FD) contains a short segment L&lt;&lt;378.0,345.0&gt;--&lt;378.0,360.0&gt;&gt;
+
+* uni0201 (U+0201) contains a short segment L&lt;&lt;378.0,345.0&gt;--&lt;378.0,360.0&gt;&gt;
+
+* uni0203 (U+0203) contains a short segment L&lt;&lt;378.0,345.0&gt;--&lt;378.0,360.0&gt;&gt;
+
+* uni021B (U+021B) contains a short segment L&lt;&lt;18.0,546.0&gt;--&lt;23.0,546.0&gt;&gt;
+
+* uni031B (U+031B) contains a short segment L&lt;&lt;129.0,743.0&gt;--&lt;133.0,743.0&gt;&gt;
+
+* uni0E3F (U+0E3F) contains a short segment L&lt;&lt;390.0,465.0&gt;--&lt;392.0,465.0&gt;&gt;
+
+* uni1E42 (U+1E42) contains a short segment L&lt;&lt;466.0,190.0&gt;--&lt;446.0,190.0&gt;&gt;
+
+* uni1E6D (U+1E6D) contains a short segment L&lt;&lt;18.0,546.0&gt;--&lt;23.0,546.0&gt;&gt;
+
+* uni1E6F (U+1E6F) contains a short segment L&lt;&lt;18.0,546.0&gt;--&lt;23.0,546.0&gt;&gt;
+
+* uni1E97 (U+1E97) contains a short segment L&lt;&lt;18.0,546.0&gt;--&lt;23.0,546.0&gt;&gt;
+
+* uni1EA1 (U+1EA1) contains a short segment L&lt;&lt;378.0,345.0&gt;--&lt;378.0,360.0&gt;&gt;
+
+* uni1EA3 (U+1EA3) contains a short segment L&lt;&lt;378.0,345.0&gt;--&lt;378.0,360.0&gt;&gt;
+
+* uni1EA5 (U+1EA5) contains a short segment L&lt;&lt;378.0,345.0&gt;--&lt;378.0,360.0&gt;&gt;
+
+* uni1EA7 (U+1EA7) contains a short segment L&lt;&lt;378.0,345.0&gt;--&lt;378.0,360.0&gt;&gt;
+
+* uni1EA9 (U+1EA9) contains a short segment L&lt;&lt;378.0,345.0&gt;--&lt;378.0,360.0&gt;&gt;
+
+* uni1EAB (U+1EAB) contains a short segment L&lt;&lt;378.0,345.0&gt;--&lt;378.0,360.0&gt;&gt;
+
+* uni1EAD (U+1EAD) contains a short segment L&lt;&lt;378.0,345.0&gt;--&lt;378.0,360.0&gt;&gt;
+
+* uni1EAF (U+1EAF) contains a short segment L&lt;&lt;378.0,345.0&gt;--&lt;378.0,360.0&gt;&gt;
+
+* uni1EB1 (U+1EB1) contains a short segment L&lt;&lt;378.0,345.0&gt;--&lt;378.0,360.0&gt;&gt;
+
+* uni1EB3 (U+1EB3) contains a short segment L&lt;&lt;378.0,345.0&gt;--&lt;378.0,360.0&gt;&gt;
+
+* uni1EB5 (U+1EB5) contains a short segment L&lt;&lt;378.0,345.0&gt;--&lt;378.0,360.0&gt;&gt;
+
+* uni1EB7 (U+1EB7) contains a short segment L&lt;&lt;378.0,345.0&gt;--&lt;378.0,360.0&gt;&gt;
+
+* uni1EDA (U+1EDA) contains a short segment B&lt;&lt;639.0,757.0&gt;-&lt;645.0,757.0&gt;-&lt;656.0,758.5&gt;&gt;
+
+* uni1EDC (U+1EDC) contains a short segment B&lt;&lt;639.0,757.0&gt;-&lt;645.0,757.0&gt;-&lt;656.0,758.5&gt;&gt;
+
+* uni1EDE (U+1EDE) contains a short segment B&lt;&lt;639.0,757.0&gt;-&lt;645.0,757.0&gt;-&lt;656.0,758.5&gt;&gt;
+
+* uni1EE0 (U+1EE0) contains a short segment B&lt;&lt;639.0,757.0&gt;-&lt;645.0,757.0&gt;-&lt;656.0,758.5&gt;&gt;
+
+* uni1EE2 (U+1EE2) contains a short segment B&lt;&lt;639.0,757.0&gt;-&lt;645.0,757.0&gt;-&lt;656.0,758.5&gt;&gt;
+
+* lira (U+20A4) contains a short segment L&lt;&lt;133.0,488.0&gt;--&lt;133.0,505.0&gt;&gt;
+
+* Euro (U+20AC) contains a short segment B&lt;&lt;103.0,348.0&gt;-&lt;102.0,360.0&gt;-&lt;102.0,373.0&gt;&gt;
+
+* Euro (U+20AC) contains a short segment B&lt;&lt;102.0,373.0&gt;-&lt;102.0,386.0&gt;-&lt;103.0,398.0&gt;&gt;
+
+* Euro (U+20AC) contains a short segment B&lt;&lt;257.0,398.0&gt;-&lt;256.0,386.0&gt;-&lt;256.0,373.0&gt;&gt;
+
+* Euro (U+20AC) contains a short segment B&lt;&lt;256.0,373.0&gt;-&lt;256.0,360.0&gt;-&lt;257.0,348.0&gt;&gt;
+
+* uni20AD (U+20AD) contains a short segment L&lt;&lt;268.0,418.0&gt;--&lt;291.0,418.0&gt;&gt;
+
+* uni20AD (U+20AD) contains a short segment L&lt;&lt;286.0,328.0&gt;--&lt;268.0,328.0&gt;&gt;
+
+* uni20B1 (U+20B1) contains a short segment B&lt;&lt;663.0,523.0&gt;-&lt;663.0,515.0&gt;-&lt;663.0,507.0&gt;&gt;
+
+* uni20B1 (U+20B1) contains a short segment B&lt;&lt;663.0,507.0&gt;-&lt;663.0,500.0&gt;-&lt;663.0,493.0&gt;&gt;
+
+* uni20BA (U+20BA) contains a short segment L&lt;&lt;268.0,135.0&gt;--&lt;290.0,135.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;420.0,757.0&gt;-&lt;430.0,757.0&gt;-&lt;440.0,757.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;440.0,757.0&gt;-&lt;450.0,757.0&gt;-&lt;460.0,757.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;460.0,616.0&gt;-&lt;450.0,617.0&gt;-&lt;439.0,617.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;439.0,617.0&gt;-&lt;429.0,617.0&gt;-&lt;420.0,616.0&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;184.0,341.0&gt;-&lt;179.0,341.0&gt;-&lt;179.0,335.0&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;179.0,140.0&gt;-&lt;179.0,133.0&gt;-&lt;180.5,129.5&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;180.5,129.5&gt;-&lt;182.0,126.0&gt;-&lt;189.0,118.0&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;642.0,360.0&gt;-&lt;646.0,360.0&gt;-&lt;646.0,366.0&gt;&gt;
+
+* uni21A9 (U+21A9) contains a short segment L&lt;&lt;700.0,630.0&gt;--&lt;710.0,630.0&gt;&gt;
+
+* uni21AA (U+21AA) contains a short segment L&lt;&lt;218.0,500.0&gt;--&lt;208.0,500.0&gt;&gt;
+
+* fi (U+FB01) contains a short segment L&lt;&lt;121.0,546.0&gt;--&lt;121.0,554.0&gt;&gt; 
+
+* fl (U+FB02) contains a short segment L&lt;&lt;121.0,546.0&gt;--&lt;121.0,554.0&gt;&gt; [code: found-short-segments]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-Italic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:</p>
+<pre><code>* question (U+003F) contains a short segment L&lt;&lt;186.0,214.0&gt;--&lt;188.0,224.0&gt;&gt;
+
+* at (U+0040) contains a short segment B&lt;&lt;680.5,78.0&gt;-&lt;697.0,70.0&gt;-&lt;715.0,70.0&gt;&gt;
+
+* M (U+004D) contains a short segment L&lt;&lt;415.0,230.0&gt;--&lt;411.0,230.0&gt;&gt;
+
+* e (U+0065) contains a short segment B&lt;&lt;134.0,245.0&gt;-&lt;134.0,239.0&gt;-&lt;134.0,232.0&gt;&gt;
+
+* questiondown (U+00BF) contains a short segment L&lt;&lt;314.0,322.0&gt;--&lt;312.0,312.0&gt;&gt;
+
+* ae (U+00E6) contains a short segment L&lt;&lt;430.0,341.0&gt;--&lt;432.0,359.0&gt;&gt;
+
+* egrave (U+00E8) contains a short segment B&lt;&lt;134.0,245.0&gt;-&lt;134.0,239.0&gt;-&lt;134.0,232.0&gt;&gt;
+
+* eacute (U+00E9) contains a short segment B&lt;&lt;134.0,245.0&gt;-&lt;134.0,239.0&gt;-&lt;134.0,232.0&gt;&gt;
+
+* ecircumflex (U+00EA) contains a short segment B&lt;&lt;134.0,245.0&gt;-&lt;134.0,239.0&gt;-&lt;134.0,232.0&gt;&gt;
+
+* edieresis (U+00EB) contains a short segment B&lt;&lt;134.0,245.0&gt;-&lt;134.0,239.0&gt;-&lt;134.0,232.0&gt;&gt;
+
+* emacron (U+0113) contains a short segment B&lt;&lt;134.0,245.0&gt;-&lt;134.0,239.0&gt;-&lt;134.0,232.0&gt;&gt;
+
+* ebreve (U+0115) contains a short segment B&lt;&lt;134.0,245.0&gt;-&lt;134.0,239.0&gt;-&lt;134.0,232.0&gt;&gt;
+
+* edotaccent (U+0117) contains a short segment B&lt;&lt;134.0,245.0&gt;-&lt;134.0,239.0&gt;-&lt;134.0,232.0&gt;&gt;
+
+* eogonek (U+0119) contains a short segment B&lt;&lt;134.0,245.0&gt;-&lt;134.0,239.0&gt;-&lt;134.0,232.0&gt;&gt;
+
+* ecaron (U+011B) contains a short segment B&lt;&lt;134.0,245.0&gt;-&lt;134.0,239.0&gt;-&lt;134.0,232.0&gt;&gt;
+
+* Eng (U+014A) contains a short segment B&lt;&lt;404.0,-220.0&gt;-&lt;397.0,-220.0&gt;-&lt;384.5,-219.0&gt;&gt;
+
+* Eng (U+014A) contains a short segment B&lt;&lt;384.5,-219.0&gt;-&lt;372.0,-218.0&gt;-&lt;365.0,-216.0&gt;&gt;
+
+* florin (U+0192) contains a short segment B&lt;&lt;47.5,59.0&gt;-&lt;59.0,58.0&gt;-&lt;63.0,58.0&gt;&gt;
+
+* florin (U+0192) contains a short segment B&lt;&lt;473.5,686.5&gt;-&lt;462.0,687.0&gt;-&lt;458.0,687.0&gt;&gt;
+
+* aeacute (U+01FD) contains a short segment L&lt;&lt;430.0,341.0&gt;--&lt;432.0,359.0&gt;&gt;
+
+* uni0205 (U+0205) contains a short segment B&lt;&lt;134.0,245.0&gt;-&lt;134.0,239.0&gt;-&lt;134.0,232.0&gt;&gt;
+
+* uni0207 (U+0207) contains a short segment B&lt;&lt;134.0,245.0&gt;-&lt;134.0,239.0&gt;-&lt;134.0,232.0&gt;&gt;
+
+* uni0259 (U+0259) contains a short segment B&lt;&lt;483.0,291.0&gt;-&lt;483.0,297.0&gt;-&lt;483.0,304.0&gt;&gt;
+
+* uni1E15 (U+1E15) contains a short segment B&lt;&lt;134.0,245.0&gt;-&lt;134.0,239.0&gt;-&lt;134.0,232.0&gt;&gt;
+
+* uni1E17 (U+1E17) contains a short segment B&lt;&lt;134.0,245.0&gt;-&lt;134.0,239.0&gt;-&lt;134.0,232.0&gt;&gt;
+
+* uni1E1D (U+1E1D) contains a short segment B&lt;&lt;134.0,245.0&gt;-&lt;134.0,239.0&gt;-&lt;134.0,232.0&gt;&gt;
+
+* uni1E42 (U+1E42) contains a short segment L&lt;&lt;415.0,230.0&gt;--&lt;411.0,230.0&gt;&gt;
+
+* uni1EB9 (U+1EB9) contains a short segment B&lt;&lt;134.0,245.0&gt;-&lt;134.0,239.0&gt;-&lt;134.0,232.0&gt;&gt;
+
+* uni1EBB (U+1EBB) contains a short segment B&lt;&lt;134.0,245.0&gt;-&lt;134.0,239.0&gt;-&lt;134.0,232.0&gt;&gt;
+
+* uni1EBD (U+1EBD) contains a short segment B&lt;&lt;134.0,245.0&gt;-&lt;134.0,239.0&gt;-&lt;134.0,232.0&gt;&gt;
+
+* uni1EBF (U+1EBF) contains a short segment B&lt;&lt;134.0,245.0&gt;-&lt;134.0,239.0&gt;-&lt;134.0,232.0&gt;&gt;
+
+* uni1EC1 (U+1EC1) contains a short segment B&lt;&lt;134.0,245.0&gt;-&lt;134.0,239.0&gt;-&lt;134.0,232.0&gt;&gt;
+
+* uni1EC3 (U+1EC3) contains a short segment B&lt;&lt;134.0,245.0&gt;-&lt;134.0,239.0&gt;-&lt;134.0,232.0&gt;&gt;
+
+* uni1EC5 (U+1EC5) contains a short segment B&lt;&lt;134.0,245.0&gt;-&lt;134.0,239.0&gt;-&lt;134.0,232.0&gt;&gt;
+
+* uni1EC7 (U+1EC7) contains a short segment B&lt;&lt;134.0,245.0&gt;-&lt;134.0,239.0&gt;-&lt;134.0,232.0&gt;&gt;
+
+* colonmonetary (U+20A1) contains a short segment B&lt;&lt;417.0,-12.0&gt;-&lt;413.0,-12.0&gt;-&lt;410.0,-12.0&gt;&gt;
+
+* Euro (U+20AC) contains a short segment B&lt;&lt;138.0,328.0&gt;-&lt;138.0,333.0&gt;-&lt;138.0,339.0&gt;&gt;
+
+* Euro (U+20AC) contains a short segment B&lt;&lt;217.0,341.0&gt;-&lt;217.0,334.0&gt;-&lt;217.0,328.0&gt;&gt;
+
+* uni20B2 (U+20B2) contains a short segment B&lt;&lt;415.0,-12.0&gt;-&lt;412.0,-12.0&gt;-&lt;408.0,-12.0&gt;&gt;
+
+* uni20B2 (U+20B2) contains a short segment L&lt;&lt;419.0,63.0&gt;--&lt;423.0,63.0&gt;&gt;
+
+* uni20B5 (U+20B5) contains a short segment B&lt;&lt;417.0,-12.0&gt;-&lt;413.0,-12.0&gt;-&lt;409.0,-12.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;451.0,756.0&gt;-&lt;467.0,757.0&gt;-&lt;482.0,757.0&gt;&gt;
+
+* trademark (U+2122) contains a short segment L&lt;&lt;658.0,420.0&gt;--&lt;649.0,420.0&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;221.0,341.0&gt;-&lt;216.0,341.0&gt;-&lt;216.0,335.0&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;216.0,140.0&gt;-&lt;216.0,133.0&gt;-&lt;217.5,129.5&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;217.5,129.5&gt;-&lt;219.0,126.0&gt;-&lt;226.0,118.0&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;679.0,360.0&gt;-&lt;683.0,360.0&gt;-&lt;683.0,366.0&gt;&gt;
+
+* uni21A9 (U+21A9) contains a short segment L&lt;&lt;653.0,630.0&gt;--&lt;663.0,630.0&gt;&gt;
+
+* uni21AA (U+21AA) contains a short segment L&lt;&lt;309.0,555.0&gt;--&lt;299.0,555.0&gt;&gt;
+
+* fi (U+FB01) contains a short segment B&lt;&lt;416.0,684.0&gt;-&lt;409.0,686.0&gt;-&lt;397.5,686.5&gt;&gt;
+
+* fi (U+FB01) contains a short segment B&lt;&lt;397.5,686.5&gt;-&lt;386.0,687.0&gt;-&lt;382.0,687.0&gt;&gt;
+
+* fl (U+FB02) contains a short segment B&lt;&lt;416.0,684.0&gt;-&lt;409.0,686.0&gt;-&lt;397.5,686.5&gt;&gt; 
+
+* fl (U+FB02) contains a short segment B&lt;&lt;397.5,686.5&gt;-&lt;386.0,687.0&gt;-&lt;382.0,687.0&gt;&gt; [code: found-short-segments]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-BoldItalic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:</p>
+<pre><code>* M (U+004D) contains a short segment L&lt;&lt;444.0,200.0&gt;--&lt;428.0,200.0&gt;&gt;
+
+* a (U+0061) contains a short segment L&lt;&lt;398.0,345.0&gt;--&lt;400.0,360.0&gt;&gt;
+
+* f (U+0066) contains a short segment B&lt;&lt;418.5,641.5&gt;-&lt;410.0,642.0&gt;-&lt;405.0,642.0&gt;&gt;
+
+* t (U+0074) contains a short segment L&lt;&lt;60.0,544.0&gt;--&lt;67.0,544.0&gt;&gt;
+
+* ordfeminine (U+00AA) contains a short segment L&lt;&lt;326.0,607.0&gt;--&lt;327.0,617.0&gt;&gt;
+
+* agrave (U+00E0) contains a short segment L&lt;&lt;398.0,345.0&gt;--&lt;400.0,360.0&gt;&gt;
+
+* aacute (U+00E1) contains a short segment L&lt;&lt;398.0,345.0&gt;--&lt;400.0,360.0&gt;&gt;
+
+* acircumflex (U+00E2) contains a short segment L&lt;&lt;398.0,345.0&gt;--&lt;400.0,360.0&gt;&gt;
+
+* atilde (U+00E3) contains a short segment L&lt;&lt;398.0,345.0&gt;--&lt;400.0,360.0&gt;&gt;
+
+* adieresis (U+00E4) contains a short segment L&lt;&lt;398.0,345.0&gt;--&lt;400.0,360.0&gt;&gt;
+
+* aring (U+00E5) contains a short segment L&lt;&lt;398.0,345.0&gt;--&lt;400.0,360.0&gt;&gt;
+
+* ae (U+00E6) contains a short segment L&lt;&lt;398.0,345.0&gt;--&lt;400.0,360.0&gt;&gt;
+
+* amacron (U+0101) contains a short segment L&lt;&lt;398.0,345.0&gt;--&lt;400.0,360.0&gt;&gt;
+
+* abreve (U+0103) contains a short segment L&lt;&lt;398.0,345.0&gt;--&lt;400.0,360.0&gt;&gt;
+
+* aogonek (U+0105) contains a short segment L&lt;&lt;398.0,345.0&gt;--&lt;400.0,360.0&gt;&gt;
+
+* Eng (U+014A) contains a short segment B&lt;&lt;394.0,-221.0&gt;-&lt;381.0,-221.0&gt;-&lt;367.0,-220.0&gt;&gt;
+
+* Eng (U+014A) contains a short segment B&lt;&lt;367.0,-220.0&gt;-&lt;353.0,-219.0&gt;-&lt;345.0,-217.0&gt;&gt;
+
+* eng (U+014B) contains a short segment B&lt;&lt;224.0,-104.0&gt;-&lt;233.0,-106.0&gt;-&lt;241.5,-106.0&gt;&gt;
+
+* eng (U+014B) contains a short segment B&lt;&lt;241.5,-106.0&gt;-&lt;250.0,-106.0&gt;-&lt;256.0,-106.0&gt;&gt;
+
+* uni0163 (U+0163) contains a short segment L&lt;&lt;60.0,544.0&gt;--&lt;67.0,544.0&gt;&gt;
+
+* tcaron (U+0165) contains a short segment L&lt;&lt;60.0,544.0&gt;--&lt;67.0,544.0&gt;&gt;
+
+* tbar (U+0167) contains a short segment L&lt;&lt;60.0,544.0&gt;--&lt;67.0,544.0&gt;&gt;
+
+* florin (U+0192) contains a short segment B&lt;&lt;87.5,103.5&gt;-&lt;96.0,103.0&gt;-&lt;101.0,103.0&gt;&gt;
+
+* florin (U+0192) contains a short segment B&lt;&lt;517.0,641.5&gt;-&lt;509.0,642.0&gt;-&lt;504.0,642.0&gt;&gt;
+
+* Uhorn (U+01AF) contains a short segment B&lt;&lt;699.0,745.0&gt;-&lt;709.0,745.0&gt;-&lt;722.5,749.0&gt;&gt;
+
+* aringacute (U+01FB) contains a short segment L&lt;&lt;398.0,345.0&gt;--&lt;400.0,360.0&gt;&gt;
+
+* aeacute (U+01FD) contains a short segment L&lt;&lt;398.0,345.0&gt;--&lt;400.0,360.0&gt;&gt;
+
+* uni0201 (U+0201) contains a short segment L&lt;&lt;398.0,345.0&gt;--&lt;400.0,360.0&gt;&gt;
+
+* uni0203 (U+0203) contains a short segment L&lt;&lt;398.0,345.0&gt;--&lt;400.0,360.0&gt;&gt;
+
+* uni021B (U+021B) contains a short segment L&lt;&lt;60.0,544.0&gt;--&lt;67.0,544.0&gt;&gt;
+
+* uni1E42 (U+1E42) contains a short segment L&lt;&lt;444.0,200.0&gt;--&lt;428.0,200.0&gt;&gt;
+
+* uni1E6D (U+1E6D) contains a short segment L&lt;&lt;60.0,544.0&gt;--&lt;67.0,544.0&gt;&gt;
+
+* uni1E6F (U+1E6F) contains a short segment L&lt;&lt;60.0,544.0&gt;--&lt;67.0,544.0&gt;&gt;
+
+* uni1E97 (U+1E97) contains a short segment L&lt;&lt;60.0,544.0&gt;--&lt;67.0,544.0&gt;&gt;
+
+* uni1EA1 (U+1EA1) contains a short segment L&lt;&lt;398.0,345.0&gt;--&lt;400.0,360.0&gt;&gt;
+
+* uni1EA3 (U+1EA3) contains a short segment L&lt;&lt;398.0,345.0&gt;--&lt;400.0,360.0&gt;&gt;
+
+* uni1EA5 (U+1EA5) contains a short segment L&lt;&lt;398.0,345.0&gt;--&lt;400.0,360.0&gt;&gt;
+
+* uni1EA7 (U+1EA7) contains a short segment L&lt;&lt;398.0,345.0&gt;--&lt;400.0,360.0&gt;&gt;
+
+* uni1EA9 (U+1EA9) contains a short segment L&lt;&lt;398.0,345.0&gt;--&lt;400.0,360.0&gt;&gt;
+
+* uni1EAB (U+1EAB) contains a short segment L&lt;&lt;398.0,345.0&gt;--&lt;400.0,360.0&gt;&gt;
+
+* uni1EAD (U+1EAD) contains a short segment L&lt;&lt;398.0,345.0&gt;--&lt;400.0,360.0&gt;&gt;
+
+* uni1EAF (U+1EAF) contains a short segment L&lt;&lt;398.0,345.0&gt;--&lt;400.0,360.0&gt;&gt;
+
+* uni1EB1 (U+1EB1) contains a short segment L&lt;&lt;398.0,345.0&gt;--&lt;400.0,360.0&gt;&gt;
+
+* uni1EB3 (U+1EB3) contains a short segment L&lt;&lt;398.0,345.0&gt;--&lt;400.0,360.0&gt;&gt;
+
+* uni1EB5 (U+1EB5) contains a short segment L&lt;&lt;398.0,345.0&gt;--&lt;400.0,360.0&gt;&gt;
+
+* uni1EB7 (U+1EB7) contains a short segment L&lt;&lt;398.0,345.0&gt;--&lt;400.0,360.0&gt;&gt;
+
+* uni1EE8 (U+1EE8) contains a short segment B&lt;&lt;699.0,745.0&gt;-&lt;709.0,745.0&gt;-&lt;722.5,749.0&gt;&gt;
+
+* uni1EEA (U+1EEA) contains a short segment B&lt;&lt;699.0,745.0&gt;-&lt;709.0,745.0&gt;-&lt;722.5,749.0&gt;&gt;
+
+* uni1EEC (U+1EEC) contains a short segment B&lt;&lt;699.0,745.0&gt;-&lt;709.0,745.0&gt;-&lt;722.5,749.0&gt;&gt;
+
+* uni1EEE (U+1EEE) contains a short segment B&lt;&lt;699.0,745.0&gt;-&lt;709.0,745.0&gt;-&lt;722.5,749.0&gt;&gt;
+
+* uni1EF0 (U+1EF0) contains a short segment B&lt;&lt;699.0,745.0&gt;-&lt;709.0,745.0&gt;-&lt;722.5,749.0&gt;&gt;
+
+* uni2076 (U+2076) contains a short segment L&lt;&lt;263.0,558.0&gt;--&lt;267.0,559.0&gt;&gt;
+
+* uni2079 (U+2079) contains a short segment L&lt;&lt;219.0,411.0&gt;--&lt;215.0,411.0&gt;&gt;
+
+* uni2086 (U+2086) contains a short segment L&lt;&lt;232.0,334.0&gt;--&lt;236.0,335.0&gt;&gt;
+
+* uni2089 (U+2089) contains a short segment L&lt;&lt;188.0,187.0&gt;--&lt;184.0,187.0&gt;&gt;
+
+* uni20AA (U+20AA) contains a short segment B&lt;&lt;411.0,133.0&gt;-&lt;419.0,133.0&gt;-&lt;426.5,139.5&gt;&gt;
+
+* uni20AA (U+20AA) contains a short segment B&lt;&lt;426.5,139.5&gt;-&lt;434.0,146.0&gt;-&lt;435.0,155.0&gt;&gt;
+
+* Euro (U+20AC) contains a short segment B&lt;&lt;258.0,346.0&gt;-&lt;258.0,343.0&gt;-&lt;258.0,343.0&gt;&gt;
+
+* uni20B1 (U+20B1) contains a short segment B&lt;&lt;685.0,530.0&gt;-&lt;686.0,527.0&gt;-&lt;686.0,522.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;465.0,757.0&gt;-&lt;474.0,757.0&gt;-&lt;483.0,757.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;483.0,757.0&gt;-&lt;498.0,757.0&gt;-&lt;512.0,756.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;495.0,633.0&gt;-&lt;484.0,633.0&gt;-&lt;473.0,633.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;473.0,633.0&gt;-&lt;460.0,633.0&gt;-&lt;447.0,632.0&gt;&gt;
+
+* trademark (U+2122) contains a short segment L&lt;&lt;709.0,403.0&gt;--&lt;693.0,403.0&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;204.0,341.0&gt;-&lt;199.0,341.0&gt;-&lt;199.0,335.0&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;199.0,140.0&gt;-&lt;199.0,133.0&gt;-&lt;200.0,129.5&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;200.0,129.5&gt;-&lt;201.0,126.0&gt;-&lt;209.0,118.0&gt;&gt;
+
+* estimated (U+212E) contains a short segment B&lt;&lt;662.0,360.0&gt;-&lt;666.0,360.0&gt;-&lt;666.0,366.0&gt;&gt;
+
+* uni21A9 (U+21A9) contains a short segment L&lt;&lt;691.0,630.0&gt;--&lt;701.0,630.0&gt;&gt;
+
+* uni21AA (U+21AA) contains a short segment L&lt;&lt;333.0,514.0&gt;--&lt;323.0,514.0&gt;&gt;
+
+* integral (U+222B) contains a short segment B&lt;&lt;64.5,-64.5&gt;-&lt;73.0,-65.0&gt;-&lt;77.0,-65.0&gt;&gt;
+
+* integral (U+222B) contains a short segment B&lt;&lt;517.5,641.5&gt;-&lt;509.0,642.0&gt;-&lt;504.0,642.0&gt;&gt;
+
+* fi (U+FB01) contains a short segment L&lt;&lt;162.0,544.0&gt;--&lt;165.0,563.0&gt;&gt;
+
+* fi (U+FB01) contains a short segment B&lt;&lt;436.0,640.0&gt;-&lt;427.0,641.0&gt;-&lt;418.5,641.5&gt;&gt;
+
+* fi (U+FB01) contains a short segment B&lt;&lt;418.5,641.5&gt;-&lt;410.0,642.0&gt;-&lt;405.0,642.0&gt;&gt;
+
+* fl (U+FB02) contains a short segment L&lt;&lt;162.0,544.0&gt;--&lt;165.0,563.0&gt;&gt;
+
+* fl (U+FB02) contains a short segment B&lt;&lt;420.0,755.5&gt;-&lt;435.0,754.0&gt;-&lt;444.0,751.0&gt;&gt;
+
+* fl (U+FB02) contains a short segment B&lt;&lt;436.0,640.0&gt;-&lt;427.0,641.0&gt;-&lt;418.5,641.5&gt;&gt; 
+
+* fl (U+FB02) contains a short segment B&lt;&lt;418.5,641.5&gt;-&lt;410.0,642.0&gt;-&lt;405.0,642.0&gt;&gt; [code: found-short-segments]
+</code></pre>
+</span></li></ul></div></details>
+<h3>Do any segments have colinear vectors?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_colinear_vectors&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:</p>
+<pre><code>* uni20BF (U+20BF): L&lt;&lt;406.0,0.0&gt;--&lt;400.0,0.0&gt;&gt; -&gt; L&lt;&lt;400.0,0.0&gt;--&lt;281.0,0.0&gt;&gt; [code: found-colinear-vectors]
+</code></pre>
+</span></li></ul></div></details>
+<h3>Do outlines contain any semi-vertical or semi-horizontal lines?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_semi_vertical&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<pre><code>* exclam (U+0021): L&lt;&lt;106.0,211.0&gt;--&lt;102.0,745.0&gt;&gt;
+
+* exclam (U+0021): L&lt;&lt;167.0,745.0&gt;--&lt;163.0,211.0&gt;&gt;
+
+* exclamdown (U+00A1): L&lt;&lt;102.0,-214.0&gt;--&lt;106.0,320.0&gt;&gt; 
+
+* exclamdown (U+00A1): L&lt;&lt;163.0,320.0&gt;--&lt;167.0,-214.0&gt;&gt; [code: found-semi-vertical]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<pre><code>* AE (U+00C6): L&lt;&lt;964.0,120.0&gt;--&lt;963.0,0.0&gt;&gt;
+
+* AEacute (U+01FC): L&lt;&lt;964.0,120.0&gt;--&lt;963.0,0.0&gt;&gt;
+
+* OE (U+0152): L&lt;&lt;1193.0,120.0&gt;--&lt;1192.0,0.0&gt;&gt; 
+
+* uni20BE (U+20BE): L&lt;&lt;807.0,480.0&gt;--&lt;661.0,479.0&gt;&gt; [code: found-semi-vertical]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<pre><code>* exclam (U+0021): L&lt;&lt;105.0,208.0&gt;--&lt;103.0,745.0&gt;&gt;
+
+* exclam (U+0021): L&lt;&lt;153.0,745.0&gt;--&lt;150.0,208.0&gt;&gt;
+
+* exclamdown (U+00A1): L&lt;&lt;103.0,-219.0&gt;--&lt;105.0,318.0&gt;&gt; 
+
+* exclamdown (U+00A1): L&lt;&lt;150.0,318.0&gt;--&lt;153.0,-219.0&gt;&gt; [code: found-semi-vertical]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/PlusJakartaSans-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<pre><code>* AE (U+00C6): L&lt;&lt;971.0,135.0&gt;--&lt;970.0,0.0&gt;&gt;
+
+* AEacute (U+01FC): L&lt;&lt;971.0,135.0&gt;--&lt;970.0,0.0&gt;&gt; 
+
+* OE (U+0152): L&lt;&lt;1185.0,135.0&gt;--&lt;1184.0,0.0&gt;&gt; [code: found-semi-vertical]
+</code></pre>
+</span></li></ul></div></details>
+                    </body>
+                </html>
