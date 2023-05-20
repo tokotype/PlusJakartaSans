@@ -2,25 +2,7 @@
 
 Fontbakery version: 0.8.11
 
-<details><summary><b>[1] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Each font in a family must have the same set of vertical metrics values. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/vertical_metrics">com.google.fonts/check/family/vertical_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** usWinDescent is not the same across the family:
-Plus Jakarta Sans Medium Italic: 354
-Plus Jakarta Sans Light: 178
-Plus Jakarta Sans Medium: 354
-Plus Jakarta Sans ExtraBold Italic: 354
-Plus Jakarta Sans SemiBold: 354
-Plus Jakarta Sans SemiBold Italic: 354
-Plus Jakarta Sans ExtraLight Italic: 354
-Plus Jakarta Sans: 354
-Plus Jakarta Sans Light Italic: 354
-Plus Jakarta Sans Bold: 354
-Plus Jakarta Sans ExtraLight: 2
-Plus Jakarta Sans ExtraBold: 354
-Plus Jakarta Sans Italic: 354
-Plus Jakarta Sans Bold Italic: 354 [code: usWinDescent-mismatch]
-</div></details><br></div></details><details><summary><b>[16] PlusJakartaSans-MediumItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+<details><summary><b>[11] PlusJakartaSans-MediumItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -30,38 +12,12 @@ Plus Jakarta Sans Bold Italic: 354 [code: usWinDescent-mismatch]
 
 	- 0x0133 (LATIN SMALL LIGATURE IJ)
  [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics_regressions">com.google.fonts/check/vertical_metrics_regressions</a>)</summary><div>
-
-
-* 🔥 **FAIL** Plus Jakarta Sans Regular: OS/2 sTypoAscender is 972 when it should be 1038 [code: bad-typo-ascender]
-* 🔥 **FAIL** Plus Jakarta Sans Regular: OS/2 sTypoDescender is -228 when it should be -222 [code: bad-typo-descender]
-* 🔥 **FAIL** Plus Jakarta Sans Regular: hhea Ascender is 972 when it should be 1038 [code: bad-hhea-ascender]
-* 🔥 **FAIL** Plus Jakarta Sans Regular: hhea Descender is -228 when it should be -222 [code: bad-hhea-descender]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 358, but got 354 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
 The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̏ j̦̑ j̦̒ į̆ [code: soft-dotted]
-</div></details><details><summary>⚠ <b>WARN:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** For now we're still accepting http URLs, but you should consider using https instead.
- [code: http]
-</div></details><details><summary>⚠ <b>WARN:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
-
-
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]
-* ⚠ **WARN** For now we're still accepting http URLs, but you should consider using https instead.
- [code: http]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -230,146 +186,6 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-
-	* five (U+0035): X=193.0,Y=746.0 (should be at cap-height 745?)
-
-	* five (U+0035): X=573.0,Y=746.0 (should be at cap-height 745?)
-
-	* seven (U+0037): X=106.0,Y=746.0 (should be at cap-height 745?)
-
-	* seven (U+0037): X=574.0,Y=746.0 (should be at cap-height 745?)
-
-	* t (U+0074): X=311.0,Y=-1.0 (should be at baseline 0?)
-
-	* braceleft (U+007B): X=78.0,Y=-2.0 (should be at baseline 0?)
-
-	* braceleft (U+007B): X=175.0,Y=-1.0 (should be at baseline 0?)
-
-	* braceright (U+007D): X=94.0,Y=-1.0 (should be at baseline 0?)
-
-	* braceright (U+007D): X=190.0,Y=-2.0 (should be at baseline 0?)
-
-	* macron (U+00AF): X=176.0,Y=743.0 (should be at cap-height 745?)
-
-	* macron (U+00AF): X=464.0,Y=743.0 (should be at cap-height 745?)
-
-	* atilde (U+00E3): X=213.0,Y=744.5 (should be at cap-height 745?)
-
-	* ae (U+00E6): X=287.0,Y=-1.0 (should be at baseline 0?)
-
-	* ntilde (U+00F1): X=215.0,Y=744.5 (should be at cap-height 745?)
-
-	* otilde (U+00F5): X=254.0,Y=744.5 (should be at cap-height 745?)
-
-	* oslash (U+00F8): X=228.5,Y=1.0 (should be at baseline 0?)
-
-	* amacron (U+0101): X=211.0,Y=743.0 (should be at cap-height 745?)
-
-	* amacron (U+0101): X=499.0,Y=743.0 (should be at cap-height 745?)
-
-	* emacron (U+0113): X=231.0,Y=743.0 (should be at cap-height 745?)
-
-	* emacron (U+0113): X=519.0,Y=743.0 (should be at cap-height 745?)
-
-	* itilde (U+0129): X=30.0,Y=744.5 (should be at cap-height 745?)
-
-	* imacron (U+012B): X=28.0,Y=743.0 (should be at cap-height 745?)
-
-	* imacron (U+012B): X=316.0,Y=743.0 (should be at cap-height 745?)
-
-	* omacron (U+014D): X=252.0,Y=743.0 (should be at cap-height 745?)
-
-	* omacron (U+014D): X=540.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni0163 (U+0163): X=311.0,Y=-1.0 (should be at baseline 0?)
-
-	* tcaron (U+0165): X=311.0,Y=-1.0 (should be at baseline 0?)
-
-	* tbar (U+0167): X=311.0,Y=-1.0 (should be at baseline 0?)
-
-	* utilde (U+0169): X=215.0,Y=744.5 (should be at cap-height 745?)
-
-	* umacron (U+016B): X=213.0,Y=743.0 (should be at cap-height 745?)
-
-	* umacron (U+016B): X=501.0,Y=743.0 (should be at cap-height 745?)
-
-	* aeacute (U+01FD): X=287.0,Y=-1.0 (should be at baseline 0?)
-
-	* oslashacute (U+01FF): X=228.5,Y=1.0 (should be at baseline 0?)
-
-	* uni021B (U+021B): X=311.0,Y=-1.0 (should be at baseline 0?)
-
-	* uni022D (U+022D): X=254.0,Y=744.5 (should be at cap-height 745?)
-
-	* uni0233 (U+0233): X=199.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni0233 (U+0233): X=487.0,Y=743.0 (should be at cap-height 745?)
-
-	* tilde (U+02DC): X=206.0,Y=744.5 (should be at cap-height 745?)
-
-	* tildecomb (U+0303): X=206.0,Y=744.5 (should be at cap-height 745?)
-
-	* uni0304 (U+0304): X=176.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni0304 (U+0304): X=464.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni1E15 (U+1E15): X=232.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni1E15 (U+1E15): X=519.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni1E17 (U+1E17): X=224.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni1E17 (U+1E17): X=512.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni1E21 (U+1E21): X=253.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni1E21 (U+1E21): X=541.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni1E4D (U+1E4D): X=254.0,Y=744.5 (should be at cap-height 745?)
-
-	* uni1E4F (U+1E4F): X=254.0,Y=744.5 (should be at cap-height 745?)
-
-	* uni1E51 (U+1E51): X=252.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni1E51 (U+1E51): X=539.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni1E53 (U+1E53): X=245.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni1E53 (U+1E53): X=533.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni1E65 (U+1E65): X=158.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni1E65 (U+1E65): X=270.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni1E6D (U+1E6D): X=311.0,Y=-1.0 (should be at baseline 0?)
-
-	* uni1E6F (U+1E6F): X=311.0,Y=-1.0 (should be at baseline 0?)
-
-	* uni1E79 (U+1E79): X=215.0,Y=744.5 (should be at cap-height 745?)
-
-	* uni1E7B (U+1E7B): X=213.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni1E7B (U+1E7B): X=500.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni1E97 (U+1E97): X=311.0,Y=-1.0 (should be at baseline 0?)
-
-	* uni1EBD (U+1EBD): X=233.0,Y=744.5 (should be at cap-height 745?)
-
-	* uni1EE1 (U+1EE1): X=254.0,Y=744.5 (should be at cap-height 745?)
-
-	* uni1EEF (U+1EEF): X=215.0,Y=744.5 (should be at cap-height 745?)
-
-	* uni1EF9 (U+1EF9): X=201.0,Y=744.5 (should be at cap-height 745?)
-
-	* uni20BE (U+20BE): X=379.0,Y=744.0 (should be at cap-height 745?)
-
-	* seveneighths (U+215E): X=91.0,Y=746.0 (should be at cap-height 745?) 
-
-	* seveneighths (U+215E): X=370.0,Y=746.0 (should be at cap-height 745?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -488,7 +304,7 @@ The following glyphs do not have the recommended number of contours:
 	* fl (U+FB02) contains a short segment B<<423.0,669.0>-<415.0,671.0>-<404.5,671.5>> 
 
 	* fl (U+FB02) contains a short segment B<<404.5,671.5>-<394.0,672.0>-<390.0,672.0>> [code: found-short-segments]
-</div></details><br></div></details><details><summary><b>[17] PlusJakartaSans-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] PlusJakartaSans-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -498,38 +314,12 @@ The following glyphs do not have the recommended number of contours:
 
 	- 0x0133 (LATIN SMALL LIGATURE IJ)
  [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics_regressions">com.google.fonts/check/vertical_metrics_regressions</a>)</summary><div>
-
-
-* 🔥 **FAIL** Plus Jakarta Sans Regular: OS/2 sTypoAscender is 972 when it should be 1038 [code: bad-typo-ascender]
-* 🔥 **FAIL** Plus Jakarta Sans Regular: OS/2 sTypoDescender is -228 when it should be -222 [code: bad-typo-descender]
-* 🔥 **FAIL** Plus Jakarta Sans Regular: hhea Ascender is 972 when it should be 1038 [code: bad-hhea-ascender]
-* 🔥 **FAIL** Plus Jakarta Sans Regular: hhea Descender is -228 when it should be -222 [code: bad-hhea-descender]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 358, but got 178 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
 The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̏ j̦̑ j̦̒ į̆ [code: soft-dotted]
-</div></details><details><summary>⚠ <b>WARN:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** For now we're still accepting http URLs, but you should consider using https instead.
- [code: http]
-</div></details><details><summary>⚠ <b>WARN:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
-
-
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]
-* ⚠ **WARN** For now we're still accepting http URLs, but you should consider using https instead.
- [code: http]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -652,138 +442,6 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-
-	* y (U+0079): X=233.0,Y=1.0 (should be at baseline 0?)
-
-	* braceleft (U+007B): X=114.0,Y=1.0 (should be at baseline 0?)
-
-	* braceright (U+007D): X=190.0,Y=1.0 (should be at baseline 0?)
-
-	* questiondown (U+00BF): X=238.0,Y=-226.0 (should be at descender -228?)
-
-	* questiondown (U+00BF): X=238.0,Y=-226.0 (should be at descender -228?)
-
-	* Atilde (U+00C3): X=265.0,Y=973.0 (should be at ascender 972?)
-
-	* Ntilde (U+00D1): X=309.0,Y=973.0 (should be at ascender 972?)
-
-	* Otilde (U+00D5): X=381.0,Y=973.0 (should be at ascender 972?)
-
-	* acircumflex (U+00E2): X=294.0,Y=743.0 (should be at cap-height 745?)
-
-	* ecircumflex (U+00EA): X=312.0,Y=743.0 (should be at cap-height 745?)
-
-	* icircumflex (U+00EE): X=96.0,Y=743.0 (should be at cap-height 745?)
-
-	* ocircumflex (U+00F4): X=330.0,Y=743.0 (should be at cap-height 745?)
-
-	* ucircumflex (U+00FB): X=287.0,Y=743.0 (should be at cap-height 745?)
-
-	* yacute (U+00FD): X=233.0,Y=1.0 (should be at baseline 0?)
-
-	* ydieresis (U+00FF): X=233.0,Y=1.0 (should be at baseline 0?)
-
-	* ccircumflex (U+0109): X=326.0,Y=743.0 (should be at cap-height 745?)
-
-	* gcircumflex (U+011D): X=332.0,Y=743.0 (should be at cap-height 745?)
-
-	* Itilde (U+0128): X=67.0,Y=973.0 (should be at ascender 972?)
-
-	* jcircumflex (U+0135): X=114.0,Y=743.0 (should be at cap-height 745?)
-
-	* scircumflex (U+015D): X=255.0,Y=743.0 (should be at cap-height 745?)
-
-	* Utilde (U+0168): X=288.0,Y=973.0 (should be at ascender 972?)
-
-	* wcircumflex (U+0175): X=393.0,Y=743.0 (should be at cap-height 745?)
-
-	* ycircumflex (U+0177): X=233.0,Y=1.0 (should be at baseline 0?)
-
-	* ycircumflex (U+0177): X=267.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni0203 (U+0203): X=184.5,Y=744.5 (should be at cap-height 745?)
-
-	* uni0203 (U+0203): X=402.5,Y=744.5 (should be at cap-height 745?)
-
-	* uni0207 (U+0207): X=202.5,Y=744.5 (should be at cap-height 745?)
-
-	* uni0207 (U+0207): X=420.5,Y=744.5 (should be at cap-height 745?)
-
-	* uni020B (U+020B): X=-13.5,Y=744.5 (should be at cap-height 745?)
-
-	* uni020B (U+020B): X=204.5,Y=744.5 (should be at cap-height 745?)
-
-	* uni020F (U+020F): X=220.5,Y=744.5 (should be at cap-height 745?)
-
-	* uni020F (U+020F): X=438.5,Y=744.5 (should be at cap-height 745?)
-
-	* uni0213 (U+0213): X=93.5,Y=744.5 (should be at cap-height 745?)
-
-	* uni0213 (U+0213): X=311.5,Y=744.5 (should be at cap-height 745?)
-
-	* uni0217 (U+0217): X=177.5,Y=744.5 (should be at cap-height 745?)
-
-	* uni0217 (U+0217): X=395.5,Y=744.5 (should be at cap-height 745?)
-
-	* uni022C (U+022C): X=381.0,Y=973.0 (should be at ascender 972?)
-
-	* uni0233 (U+0233): X=233.0,Y=1.0 (should be at baseline 0?)
-
-	* circumflex (U+02C6): X=258.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni0302 (U+0302): X=258.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni0311 (U+0311): X=141.5,Y=744.5 (should be at cap-height 745?)
-
-	* uni0311 (U+0311): X=359.5,Y=744.5 (should be at cap-height 745?)
-
-	* uni1E4C (U+1E4C): X=381.0,Y=973.0 (should be at ascender 972?)
-
-	* uni1E4E (U+1E4E): X=381.0,Y=973.0 (should be at ascender 972?)
-
-	* uni1E78 (U+1E78): X=288.0,Y=973.0 (should be at ascender 972?)
-
-	* uni1E8F (U+1E8F): X=233.0,Y=1.0 (should be at baseline 0?)
-
-	* uni1EA9 (U+1EA9): X=404.0,Y=746.0 (should be at cap-height 745?)
-
-	* uni1EAD (U+1EAD): X=294.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni1EBC (U+1EBC): X=269.0,Y=973.0 (should be at ascender 972?)
-
-	* uni1EC3 (U+1EC3): X=421.0,Y=746.0 (should be at cap-height 745?)
-
-	* uni1EC7 (U+1EC7): X=312.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni1ED5 (U+1ED5): X=440.0,Y=746.0 (should be at cap-height 745?)
-
-	* uni1ED9 (U+1ED9): X=330.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni1EE0 (U+1EE0): X=381.0,Y=973.0 (should be at ascender 972?)
-
-	* uni1EEE (U+1EEE): X=288.0,Y=973.0 (should be at ascender 972?)
-
-	* ygrave (U+1EF3): X=233.0,Y=1.0 (should be at baseline 0?)
-
-	* uni1EF5 (U+1EF5): X=233.0,Y=1.0 (should be at baseline 0?)
-
-	* uni1EF7 (U+1EF7): X=233.0,Y=1.0 (should be at baseline 0?)
-
-	* uni1EF8 (U+1EF8): X=253.0,Y=973.0 (should be at ascender 972?)
-
-	* uni1EF9 (U+1EF9): X=233.0,Y=1.0 (should be at baseline 0?)
-
-	* colonmonetary (U+20A1): X=523.0,Y=744.0 (should be at cap-height 745?)
-
-	* uni20BE (U+20BE): X=549.0,Y=743.0 (should be at cap-height 745?)
-
-	* seveneighths (U+215E): X=34.0,Y=746.0 (should be at cap-height 745?) 
-
-	* seveneighths (U+215E): X=299.0,Y=746.0 (should be at cap-height 745?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -840,7 +498,7 @@ The following glyphs do not have the recommended number of contours:
 	* exclamdown (U+00A1): L<<102.0,-214.0>--<106.0,320.0>> 
 
 	* exclamdown (U+00A1): L<<163.0,320.0>--<167.0,-214.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[16] PlusJakartaSans-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] PlusJakartaSans-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -850,38 +508,12 @@ The following glyphs do not have the recommended number of contours:
 
 	- 0x0133 (LATIN SMALL LIGATURE IJ)
  [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics_regressions">com.google.fonts/check/vertical_metrics_regressions</a>)</summary><div>
-
-
-* 🔥 **FAIL** Plus Jakarta Sans Regular: OS/2 sTypoAscender is 972 when it should be 1038 [code: bad-typo-ascender]
-* 🔥 **FAIL** Plus Jakarta Sans Regular: OS/2 sTypoDescender is -228 when it should be -222 [code: bad-typo-descender]
-* 🔥 **FAIL** Plus Jakarta Sans Regular: hhea Ascender is 972 when it should be 1038 [code: bad-hhea-ascender]
-* 🔥 **FAIL** Plus Jakarta Sans Regular: hhea Descender is -228 when it should be -222 [code: bad-hhea-descender]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 358, but got 354 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
 The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̏ j̦̑ j̦̒ į̆ [code: soft-dotted]
-</div></details><details><summary>⚠ <b>WARN:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** For now we're still accepting http URLs, but you should consider using https instead.
- [code: http]
-</div></details><details><summary>⚠ <b>WARN:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
-
-
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]
-* ⚠ **WARN** For now we're still accepting http URLs, but you should consider using https instead.
- [code: http]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -1035,118 +667,6 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-
-	* braceleft (U+007B): X=116.0,Y=-2.0 (should be at baseline 0?)
-
-	* braceleft (U+007B): X=214.0,Y=-1.0 (should be at baseline 0?)
-
-	* braceright (U+007D): X=131.0,Y=-1.0 (should be at baseline 0?)
-
-	* braceright (U+007D): X=228.0,Y=-2.0 (should be at baseline 0?)
-
-	* section (U+00A7): X=353.5,Y=1.5 (should be at baseline 0?)
-
-	* macron (U+00AF): X=110.0,Y=743.0 (should be at cap-height 745?)
-
-	* macron (U+00AF): X=397.0,Y=743.0 (should be at cap-height 745?)
-
-	* atilde (U+00E3): X=152.5,Y=744.5 (should be at cap-height 745?)
-
-	* ntilde (U+00F1): X=148.5,Y=744.5 (should be at cap-height 745?)
-
-	* otilde (U+00F5): X=185.5,Y=744.5 (should be at cap-height 745?)
-
-	* amacron (U+0101): X=151.0,Y=743.0 (should be at cap-height 745?)
-
-	* amacron (U+0101): X=438.0,Y=743.0 (should be at cap-height 745?)
-
-	* emacron (U+0113): X=164.0,Y=743.0 (should be at cap-height 745?)
-
-	* emacron (U+0113): X=451.0,Y=743.0 (should be at cap-height 745?)
-
-	* itilde (U+0129): X=-37.5,Y=744.5 (should be at cap-height 745?)
-
-	* imacron (U+012B): X=-39.0,Y=743.0 (should be at cap-height 745?)
-
-	* imacron (U+012B): X=248.0,Y=743.0 (should be at cap-height 745?)
-
-	* omacron (U+014D): X=184.0,Y=743.0 (should be at cap-height 745?)
-
-	* omacron (U+014D): X=471.0,Y=743.0 (should be at cap-height 745?)
-
-	* utilde (U+0169): X=148.5,Y=744.5 (should be at cap-height 745?)
-
-	* umacron (U+016B): X=147.0,Y=743.0 (should be at cap-height 745?)
-
-	* umacron (U+016B): X=434.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni022D (U+022D): X=185.5,Y=744.5 (should be at cap-height 745?)
-
-	* uni0233 (U+0233): X=133.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni0233 (U+0233): X=420.0,Y=743.0 (should be at cap-height 745?)
-
-	* tilde (U+02DC): X=139.5,Y=744.5 (should be at cap-height 745?)
-
-	* tildecomb (U+0303): X=139.5,Y=744.5 (should be at cap-height 745?)
-
-	* uni0304 (U+0304): X=110.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni0304 (U+0304): X=397.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni1E15 (U+1E15): X=164.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni1E15 (U+1E15): X=452.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni1E17 (U+1E17): X=158.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni1E17 (U+1E17): X=445.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni1E21 (U+1E21): X=186.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni1E21 (U+1E21): X=473.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni1E4D (U+1E4D): X=185.5,Y=744.5 (should be at cap-height 745?)
-
-	* uni1E4F (U+1E4F): X=185.5,Y=744.5 (should be at cap-height 745?)
-
-	* uni1E51 (U+1E51): X=184.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni1E51 (U+1E51): X=472.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni1E53 (U+1E53): X=178.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni1E53 (U+1E53): X=465.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni1E65 (U+1E65): X=92.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni1E65 (U+1E65): X=204.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni1E79 (U+1E79): X=148.5,Y=744.5 (should be at cap-height 745?)
-
-	* uni1E7B (U+1E7B): X=146.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni1E7B (U+1E7B): X=434.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni1EBD (U+1EBD): X=165.5,Y=744.5 (should be at cap-height 745?)
-
-	* uni1EE1 (U+1EE1): X=185.5,Y=744.5 (should be at cap-height 745?)
-
-	* uni1EEF (U+1EEF): X=148.5,Y=744.5 (should be at cap-height 745?)
-
-	* uni1EF9 (U+1EF9): X=134.5,Y=744.5 (should be at cap-height 745?)
-
-	* uni20BE (U+20BE): X=333.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni20BE (U+20BE): X=546.0,Y=744.0 (should be at cap-height 745?)
-
-	* seveneighths (U+215E): X=24.0,Y=746.0 (should be at cap-height 745?) 
-
-	* seveneighths (U+215E): X=302.0,Y=746.0 (should be at cap-height 745?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -1201,7 +721,7 @@ The following glyphs do not have the recommended number of contours:
 	* fl (U+FB02) contains a short segment B<<364.0,669.0>-<356.0,671.0>-<345.0,671.5>> 
 
 	* fl (U+FB02) contains a short segment B<<345.0,671.5>-<334.0,672.0>-<328.0,672.0>> [code: found-short-segments]
-</div></details><br></div></details><details><summary><b>[16] PlusJakartaSans-ExtraBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] PlusJakartaSans-ExtraBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -1211,38 +731,12 @@ The following glyphs do not have the recommended number of contours:
 
 	- 0x0133 (LATIN SMALL LIGATURE IJ)
  [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics_regressions">com.google.fonts/check/vertical_metrics_regressions</a>)</summary><div>
-
-
-* 🔥 **FAIL** Plus Jakarta Sans Regular: OS/2 sTypoAscender is 972 when it should be 1038 [code: bad-typo-ascender]
-* 🔥 **FAIL** Plus Jakarta Sans Regular: OS/2 sTypoDescender is -228 when it should be -222 [code: bad-typo-descender]
-* 🔥 **FAIL** Plus Jakarta Sans Regular: hhea Ascender is 972 when it should be 1038 [code: bad-hhea-ascender]
-* 🔥 **FAIL** Plus Jakarta Sans Regular: hhea Descender is -228 when it should be -222 [code: bad-hhea-descender]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 358, but got 354 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
 The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̏ j̦̑ j̦̒ į̆ [code: soft-dotted]
-</div></details><details><summary>⚠ <b>WARN:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** For now we're still accepting http URLs, but you should consider using https instead.
- [code: http]
-</div></details><details><summary>⚠ <b>WARN:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
-
-
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]
-* ⚠ **WARN** For now we're still accepting http URLs, but you should consider using https instead.
- [code: http]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -1448,198 +942,6 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-
-	* dollar (U+0024): X=438.0,Y=747.0 (should be at cap-height 745?)
-
-	* seven (U+0037): X=93.0,Y=746.0 (should be at cap-height 745?)
-
-	* seven (U+0037): X=600.0,Y=746.0 (should be at cap-height 745?)
-
-	* a (U+0061): X=282.5,Y=1.0 (should be at baseline 0?)
-
-	* d (U+0064): X=372.5,Y=-0.5 (should be at baseline 0?)
-
-	* h (U+0068): X=300.0,Y=544.5 (should be at x-height 546?)
-
-	* section (U+00A7): X=442.0,Y=0.5 (should be at baseline 0?)
-
-	* Atilde (U+00C3): X=552.5,Y=971.5 (should be at ascender 972?)
-
-	* Ntilde (U+00D1): X=557.5,Y=971.5 (should be at ascender 972?)
-
-	* Otilde (U+00D5): X=627.5,Y=971.5 (should be at ascender 972?)
-
-	* agrave (U+00E0): X=282.5,Y=1.0 (should be at baseline 0?)
-
-	* aacute (U+00E1): X=282.5,Y=1.0 (should be at baseline 0?)
-
-	* acircumflex (U+00E2): X=282.5,Y=1.0 (should be at baseline 0?)
-
-	* atilde (U+00E3): X=282.5,Y=1.0 (should be at baseline 0?)
-
-	* adieresis (U+00E4): X=282.5,Y=1.0 (should be at baseline 0?)
-
-	* aring (U+00E5): X=282.5,Y=1.0 (should be at baseline 0?)
-
-	* aring (U+00E5): X=383.5,Y=746.0 (should be at cap-height 745?)
-
-	* amacron (U+0101): X=282.5,Y=1.0 (should be at baseline 0?)
-
-	* abreve (U+0103): X=282.5,Y=1.0 (should be at baseline 0?)
-
-	* aogonek (U+0105): X=282.5,Y=1.0 (should be at baseline 0?)
-
-	* dcaron (U+010F): X=372.5,Y=-0.5 (should be at baseline 0?)
-
-	* dcroat (U+0111): X=372.5,Y=-0.5 (should be at baseline 0?)
-
-	* Itilde (U+0128): X=330.5,Y=971.5 (should be at ascender 972?)
-
-	* Utilde (U+0168): X=548.5,Y=971.5 (should be at ascender 972?)
-
-	* uring (U+016F): X=391.5,Y=746.0 (should be at cap-height 745?)
-
-	* uni01C6 (U+01C6): X=372.5,Y=-0.5 (should be at baseline 0?)
-
-	* aringacute (U+01FB): X=282.5,Y=1.0 (should be at baseline 0?)
-
-	* aringacute (U+01FB): X=383.5,Y=746.0 (should be at cap-height 745?)
-
-	* uni0201 (U+0201): X=282.5,Y=1.0 (should be at baseline 0?)
-
-	* uni0203 (U+0203): X=282.5,Y=1.0 (should be at baseline 0?)
-
-	* uni022C (U+022C): X=627.5,Y=971.5 (should be at ascender 972?)
-
-	* uni022D (U+022D): X=256.0,Y=970.0 (should be at ascender 972?)
-
-	* uni022D (U+022D): X=596.0,Y=970.0 (should be at ascender 972?)
-
-	* ring (U+02DA): X=350.5,Y=746.0 (should be at cap-height 745?)
-
-	* uni030A (U+030A): X=350.5,Y=746.0 (should be at cap-height 745?)
-
-	* uni031B (U+031B): X=195.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni031B (U+031B): X=199.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni031B (U+031B): X=214.5,Y=744.5 (should be at cap-height 745?)
-
-	* uni0E3F (U+0E3F): X=456.0,Y=744.0 (should be at cap-height 745?)
-
-	* uni1E0D (U+1E0D): X=372.5,Y=-0.5 (should be at baseline 0?)
-
-	* uni1E0F (U+1E0F): X=372.5,Y=-0.5 (should be at baseline 0?)
-
-	* uni1E4C (U+1E4C): X=627.5,Y=971.5 (should be at ascender 972?)
-
-	* uni1E4E (U+1E4E): X=627.5,Y=971.5 (should be at ascender 972?)
-
-	* uni1E78 (U+1E78): X=548.5,Y=971.5 (should be at ascender 972?)
-
-	* uni1EA1 (U+1EA1): X=282.5,Y=1.0 (should be at baseline 0?)
-
-	* uni1EA2 (U+1EA2): X=401.0,Y=973.0 (should be at ascender 972?)
-
-	* uni1EA2 (U+1EA2): X=375.0,Y=971.5 (should be at ascender 972?)
-
-	* uni1EA3 (U+1EA3): X=282.5,Y=1.0 (should be at baseline 0?)
-
-	* uni1EA5 (U+1EA5): X=282.5,Y=1.0 (should be at baseline 0?)
-
-	* uni1EA7 (U+1EA7): X=282.5,Y=1.0 (should be at baseline 0?)
-
-	* uni1EA8 (U+1EA8): X=615.0,Y=974.0 (should be at ascender 972?)
-
-	* uni1EA9 (U+1EA9): X=282.5,Y=1.0 (should be at baseline 0?)
-
-	* uni1EA9 (U+1EA9): X=625.0,Y=747.0 (should be at cap-height 745?)
-
-	* uni1EAB (U+1EAB): X=282.5,Y=1.0 (should be at baseline 0?)
-
-	* uni1EAD (U+1EAD): X=282.5,Y=1.0 (should be at baseline 0?)
-
-	* uni1EAE (U+1EAE): X=417.5,Y=973.5 (should be at ascender 972?)
-
-	* uni1EAF (U+1EAF): X=282.5,Y=1.0 (should be at baseline 0?)
-
-	* uni1EB0 (U+1EB0): X=416.5,Y=973.5 (should be at ascender 972?)
-
-	* uni1EB1 (U+1EB1): X=282.5,Y=1.0 (should be at baseline 0?)
-
-	* uni1EB2 (U+1EB2): X=417.5,Y=973.5 (should be at ascender 972?)
-
-	* uni1EB3 (U+1EB3): X=282.5,Y=1.0 (should be at baseline 0?)
-
-	* uni1EB5 (U+1EB5): X=282.5,Y=1.0 (should be at baseline 0?)
-
-	* uni1EB7 (U+1EB7): X=282.5,Y=1.0 (should be at baseline 0?)
-
-	* uni1EBA (U+1EBA): X=352.0,Y=973.0 (should be at ascender 972?)
-
-	* uni1EBA (U+1EBA): X=326.0,Y=971.5 (should be at ascender 972?)
-
-	* uni1EBC (U+1EBC): X=503.5,Y=971.5 (should be at ascender 972?)
-
-	* uni1EC2 (U+1EC2): X=566.0,Y=974.0 (should be at ascender 972?)
-
-	* uni1EC3 (U+1EC3): X=639.0,Y=747.0 (should be at cap-height 745?)
-
-	* uni1EC8 (U+1EC8): X=179.0,Y=973.0 (should be at ascender 972?)
-
-	* uni1EC8 (U+1EC8): X=153.0,Y=971.5 (should be at ascender 972?)
-
-	* uni1ECE (U+1ECE): X=476.0,Y=973.0 (should be at ascender 972?)
-
-	* uni1ECE (U+1ECE): X=450.0,Y=971.5 (should be at ascender 972?)
-
-	* uni1ED4 (U+1ED4): X=690.0,Y=974.0 (should be at ascender 972?)
-
-	* uni1ED5 (U+1ED5): X=661.0,Y=747.0 (should be at cap-height 745?)
-
-	* uni1EDE (U+1EDE): X=476.0,Y=973.0 (should be at ascender 972?)
-
-	* uni1EDE (U+1EDE): X=450.0,Y=971.5 (should be at ascender 972?)
-
-	* uni1EE0 (U+1EE0): X=627.5,Y=971.5 (should be at ascender 972?)
-
-	* uni1EE6 (U+1EE6): X=397.0,Y=973.0 (should be at ascender 972?)
-
-	* uni1EE6 (U+1EE6): X=371.0,Y=971.5 (should be at ascender 972?)
-
-	* uni1EEC (U+1EEC): X=397.0,Y=973.0 (should be at ascender 972?)
-
-	* uni1EEC (U+1EEC): X=371.0,Y=971.5 (should be at ascender 972?)
-
-	* uni1EEE (U+1EEE): X=548.5,Y=971.5 (should be at ascender 972?)
-
-	* uni1EF6 (U+1EF6): X=371.0,Y=973.0 (should be at ascender 972?)
-
-	* uni1EF6 (U+1EF6): X=345.0,Y=971.5 (should be at ascender 972?)
-
-	* uni1EF8 (U+1EF8): X=522.5,Y=971.5 (should be at ascender 972?)
-
-	* uni2077 (U+2077): X=77.0,Y=746.0 (should be at cap-height 745?)
-
-	* uni2077 (U+2077): X=439.0,Y=746.0 (should be at cap-height 745?)
-
-	* uni208D (U+208D): X=192.0,Y=-1.5 (should be at baseline 0?)
-
-	* colonmonetary (U+20A1): X=324.0,Y=-2.0 (should be at baseline 0?)
-
-	* uni20B5 (U+20B5): X=325.0,Y=-2.0 (should be at baseline 0?)
-
-	* uni20BE (U+20BE): X=378.0,Y=744.0 (should be at cap-height 745?)
-
-	* uni20BE (U+20BE): X=598.0,Y=743.0 (should be at cap-height 745?)
-
-	* seveneighths (U+215E): X=79.0,Y=746.0 (should be at cap-height 745?) 
-
-	* seveneighths (U+215E): X=371.0,Y=746.0 (should be at cap-height 745?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -1800,7 +1102,7 @@ The following glyphs do not have the recommended number of contours:
 	* fl (U+FB02) contains a short segment B<<442.0,625.0>-<432.0,627.0>-<425.0,627.0>> 
 
 	* fl (U+FB02) contains a short segment B<<425.0,627.0>-<418.0,627.0>-<413.0,627.0>> [code: found-short-segments]
-</div></details><br></div></details><details><summary><b>[16] PlusJakartaSans-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] PlusJakartaSans-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -1810,38 +1112,12 @@ The following glyphs do not have the recommended number of contours:
 
 	- 0x0133 (LATIN SMALL LIGATURE IJ)
  [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics_regressions">com.google.fonts/check/vertical_metrics_regressions</a>)</summary><div>
-
-
-* 🔥 **FAIL** Plus Jakarta Sans Regular: OS/2 sTypoAscender is 972 when it should be 1038 [code: bad-typo-ascender]
-* 🔥 **FAIL** Plus Jakarta Sans Regular: OS/2 sTypoDescender is -228 when it should be -222 [code: bad-typo-descender]
-* 🔥 **FAIL** Plus Jakarta Sans Regular: hhea Ascender is 972 when it should be 1038 [code: bad-hhea-ascender]
-* 🔥 **FAIL** Plus Jakarta Sans Regular: hhea Descender is -228 when it should be -222 [code: bad-hhea-descender]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 358, but got 354 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
 The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̏ j̦̑ j̦̒ į̆ [code: soft-dotted]
-</div></details><details><summary>⚠ <b>WARN:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** For now we're still accepting http URLs, but you should consider using https instead.
- [code: http]
-</div></details><details><summary>⚠ <b>WARN:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
-
-
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]
-* ⚠ **WARN** For now we're still accepting http URLs, but you should consider using https instead.
- [code: http]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -2000,136 +1276,6 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-
-	* uni00B3 (U+00B3): X=53.0,Y=746.0 (should be at cap-height 745?)
-
-	* uni00B3 (U+00B3): X=373.0,Y=746.0 (should be at cap-height 745?)
-
-	* cedilla (U+00B8): X=168.0,Y=-226.0 (should be at descender -228?)
-
-	* uni00B9 (U+00B9): X=18.0,Y=746.0 (should be at cap-height 745?)
-
-	* uni00B9 (U+00B9): X=216.0,Y=746.0 (should be at cap-height 745?)
-
-	* Ccedilla (U+00C7): X=377.0,Y=-226.0 (should be at descender -228?)
-
-	* Oslash (U+00D8): X=546.5,Y=743.0 (should be at cap-height 745?)
-
-	* Oslash (U+00D8): X=331.5,Y=2.0 (should be at baseline 0?)
-
-	* ccedilla (U+00E7): X=275.0,Y=-226.0 (should be at descender -228?)
-
-	* oslash (U+00F8): X=245.5,Y=-1.0 (should be at baseline 0?)
-
-	* Scedilla (U+015E): X=291.0,Y=-226.0 (should be at descender -228?)
-
-	* scedilla (U+015F): X=209.0,Y=-226.0 (should be at descender -228?)
-
-	* uni0162 (U+0162): X=219.0,Y=-226.0 (should be at descender -228?)
-
-	* uni0163 (U+0163): X=245.0,Y=-226.0 (should be at descender -228?)
-
-	* Oslashacute (U+01FE): X=546.5,Y=743.0 (should be at cap-height 745?)
-
-	* Oslashacute (U+01FE): X=331.5,Y=2.0 (should be at baseline 0?)
-
-	* oslashacute (U+01FF): X=245.5,Y=-1.0 (should be at baseline 0?)
-
-	* breve (U+02D8): X=247.0,Y=747.0 (should be at cap-height 745?)
-
-	* breve (U+02D8): X=358.0,Y=747.0 (should be at cap-height 745?)
-
-	* uni0306 (U+0306): X=247.0,Y=747.0 (should be at cap-height 745?)
-
-	* uni0306 (U+0306): X=358.0,Y=747.0 (should be at cap-height 745?)
-
-	* hookabovecomb (U+0309): X=221.0,Y=747.0 (should be at cap-height 745?)
-
-	* uni0327 (U+0327): X=168.0,Y=-226.0 (should be at descender -228?)
-
-	* uni032E (U+032E): X=199.0,Y=-227.5 (should be at descender -228?)
-
-	* uni1E08 (U+1E08): X=377.0,Y=-226.0 (should be at descender -228?)
-
-	* uni1E09 (U+1E09): X=275.0,Y=-226.0 (should be at descender -228?)
-
-	* uni1E1C (U+1E1C): X=275.0,Y=-226.0 (should be at descender -228?)
-
-	* uni1E1D (U+1E1D): X=260.0,Y=-226.0 (should be at descender -228?)
-
-	* uni1E2A (U+1E2A): X=264.0,Y=-227.5 (should be at descender -228?)
-
-	* uni1E2B (U+1E2B): X=190.0,Y=-227.5 (should be at descender -228?)
-
-	* uni1EA3 (U+1EA3): X=289.0,Y=747.0 (should be at cap-height 745?)
-
-	* uni1EAB (U+1EAB): X=298.5,Y=971.5 (should be at ascender 972?)
-
-	* uni1EAF (U+1EAF): X=239.0,Y=747.0 (should be at cap-height 745?)
-
-	* uni1EAF (U+1EAF): X=350.0,Y=747.0 (should be at cap-height 745?)
-
-	* uni1EB1 (U+1EB1): X=239.0,Y=747.0 (should be at cap-height 745?)
-
-	* uni1EB1 (U+1EB1): X=350.5,Y=747.0 (should be at cap-height 745?)
-
-	* uni1EB3 (U+1EB3): X=239.0,Y=747.0 (should be at cap-height 745?)
-
-	* uni1EB3 (U+1EB3): X=350.0,Y=747.0 (should be at cap-height 745?)
-
-	* uni1EB5 (U+1EB5): X=297.5,Y=971.5 (should be at ascender 972?)
-
-	* uni1EB5 (U+1EB5): X=239.0,Y=744.0 (should be at cap-height 745?)
-
-	* uni1EB5 (U+1EB5): X=350.0,Y=744.0 (should be at cap-height 745?)
-
-	* uni1EBB (U+1EBB): X=301.0,Y=747.0 (should be at cap-height 745?)
-
-	* uni1EC5 (U+1EC5): X=311.5,Y=971.5 (should be at ascender 972?)
-
-	* uni1EC9 (U+1EC9): X=103.0,Y=747.0 (should be at cap-height 745?)
-
-	* uni1ECF (U+1ECF): X=321.0,Y=747.0 (should be at cap-height 745?)
-
-	* uni1ED7 (U+1ED7): X=331.5,Y=971.5 (should be at ascender 972?)
-
-	* uni1EDF (U+1EDF): X=321.0,Y=747.0 (should be at cap-height 745?)
-
-	* uni1EE7 (U+1EE7): X=288.0,Y=747.0 (should be at cap-height 745?)
-
-	* uni1EED (U+1EED): X=288.0,Y=747.0 (should be at cap-height 745?)
-
-	* uni1EF7 (U+1EF7): X=279.0,Y=747.0 (should be at cap-height 745?)
-
-	* uni2074 (U+2074): X=264.0,Y=746.0 (should be at cap-height 745?)
-
-	* uni2074 (U+2074): X=366.0,Y=746.0 (should be at cap-height 745?)
-
-	* uni2075 (U+2075): X=93.0,Y=746.0 (should be at cap-height 745?)
-
-	* uni2075 (U+2075): X=379.0,Y=746.0 (should be at cap-height 745?)
-
-	* uni2076 (U+2076): X=241.0,Y=746.0 (should be at cap-height 745?)
-
-	* uni2076 (U+2076): X=358.0,Y=746.0 (should be at cap-height 745?)
-
-	* uni2077 (U+2077): X=20.0,Y=746.0 (should be at cap-height 745?)
-
-	* uni2077 (U+2077): X=367.0,Y=746.0 (should be at cap-height 745?)
-
-	* colonmonetary (U+20A1): X=330.0,Y=-1.0 (should be at baseline 0?)
-
-	* uni20BE (U+20BE): X=332.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni20BE (U+20BE): X=547.0,Y=744.0 (should be at cap-height 745?)
-
-	* seveneighths (U+215E): X=20.0,Y=746.0 (should be at cap-height 745?) 
-
-	* seveneighths (U+215E): X=303.0,Y=746.0 (should be at cap-height 745?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -2184,7 +1330,7 @@ The following glyphs do not have the recommended number of contours:
 	* fl (U+FB02) contains a short segment B<<372.0,654.0>-<364.0,656.0>-<354.0,656.5>> 
 
 	* fl (U+FB02) contains a short segment B<<354.0,656.5>-<344.0,657.0>-<338.0,657.0>> [code: found-short-segments]
-</div></details><br></div></details><details><summary><b>[16] PlusJakartaSans-SemiBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] PlusJakartaSans-SemiBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -2194,38 +1340,12 @@ The following glyphs do not have the recommended number of contours:
 
 	- 0x0133 (LATIN SMALL LIGATURE IJ)
  [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics_regressions">com.google.fonts/check/vertical_metrics_regressions</a>)</summary><div>
-
-
-* 🔥 **FAIL** Plus Jakarta Sans Regular: OS/2 sTypoAscender is 972 when it should be 1038 [code: bad-typo-ascender]
-* 🔥 **FAIL** Plus Jakarta Sans Regular: OS/2 sTypoDescender is -228 when it should be -222 [code: bad-typo-descender]
-* 🔥 **FAIL** Plus Jakarta Sans Regular: hhea Ascender is 972 when it should be 1038 [code: bad-hhea-ascender]
-* 🔥 **FAIL** Plus Jakarta Sans Regular: hhea Descender is -228 when it should be -222 [code: bad-hhea-descender]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 358, but got 354 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
 The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̏ j̦̑ j̦̒ į̆ [code: soft-dotted]
-</div></details><details><summary>⚠ <b>WARN:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** For now we're still accepting http URLs, but you should consider using https instead.
- [code: http]
-</div></details><details><summary>⚠ <b>WARN:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
-
-
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]
-* ⚠ **WARN** For now we're still accepting http URLs, but you should consider using https instead.
- [code: http]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -2396,194 +1516,6 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-
-	* dollar (U+0024): X=434.0,Y=747.0 (should be at cap-height 745?)
-
-	* five (U+0035): X=187.0,Y=746.0 (should be at cap-height 745?)
-
-	* five (U+0035): X=577.0,Y=746.0 (should be at cap-height 745?)
-
-	* seven (U+0037): X=102.0,Y=746.0 (should be at cap-height 745?)
-
-	* seven (U+0037): X=583.0,Y=746.0 (should be at cap-height 745?)
-
-	* Q (U+0051): X=537.0,Y=1.0 (should be at baseline 0?)
-
-	* q (U+0071): X=385.0,Y=2.0 (should be at baseline 0?)
-
-	* t (U+0074): X=325.0,Y=-1.0 (should be at baseline 0?)
-
-	* y (U+0079): X=49.0,Y=542.0 (should be at x-height 541?)
-
-	* y (U+0079): X=166.0,Y=542.0 (should be at x-height 541?)
-
-	* y (U+0079): X=469.0,Y=542.0 (should be at x-height 541?)
-
-	* y (U+0079): X=596.0,Y=542.0 (should be at x-height 541?)
-
-	* uni00B3 (U+00B3): X=106.0,Y=746.0 (should be at cap-height 745?)
-
-	* uni00B3 (U+00B3): X=432.0,Y=746.0 (should be at cap-height 745?)
-
-	* cedilla (U+00B8): X=98.0,Y=-226.0 (should be at descender -228?)
-
-	* uni00B9 (U+00B9): X=84.0,Y=746.0 (should be at cap-height 745?)
-
-	* uni00B9 (U+00B9): X=284.0,Y=746.0 (should be at cap-height 745?)
-
-	* Ccedilla (U+00C7): X=337.0,Y=-226.0 (should be at descender -228?)
-
-	* atilde (U+00E3): X=444.5,Y=746.0 (should be at cap-height 745?)
-
-	* ccedilla (U+00E7): X=228.0,Y=-226.0 (should be at descender -228?)
-
-	* ntilde (U+00F1): X=448.5,Y=746.0 (should be at cap-height 745?)
-
-	* otilde (U+00F5): X=483.5,Y=746.0 (should be at cap-height 745?)
-
-	* itilde (U+0129): X=265.5,Y=746.0 (should be at cap-height 745?)
-
-	* Scedilla (U+015E): X=208.0,Y=-226.0 (should be at descender -228?)
-
-	* scedilla (U+015F): X=139.0,Y=-226.0 (should be at descender -228?)
-
-	* uni0162 (U+0162): X=150.0,Y=-226.0 (should be at descender -228?)
-
-	* uni0163 (U+0163): X=325.0,Y=-1.0 (should be at baseline 0?)
-
-	* uni0163 (U+0163): X=177.0,Y=-226.0 (should be at descender -228?)
-
-	* tcaron (U+0165): X=325.0,Y=-1.0 (should be at baseline 0?)
-
-	* tbar (U+0167): X=325.0,Y=-1.0 (should be at baseline 0?)
-
-	* utilde (U+0169): X=448.5,Y=746.0 (should be at cap-height 745?)
-
-	* uni021B (U+021B): X=325.0,Y=-1.0 (should be at baseline 0?)
-
-	* uni022D (U+022D): X=483.5,Y=746.0 (should be at cap-height 745?)
-
-	* breve (U+02D8): X=313.0,Y=747.0 (should be at cap-height 745?)
-
-	* breve (U+02D8): X=425.0,Y=747.0 (should be at cap-height 745?)
-
-	* tilde (U+02DC): X=455.5,Y=746.0 (should be at cap-height 745?)
-
-	* tildecomb (U+0303): X=455.5,Y=746.0 (should be at cap-height 745?)
-
-	* uni0306 (U+0306): X=313.0,Y=747.0 (should be at cap-height 745?)
-
-	* uni0306 (U+0306): X=425.0,Y=747.0 (should be at cap-height 745?)
-
-	* hookabovecomb (U+0309): X=402.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni0327 (U+0327): X=98.0,Y=-226.0 (should be at descender -228?)
-
-	* uni032E (U+032E): X=132.0,Y=-227.0 (should be at descender -228?)
-
-	* uni1E08 (U+1E08): X=337.0,Y=-226.0 (should be at descender -228?)
-
-	* uni1E09 (U+1E09): X=228.0,Y=-226.0 (should be at descender -228?)
-
-	* uni1E1C (U+1E1C): X=206.0,Y=-226.0 (should be at descender -228?)
-
-	* uni1E1D (U+1E1D): X=191.0,Y=-226.0 (should be at descender -228?)
-
-	* uni1E2A (U+1E2A): X=197.0,Y=-227.0 (should be at descender -228?)
-
-	* uni1E2B (U+1E2B): X=123.0,Y=-227.0 (should be at descender -228?)
-
-	* uni1E4D (U+1E4D): X=483.5,Y=746.0 (should be at cap-height 745?)
-
-	* uni1E4F (U+1E4F): X=483.5,Y=746.0 (should be at cap-height 745?)
-
-	* uni1E6D (U+1E6D): X=325.0,Y=-1.0 (should be at baseline 0?)
-
-	* uni1E6F (U+1E6F): X=325.0,Y=-1.0 (should be at baseline 0?)
-
-	* uni1E79 (U+1E79): X=448.5,Y=746.0 (should be at cap-height 745?)
-
-	* uni1E97 (U+1E97): X=325.0,Y=-1.0 (should be at baseline 0?)
-
-	* uni1EA3 (U+1EA3): X=465.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni1EAB (U+1EAB): X=392.0,Y=971.5 (should be at ascender 972?)
-
-	* uni1EAF (U+1EAF): X=301.5,Y=747.0 (should be at cap-height 745?)
-
-	* uni1EAF (U+1EAF): X=412.5,Y=747.0 (should be at cap-height 745?)
-
-	* uni1EB1 (U+1EB1): X=301.0,Y=747.0 (should be at cap-height 745?)
-
-	* uni1EB1 (U+1EB1): X=412.0,Y=747.0 (should be at cap-height 745?)
-
-	* uni1EB3 (U+1EB3): X=301.5,Y=747.0 (should be at cap-height 745?)
-
-	* uni1EB3 (U+1EB3): X=412.5,Y=747.0 (should be at cap-height 745?)
-
-	* uni1EB5 (U+1EB5): X=391.0,Y=971.5 (should be at ascender 972?)
-
-	* uni1EB5 (U+1EB5): X=300.5,Y=744.0 (should be at cap-height 745?)
-
-	* uni1EB5 (U+1EB5): X=411.5,Y=744.0 (should be at cap-height 745?)
-
-	* uni1EBB (U+1EBB): X=483.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni1EBD (U+1EBD): X=462.5,Y=746.0 (should be at cap-height 745?)
-
-	* uni1EC5 (U+1EC5): X=410.0,Y=971.5 (should be at ascender 972?)
-
-	* uni1EC9 (U+1EC9): X=286.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni1ECF (U+1ECF): X=504.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni1ED7 (U+1ED7): X=431.0,Y=971.5 (should be at ascender 972?)
-
-	* uni1EDF (U+1EDF): X=504.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni1EE1 (U+1EE1): X=483.5,Y=746.0 (should be at cap-height 745?)
-
-	* uni1EE7 (U+1EE7): X=469.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni1EED (U+1EED): X=469.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni1EEF (U+1EEF): X=448.5,Y=746.0 (should be at cap-height 745?)
-
-	* uni1EF7 (U+1EF7): X=460.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni1EF9 (U+1EF9): X=439.5,Y=746.0 (should be at cap-height 745?)
-
-	* uni2074 (U+2074): X=330.0,Y=746.0 (should be at cap-height 745?)
-
-	* uni2074 (U+2074): X=434.0,Y=746.0 (should be at cap-height 745?)
-
-	* uni2075 (U+2075): X=150.0,Y=746.0 (should be at cap-height 745?)
-
-	* uni2075 (U+2075): X=431.0,Y=746.0 (should be at cap-height 745?)
-
-	* uni2076 (U+2076): X=295.0,Y=746.0 (should be at cap-height 745?)
-
-	* uni2076 (U+2076): X=418.0,Y=746.0 (should be at cap-height 745?)
-
-	* uni2077 (U+2077): X=86.0,Y=746.0 (should be at cap-height 745?)
-
-	* uni2077 (U+2077): X=434.0,Y=746.0 (should be at cap-height 745?)
-
-	* uni20BE (U+20BE): X=379.0,Y=744.0 (should be at cap-height 745?)
-
-	* uni20BE (U+20BE): X=594.0,Y=743.0 (should be at cap-height 745?)
-
-	* seveneighths (U+215E): X=87.0,Y=746.0 (should be at cap-height 745?)
-
-	* seveneighths (U+215E): X=370.0,Y=746.0 (should be at cap-height 745?)
-
-	* arrowupdn (U+2195): X=408.0,Y=-229.0 (should be at descender -228?) 
-
-	* arrowupdn (U+2195): X=357.0,Y=-229.0 (should be at descender -228?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -2672,7 +1604,7 @@ The following glyphs do not have the recommended number of contours:
 	* fl (U+FB02) contains a short segment B<<429.0,655.0>-<421.0,656.0>-<411.5,656.5>> 
 
 	* fl (U+FB02) contains a short segment B<<411.5,656.5>-<402.0,657.0>-<398.0,657.0>> [code: found-short-segments]
-</div></details><br></div></details><details><summary><b>[15] PlusJakartaSans-ExtraLightItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] PlusJakartaSans-ExtraLightItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -2682,38 +1614,12 @@ The following glyphs do not have the recommended number of contours:
 
 	- 0x0133 (LATIN SMALL LIGATURE IJ)
  [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics_regressions">com.google.fonts/check/vertical_metrics_regressions</a>)</summary><div>
-
-
-* 🔥 **FAIL** Plus Jakarta Sans Regular: OS/2 sTypoAscender is 972 when it should be 1038 [code: bad-typo-ascender]
-* 🔥 **FAIL** Plus Jakarta Sans Regular: OS/2 sTypoDescender is -228 when it should be -222 [code: bad-typo-descender]
-* 🔥 **FAIL** Plus Jakarta Sans Regular: hhea Ascender is 972 when it should be 1038 [code: bad-hhea-ascender]
-* 🔥 **FAIL** Plus Jakarta Sans Regular: hhea Descender is -228 when it should be -222 [code: bad-hhea-descender]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 358, but got 354 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
 The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̏ j̦̑ j̦̒ į̆ [code: soft-dotted]
-</div></details><details><summary>⚠ <b>WARN:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** For now we're still accepting http URLs, but you should consider using https instead.
- [code: http]
-</div></details><details><summary>⚠ <b>WARN:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
-
-
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]
-* ⚠ **WARN** For now we're still accepting http URLs, but you should consider using https instead.
- [code: http]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -2947,7 +1853,7 @@ The following glyphs do not have the recommended number of contours:
 	* fl (U+FB02) contains a short segment B<<409.0,711.0>-<401.0,713.0>-<391.5,713.5>> 
 
 	* fl (U+FB02) contains a short segment B<<391.5,713.5>-<382.0,714.0>-<375.0,714.0>> [code: found-short-segments]
-</div></details><br></div></details><details><summary><b>[15] PlusJakartaSans-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] PlusJakartaSans-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -2957,38 +1863,12 @@ The following glyphs do not have the recommended number of contours:
 
 	- 0x0133 (LATIN SMALL LIGATURE IJ)
  [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics_regressions">com.google.fonts/check/vertical_metrics_regressions</a>)</summary><div>
-
-
-* 🔥 **FAIL** Plus Jakarta Sans Regular: OS/2 sTypoAscender is 972 when it should be 1038 [code: bad-typo-ascender]
-* 🔥 **FAIL** Plus Jakarta Sans Regular: OS/2 sTypoDescender is -228 when it should be -222 [code: bad-typo-descender]
-* 🔥 **FAIL** Plus Jakarta Sans Regular: hhea Ascender is 972 when it should be 1038 [code: bad-hhea-ascender]
-* 🔥 **FAIL** Plus Jakarta Sans Regular: hhea Descender is -228 when it should be -222 [code: bad-hhea-descender]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 358, but got 354 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
 The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̏ j̦̑ j̦̒ į̆ [code: soft-dotted]
-</div></details><details><summary>⚠ <b>WARN:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** For now we're still accepting http URLs, but you should consider using https instead.
- [code: http]
-</div></details><details><summary>⚠ <b>WARN:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
-
-
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]
-* ⚠ **WARN** For now we're still accepting http URLs, but you should consider using https instead.
- [code: http]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -3111,158 +1991,6 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-
-	* braceleft (U+007B): X=112.0,Y=1.0 (should be at baseline 0?)
-
-	* braceleft (U+007B): X=192.0,Y=1.0 (should be at baseline 0?)
-
-	* braceright (U+007D): X=125.0,Y=1.0 (should be at baseline 0?)
-
-	* braceright (U+007D): X=205.0,Y=1.0 (should be at baseline 0?)
-
-	* uni00B5 (U+00B5): X=199.0,Y=-0.5 (should be at baseline 0?)
-
-	* cedilla (U+00B8): X=207.0,Y=-230.0 (should be at descender -228?)
-
-	* cedilla (U+00B8): X=207.0,Y=-230.0 (should be at descender -228?)
-
-	* Ccedilla (U+00C7): X=440.0,Y=-230.0 (should be at descender -228?)
-
-	* Ccedilla (U+00C7): X=440.0,Y=-230.0 (should be at descender -228?)
-
-	* ccedilla (U+00E7): X=334.0,Y=-230.0 (should be at descender -228?)
-
-	* ccedilla (U+00E7): X=334.0,Y=-230.0 (should be at descender -228?)
-
-	* oslash (U+00F8): X=243.0,Y=1.0 (should be at baseline 0?)
-
-	* Aogonek (U+0104): X=569.0,Y=-230.0 (should be at descender -228?)
-
-	* Aogonek (U+0104): X=569.0,Y=-230.0 (should be at descender -228?)
-
-	* aogonek (U+0105): X=428.0,Y=-230.0 (should be at descender -228?)
-
-	* aogonek (U+0105): X=428.0,Y=-230.0 (should be at descender -228?)
-
-	* Eogonek (U+0118): X=438.0,Y=-230.0 (should be at descender -228?)
-
-	* Eogonek (U+0118): X=438.0,Y=-230.0 (should be at descender -228?)
-
-	* eogonek (U+0119): X=291.0,Y=-230.0 (should be at descender -228?)
-
-	* eogonek (U+0119): X=291.0,Y=-230.0 (should be at descender -228?)
-
-	* Iogonek (U+012E): X=108.0,Y=-230.0 (should be at descender -228?)
-
-	* Iogonek (U+012E): X=108.0,Y=-230.0 (should be at descender -228?)
-
-	* iogonek (U+012F): X=90.0,Y=-230.0 (should be at descender -228?)
-
-	* iogonek (U+012F): X=90.0,Y=-230.0 (should be at descender -228?)
-
-	* Scedilla (U+015E): X=351.0,Y=-230.0 (should be at descender -228?)
-
-	* Scedilla (U+015E): X=351.0,Y=-230.0 (should be at descender -228?)
-
-	* scedilla (U+015F): X=267.0,Y=-230.0 (should be at descender -228?)
-
-	* scedilla (U+015F): X=267.0,Y=-230.0 (should be at descender -228?)
-
-	* uni0162 (U+0162): X=268.0,Y=-230.0 (should be at descender -228?)
-
-	* uni0162 (U+0162): X=268.0,Y=-230.0 (should be at descender -228?)
-
-	* uni0163 (U+0163): X=286.0,Y=-230.0 (should be at descender -228?)
-
-	* uni0163 (U+0163): X=286.0,Y=-230.0 (should be at descender -228?)
-
-	* Uogonek (U+0172): X=340.0,Y=-230.0 (should be at descender -228?)
-
-	* Uogonek (U+0172): X=340.0,Y=-230.0 (should be at descender -228?)
-
-	* uogonek (U+0173): X=429.0,Y=-230.0 (should be at descender -228?)
-
-	* uogonek (U+0173): X=429.0,Y=-230.0 (should be at descender -228?)
-
-	* uni01EA (U+01EA): X=459.0,Y=-230.0 (should be at descender -228?)
-
-	* uni01EA (U+01EA): X=459.0,Y=-230.0 (should be at descender -228?)
-
-	* uni01EB (U+01EB): X=348.0,Y=-230.0 (should be at descender -228?)
-
-	* uni01EB (U+01EB): X=348.0,Y=-230.0 (should be at descender -228?)
-
-	* oslashacute (U+01FF): X=243.0,Y=1.0 (should be at baseline 0?)
-
-	* ogonek (U+02DB): X=220.0,Y=-230.0 (should be at descender -228?)
-
-	* ogonek (U+02DB): X=220.0,Y=-230.0 (should be at descender -228?)
-
-	* hookabovecomb (U+0309): X=167.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni031B (U+031B): X=242.0,Y=747.0 (should be at cap-height 745?)
-
-	* uni0327 (U+0327): X=207.0,Y=-230.0 (should be at descender -228?)
-
-	* uni0327 (U+0327): X=207.0,Y=-230.0 (should be at descender -228?)
-
-	* uni0328 (U+0328): X=220.0,Y=-230.0 (should be at descender -228?)
-
-	* uni0328 (U+0328): X=220.0,Y=-230.0 (should be at descender -228?)
-
-	* uni1E08 (U+1E08): X=440.0,Y=-230.0 (should be at descender -228?)
-
-	* uni1E08 (U+1E08): X=440.0,Y=-230.0 (should be at descender -228?)
-
-	* uni1E09 (U+1E09): X=334.0,Y=-230.0 (should be at descender -228?)
-
-	* uni1E09 (U+1E09): X=334.0,Y=-230.0 (should be at descender -228?)
-
-	* uni1E1C (U+1E1C): X=340.0,Y=-230.0 (should be at descender -228?)
-
-	* uni1E1C (U+1E1C): X=340.0,Y=-230.0 (should be at descender -228?)
-
-	* uni1E1D (U+1E1D): X=320.0,Y=-230.0 (should be at descender -228?)
-
-	* uni1E1D (U+1E1D): X=320.0,Y=-230.0 (should be at descender -228?)
-
-	* uni1EA3 (U+1EA3): X=265.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni1EAB (U+1EAB): X=242.0,Y=970.0 (should be at ascender 972?)
-
-	* uni1EB5 (U+1EB5): X=240.0,Y=970.0 (should be at ascender 972?)
-
-	* uni1EBB (U+1EBB): X=279.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni1EC5 (U+1EC5): X=256.0,Y=970.0 (should be at ascender 972?)
-
-	* uni1EC9 (U+1EC9): X=70.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni1ECF (U+1ECF): X=299.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni1ED7 (U+1ED7): X=276.0,Y=970.0 (should be at ascender 972?)
-
-	* uni1EDF (U+1EDF): X=299.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni1EE7 (U+1EE7): X=258.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni1EED (U+1EED): X=258.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni1EF7 (U+1EF7): X=239.0,Y=743.0 (should be at cap-height 745?)
-
-	* colonmonetary (U+20A1): X=329.0,Y=1.0 (should be at baseline 0?)
-
-	* uni20BE (U+20BE): X=334.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni20BE (U+20BE): X=544.0,Y=743.0 (should be at cap-height 745?)
-
-	* seveneighths (U+215E): X=28.0,Y=746.0 (should be at cap-height 745?) 
-
-	* seveneighths (U+215E): X=302.0,Y=746.0 (should be at cap-height 745?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -3325,7 +2053,7 @@ The following glyphs do not have the recommended number of contours:
 	* fl (U+FB02) contains a short segment B<<355.0,684.0>-<348.0,686.0>-<336.0,686.5>> 
 
 	* fl (U+FB02) contains a short segment B<<336.0,686.5>-<324.0,687.0>-<319.0,687.0>> [code: found-short-segments]
-</div></details><br></div></details><details><summary><b>[16] PlusJakartaSans-LightItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] PlusJakartaSans-LightItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -3335,38 +2063,12 @@ The following glyphs do not have the recommended number of contours:
 
 	- 0x0133 (LATIN SMALL LIGATURE IJ)
  [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics_regressions">com.google.fonts/check/vertical_metrics_regressions</a>)</summary><div>
-
-
-* 🔥 **FAIL** Plus Jakarta Sans Regular: OS/2 sTypoAscender is 972 when it should be 1038 [code: bad-typo-ascender]
-* 🔥 **FAIL** Plus Jakarta Sans Regular: OS/2 sTypoDescender is -228 when it should be -222 [code: bad-typo-descender]
-* 🔥 **FAIL** Plus Jakarta Sans Regular: hhea Ascender is 972 when it should be 1038 [code: bad-hhea-ascender]
-* 🔥 **FAIL** Plus Jakarta Sans Regular: hhea Descender is -228 when it should be -222 [code: bad-hhea-descender]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 358, but got 354 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
 The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̏ j̦̑ j̦̒ į̆ [code: soft-dotted]
-</div></details><details><summary>⚠ <b>WARN:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** For now we're still accepting http URLs, but you should consider using https instead.
- [code: http]
-</div></details><details><summary>⚠ <b>WARN:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
-
-
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]
-* ⚠ **WARN** For now we're still accepting http URLs, but you should consider using https instead.
- [code: http]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -3498,124 +2200,6 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-
-	* five (U+0035): X=202.0,Y=746.0 (should be at cap-height 745?)
-
-	* five (U+0035): X=567.0,Y=746.0 (should be at cap-height 745?)
-
-	* seven (U+0037): X=110.0,Y=746.0 (should be at cap-height 745?)
-
-	* seven (U+0037): X=557.0,Y=746.0 (should be at cap-height 745?)
-
-	* t (U+0074): X=287.0,Y=-2.0 (should be at baseline 0?)
-
-	* y (U+0079): X=58.0,Y=532.0 (should be at x-height 531?)
-
-	* y (U+0079): X=122.0,Y=532.0 (should be at x-height 531?)
-
-	* y (U+0079): X=485.0,Y=532.0 (should be at x-height 531?)
-
-	* y (U+0079): X=555.0,Y=532.0 (should be at x-height 531?)
-
-	* braceleft (U+007B): X=78.0,Y=1.0 (should be at baseline 0?)
-
-	* braceright (U+007D): X=153.0,Y=1.0 (should be at baseline 0?)
-
-	* questiondown (U+00BF): X=182.0,Y=-226.0 (should be at descender -228?)
-
-	* questiondown (U+00BF): X=182.0,Y=-226.0 (should be at descender -228?)
-
-	* Atilde (U+00C3): X=364.0,Y=973.0 (should be at ascender 972?)
-
-	* Aring (U+00C5): X=381.5,Y=971.0 (should be at ascender 972?)
-
-	* Ntilde (U+00D1): X=409.0,Y=973.0 (should be at ascender 972?)
-
-	* Otilde (U+00D5): X=482.0,Y=973.0 (should be at ascender 972?)
-
-	* Itilde (U+0128): X=167.0,Y=973.0 (should be at ascender 972?)
-
-	* uni0163 (U+0163): X=287.0,Y=-2.0 (should be at baseline 0?)
-
-	* tcaron (U+0165): X=287.0,Y=-2.0 (should be at baseline 0?)
-
-	* tbar (U+0167): X=287.0,Y=-2.0 (should be at baseline 0?)
-
-	* Utilde (U+0168): X=388.0,Y=973.0 (should be at ascender 972?)
-
-	* Uring (U+016E): X=405.5,Y=971.0 (should be at ascender 972?)
-
-	* Aringacute (U+01FA): X=381.5,Y=971.0 (should be at ascender 972?)
-
-	* uni0203 (U+0203): X=242.5,Y=744.0 (should be at cap-height 745?)
-
-	* uni0203 (U+0203): X=462.5,Y=743.0 (should be at cap-height 745?)
-
-	* uni0207 (U+0207): X=267.5,Y=744.0 (should be at cap-height 745?)
-
-	* uni0207 (U+0207): X=487.5,Y=743.0 (should be at cap-height 745?)
-
-	* uni020B (U+020B): X=51.5,Y=744.0 (should be at cap-height 745?)
-
-	* uni020B (U+020B): X=271.5,Y=743.0 (should be at cap-height 745?)
-
-	* uni020F (U+020F): X=286.5,Y=744.0 (should be at cap-height 745?)
-
-	* uni020F (U+020F): X=506.5,Y=743.0 (should be at cap-height 745?)
-
-	* uni0213 (U+0213): X=158.5,Y=744.0 (should be at cap-height 745?)
-
-	* uni0213 (U+0213): X=378.5,Y=743.0 (should be at cap-height 745?)
-
-	* uni0217 (U+0217): X=242.5,Y=744.0 (should be at cap-height 745?)
-
-	* uni0217 (U+0217): X=462.5,Y=743.0 (should be at cap-height 745?)
-
-	* uni021B (U+021B): X=287.0,Y=-2.0 (should be at baseline 0?)
-
-	* uni022C (U+022C): X=482.0,Y=973.0 (should be at ascender 972?)
-
-	* uni0311 (U+0311): X=205.5,Y=744.0 (should be at cap-height 745?)
-
-	* uni0311 (U+0311): X=425.5,Y=743.0 (should be at cap-height 745?)
-
-	* uni1E4C (U+1E4C): X=482.0,Y=973.0 (should be at ascender 972?)
-
-	* uni1E4E (U+1E4E): X=482.0,Y=973.0 (should be at ascender 972?)
-
-	* uni1E6D (U+1E6D): X=287.0,Y=-2.0 (should be at baseline 0?)
-
-	* uni1E6F (U+1E6F): X=287.0,Y=-2.0 (should be at baseline 0?)
-
-	* uni1E78 (U+1E78): X=388.0,Y=973.0 (should be at ascender 972?)
-
-	* uni1E97 (U+1E97): X=287.0,Y=-2.0 (should be at baseline 0?)
-
-	* uni1EA9 (U+1EA9): X=465.0,Y=746.0 (should be at cap-height 745?)
-
-	* uni1EBC (U+1EBC): X=369.0,Y=973.0 (should be at ascender 972?)
-
-	* uni1EC3 (U+1EC3): X=490.0,Y=746.0 (should be at cap-height 745?)
-
-	* uni1ED5 (U+1ED5): X=509.0,Y=746.0 (should be at cap-height 745?)
-
-	* uni1EE0 (U+1EE0): X=482.0,Y=973.0 (should be at ascender 972?)
-
-	* uni1EEE (U+1EEE): X=388.0,Y=973.0 (should be at ascender 972?)
-
-	* uni1EF8 (U+1EF8): X=352.0,Y=973.0 (should be at ascender 972?)
-
-	* uni20BE (U+20BE): X=382.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni20BF (U+20BF): X=405.0,Y=1.0 (should be at baseline 0?)
-
-	* seveneighths (U+215E): X=102.0,Y=746.0 (should be at cap-height 745?) 
-
-	* seveneighths (U+215E): X=367.0,Y=746.0 (should be at cap-height 745?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -3724,7 +2308,7 @@ The following glyphs do not have the recommended number of contours:
 	* fl (U+FB02) contains a short segment B<<413.0,698.0>-<405.0,699.0>-<394.5,700.0>> 
 
 	* fl (U+FB02) contains a short segment B<<394.5,700.0>-<384.0,701.0>-<379.0,701.0>> [code: found-short-segments]
-</div></details><br></div></details><details><summary><b>[15] PlusJakartaSans-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] PlusJakartaSans-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -3734,38 +2318,12 @@ The following glyphs do not have the recommended number of contours:
 
 	- 0x0133 (LATIN SMALL LIGATURE IJ)
  [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics_regressions">com.google.fonts/check/vertical_metrics_regressions</a>)</summary><div>
-
-
-* 🔥 **FAIL** Plus Jakarta Sans Regular: OS/2 sTypoAscender is 972 when it should be 1038 [code: bad-typo-ascender]
-* 🔥 **FAIL** Plus Jakarta Sans Regular: OS/2 sTypoDescender is -228 when it should be -222 [code: bad-typo-descender]
-* 🔥 **FAIL** Plus Jakarta Sans Regular: hhea Ascender is 972 when it should be 1038 [code: bad-hhea-ascender]
-* 🔥 **FAIL** Plus Jakarta Sans Regular: hhea Descender is -228 when it should be -222 [code: bad-hhea-descender]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 358, but got 354 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
 The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̏ j̦̑ j̦̒ į̆ [code: soft-dotted]
-</div></details><details><summary>⚠ <b>WARN:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** For now we're still accepting http URLs, but you should consider using https instead.
- [code: http]
-</div></details><details><summary>⚠ <b>WARN:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
-
-
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]
-* ⚠ **WARN** For now we're still accepting http URLs, but you should consider using https instead.
- [code: http]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -3938,6 +2496,188 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
+
+	* g (U+0067): X=325.0,Y=-220.0 (should be at descender -222?)
+
+	* g (U+0067): X=325.0,Y=-220.0 (should be at descender -222?)
+
+	* j (U+006A): X=-14.0,Y=-221.0 (should be at descender -222?)
+
+	* j (U+006A): X=-41.0,Y=-220.0 (should be at descender -222?)
+
+	* j (U+006A): X=-14.0,Y=-221.0 (should be at descender -222?)
+
+	* y (U+0079): X=127.0,Y=-221.0 (should be at descender -222?)
+
+	* y (U+0079): X=127.0,Y=-221.0 (should be at descender -222?)
+
+	* Oslash (U+00D8): X=544.0,Y=744.0 (should be at cap-height 745?)
+
+	* Oslash (U+00D8): X=334.0,Y=1.0 (should be at baseline 0?)
+
+	* oslash (U+00F8): X=247.5,Y=-2.0 (should be at baseline 0?)
+
+	* yacute (U+00FD): X=127.0,Y=-221.0 (should be at descender -222?)
+
+	* yacute (U+00FD): X=127.0,Y=-221.0 (should be at descender -222?)
+
+	* ydieresis (U+00FF): X=127.0,Y=-221.0 (should be at descender -222?)
+
+	* ydieresis (U+00FF): X=127.0,Y=-221.0 (should be at descender -222?)
+
+	* gcircumflex (U+011D): X=325.0,Y=-220.0 (should be at descender -222?)
+
+	* gcircumflex (U+011D): X=325.0,Y=-220.0 (should be at descender -222?)
+
+	* gbreve (U+011F): X=325.0,Y=-220.0 (should be at descender -222?)
+
+	* gbreve (U+011F): X=325.0,Y=-220.0 (should be at descender -222?)
+
+	* gdotaccent (U+0121): X=325.0,Y=-220.0 (should be at descender -222?)
+
+	* gdotaccent (U+0121): X=325.0,Y=-220.0 (should be at descender -222?)
+
+	* uni0123 (U+0123): X=325.0,Y=-220.0 (should be at descender -222?)
+
+	* uni0123 (U+0123): X=325.0,Y=-220.0 (should be at descender -222?)
+
+	* jcircumflex (U+0135): X=-14.0,Y=-221.0 (should be at descender -222?)
+
+	* jcircumflex (U+0135): X=-41.0,Y=-220.0 (should be at descender -222?)
+
+	* jcircumflex (U+0135): X=-14.0,Y=-221.0 (should be at descender -222?)
+
+	* Eng (U+014A): X=463.0,Y=-221.0 (should be at descender -222?)
+
+	* Eng (U+014A): X=436.0,Y=-220.0 (should be at descender -222?)
+
+	* Eng (U+014A): X=463.0,Y=-221.0 (should be at descender -222?)
+
+	* eng (U+014B): X=331.0,Y=-221.0 (should be at descender -222?)
+
+	* eng (U+014B): X=303.5,Y=-220.0 (should be at descender -222?)
+
+	* eng (U+014B): X=331.0,Y=-221.0 (should be at descender -222?)
+
+	* ycircumflex (U+0177): X=127.0,Y=-221.0 (should be at descender -222?)
+
+	* ycircumflex (U+0177): X=127.0,Y=-221.0 (should be at descender -222?)
+
+	* uni01C8 (U+01C8): X=529.0,Y=-221.0 (should be at descender -222?)
+
+	* uni01C8 (U+01C8): X=502.0,Y=-220.0 (should be at descender -222?)
+
+	* uni01C8 (U+01C8): X=529.0,Y=-221.0 (should be at descender -222?)
+
+	* uni01C9 (U+01C9): X=238.0,Y=-221.0 (should be at descender -222?)
+
+	* uni01C9 (U+01C9): X=211.0,Y=-220.0 (should be at descender -222?)
+
+	* uni01C9 (U+01C9): X=238.0,Y=-221.0 (should be at descender -222?)
+
+	* uni01CB (U+01CB): X=727.0,Y=-221.0 (should be at descender -222?)
+
+	* uni01CB (U+01CB): X=700.0,Y=-220.0 (should be at descender -222?)
+
+	* uni01CB (U+01CB): X=727.0,Y=-221.0 (should be at descender -222?)
+
+	* uni01CC (U+01CC): X=579.0,Y=-221.0 (should be at descender -222?)
+
+	* uni01CC (U+01CC): X=552.0,Y=-220.0 (should be at descender -222?)
+
+	* uni01CC (U+01CC): X=579.0,Y=-221.0 (should be at descender -222?)
+
+	* gcaron (U+01E7): X=325.0,Y=-220.0 (should be at descender -222?)
+
+	* gcaron (U+01E7): X=325.0,Y=-220.0 (should be at descender -222?)
+
+	* Oslashacute (U+01FE): X=544.0,Y=744.0 (should be at cap-height 745?)
+
+	* Oslashacute (U+01FE): X=334.0,Y=1.0 (should be at baseline 0?)
+
+	* oslashacute (U+01FF): X=247.5,Y=-2.0 (should be at baseline 0?)
+
+	* uni022A (U+022A): X=278.0,Y=1040.0 (should be at ascender 1038?)
+
+	* uni022A (U+022A): X=600.0,Y=1040.0 (should be at ascender 1038?)
+
+	* uni0230 (U+0230): X=278.0,Y=1040.0 (should be at ascender 1038?)
+
+	* uni0230 (U+0230): X=600.0,Y=1040.0 (should be at ascender 1038?)
+
+	* uni0233 (U+0233): X=127.0,Y=-221.0 (should be at descender -222?)
+
+	* uni0233 (U+0233): X=127.0,Y=-221.0 (should be at descender -222?)
+
+	* uni0237 (U+0237): X=-14.0,Y=-221.0 (should be at descender -222?)
+
+	* uni0237 (U+0237): X=-41.0,Y=-220.0 (should be at descender -222?)
+
+	* uni0237 (U+0237): X=-14.0,Y=-221.0 (should be at descender -222?)
+
+	* uni1E21 (U+1E21): X=325.0,Y=-220.0 (should be at descender -222?)
+
+	* uni1E21 (U+1E21): X=325.0,Y=-220.0 (should be at descender -222?)
+
+	* uni1E4E (U+1E4E): X=261.0,Y=1037.0 (should be at ascender 1038?)
+
+	* uni1E4E (U+1E4E): X=399.0,Y=1037.0 (should be at ascender 1038?)
+
+	* uni1E4E (U+1E4E): X=479.0,Y=1037.0 (should be at ascender 1038?)
+
+	* uni1E4E (U+1E4E): X=616.0,Y=1037.0 (should be at ascender 1038?)
+
+	* uni1E66 (U+1E66): X=251.0,Y=1037.0 (should be at ascender 1038?)
+
+	* uni1E66 (U+1E66): X=389.0,Y=1037.0 (should be at ascender 1038?)
+
+	* uni1E7A (U+1E7A): X=182.0,Y=1037.0 (should be at ascender 1038?)
+
+	* uni1E7A (U+1E7A): X=319.0,Y=1037.0 (should be at ascender 1038?)
+
+	* uni1E7A (U+1E7A): X=399.0,Y=1037.0 (should be at ascender 1038?)
+
+	* uni1E7A (U+1E7A): X=537.0,Y=1037.0 (should be at ascender 1038?)
+
+	* uni1E8F (U+1E8F): X=127.0,Y=-221.0 (should be at descender -222?)
+
+	* uni1E8F (U+1E8F): X=127.0,Y=-221.0 (should be at descender -222?)
+
+	* ygrave (U+1EF3): X=127.0,Y=-221.0 (should be at descender -222?)
+
+	* ygrave (U+1EF3): X=127.0,Y=-221.0 (should be at descender -222?)
+
+	* uni1EF5 (U+1EF5): X=127.0,Y=-221.0 (should be at descender -222?)
+
+	* uni1EF5 (U+1EF5): X=127.0,Y=-221.0 (should be at descender -222?)
+
+	* uni1EF7 (U+1EF7): X=127.0,Y=-221.0 (should be at descender -222?)
+
+	* uni1EF7 (U+1EF7): X=127.0,Y=-221.0 (should be at descender -222?)
+
+	* uni1EF9 (U+1EF9): X=127.0,Y=-221.0 (should be at descender -222?)
+
+	* uni1EF9 (U+1EF9): X=127.0,Y=-221.0 (should be at descender -222?)
+
+	* uni2077 (U+2077): X=15.0,Y=746.0 (should be at cap-height 745?)
+
+	* uni2077 (U+2077): X=370.0,Y=746.0 (should be at cap-height 745?)
+
+	* colonmonetary (U+20A1): X=330.0,Y=-1.0 (should be at baseline 0?)
+
+	* uni20BE (U+20BE): X=331.0,Y=743.0 (should be at cap-height 745?)
+
+	* uni20BE (U+20BE): X=549.0,Y=744.0 (should be at cap-height 745?)
+
+	* uni20BF (U+20BF): X=415.0,Y=1.0 (should be at baseline 0?)
+
+	* seveneighths (U+215E): X=15.0,Y=746.0 (should be at cap-height 745?) 
+
+	* seveneighths (U+215E): X=303.0,Y=746.0 (should be at cap-height 745?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -4020,7 +2760,7 @@ The following glyphs do not have the recommended number of contours:
 	* OE (U+0152): L<<1193.0,120.0>--<1192.0,0.0>> 
 
 	* uni20BE (U+20BE): L<<807.0,480.0>--<661.0,479.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[18] PlusJakartaSans-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] PlusJakartaSans-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -4030,38 +2770,12 @@ The following glyphs do not have the recommended number of contours:
 
 	- 0x0133 (LATIN SMALL LIGATURE IJ)
  [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics_regressions">com.google.fonts/check/vertical_metrics_regressions</a>)</summary><div>
-
-
-* 🔥 **FAIL** Plus Jakarta Sans Regular: OS/2 sTypoAscender is 972 when it should be 1038 [code: bad-typo-ascender]
-* 🔥 **FAIL** Plus Jakarta Sans Regular: OS/2 sTypoDescender is -228 when it should be -222 [code: bad-typo-descender]
-* 🔥 **FAIL** Plus Jakarta Sans Regular: hhea Ascender is 972 when it should be 1038 [code: bad-hhea-ascender]
-* 🔥 **FAIL** Plus Jakarta Sans Regular: hhea Descender is -228 when it should be -222 [code: bad-hhea-descender]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 358, but got 2 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
 The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̏ j̦̑ j̦̒ į̆ [code: soft-dotted]
-</div></details><details><summary>⚠ <b>WARN:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** For now we're still accepting http URLs, but you should consider using https instead.
- [code: http]
-</div></details><details><summary>⚠ <b>WARN:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
-
-
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]
-* ⚠ **WARN** For now we're still accepting http URLs, but you should consider using https instead.
- [code: http]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -4163,164 +2877,6 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-
-	* y (U+0079): X=240.0,Y=2.0 (should be at baseline 0?)
-
-	* braceleft (U+007B): X=116.0,Y=1.0 (should be at baseline 0?)
-
-	* braceleft (U+007B): X=166.0,Y=-1.0 (should be at baseline 0?)
-
-	* braceright (U+007D): X=125.0,Y=-1.0 (should be at baseline 0?)
-
-	* braceright (U+007D): X=175.0,Y=1.0 (should be at baseline 0?)
-
-	* Acircumflex (U+00C2): X=322.0,Y=973.0 (should be at ascender 972?)
-
-	* Ecircumflex (U+00CA): X=329.0,Y=973.0 (should be at ascender 972?)
-
-	* Icircumflex (U+00CE): X=124.0,Y=973.0 (should be at ascender 972?)
-
-	* Ocircumflex (U+00D4): X=442.0,Y=973.0 (should be at ascender 972?)
-
-	* Ucircumflex (U+00DB): X=345.0,Y=973.0 (should be at ascender 972?)
-
-	* atilde (U+00E3): X=395.0,Y=746.0 (should be at cap-height 745?)
-
-	* atilde (U+00E3): X=435.0,Y=746.0 (should be at cap-height 745?)
-
-	* ntilde (U+00F1): X=387.0,Y=746.0 (should be at cap-height 745?)
-
-	* ntilde (U+00F1): X=427.0,Y=746.0 (should be at cap-height 745?)
-
-	* otilde (U+00F5): X=433.0,Y=746.0 (should be at cap-height 745?)
-
-	* otilde (U+00F5): X=473.0,Y=746.0 (should be at cap-height 745?)
-
-	* yacute (U+00FD): X=240.0,Y=2.0 (should be at baseline 0?)
-
-	* ydieresis (U+00FF): X=240.0,Y=2.0 (should be at baseline 0?)
-
-	* Ccircumflex (U+0108): X=430.0,Y=973.0 (should be at ascender 972?)
-
-	* Gcircumflex (U+011C): X=417.0,Y=973.0 (should be at ascender 972?)
-
-	* Hcircumflex (U+0124): X=369.0,Y=973.0 (should be at ascender 972?)
-
-	* hcircumflex (U+0125): X=111.0,Y=973.0 (should be at ascender 972?)
-
-	* itilde (U+0129): X=194.0,Y=746.0 (should be at cap-height 745?)
-
-	* itilde (U+0129): X=234.0,Y=746.0 (should be at cap-height 745?)
-
-	* Jcircumflex (U+0134): X=257.0,Y=973.0 (should be at ascender 972?)
-
-	* Scircumflex (U+015C): X=320.0,Y=973.0 (should be at ascender 972?)
-
-	* utilde (U+0169): X=387.0,Y=746.0 (should be at cap-height 745?)
-
-	* utilde (U+0169): X=427.0,Y=746.0 (should be at cap-height 745?)
-
-	* Wcircumflex (U+0174): X=494.0,Y=973.0 (should be at ascender 972?)
-
-	* Ycircumflex (U+0176): X=312.0,Y=973.0 (should be at ascender 972?)
-
-	* ycircumflex (U+0177): X=240.0,Y=2.0 (should be at baseline 0?)
-
-	* uni022D (U+022D): X=433.0,Y=746.0 (should be at cap-height 745?)
-
-	* uni022D (U+022D): X=473.0,Y=746.0 (should be at cap-height 745?)
-
-	* uni0233 (U+0233): X=240.0,Y=2.0 (should be at baseline 0?)
-
-	* tilde (U+02DC): X=347.0,Y=746.0 (should be at cap-height 745?)
-
-	* tilde (U+02DC): X=387.0,Y=746.0 (should be at cap-height 745?)
-
-	* tildecomb (U+0303): X=347.0,Y=746.0 (should be at cap-height 745?)
-
-	* tildecomb (U+0303): X=387.0,Y=746.0 (should be at cap-height 745?)
-
-	* uni032E (U+032E): X=240.0,Y=-230.0 (should be at descender -228?)
-
-	* uni032E (U+032E): X=240.0,Y=-230.0 (should be at descender -228?)
-
-	* uni1E2A (U+1E2A): X=369.0,Y=-230.0 (should be at descender -228?)
-
-	* uni1E2A (U+1E2A): X=369.0,Y=-230.0 (should be at descender -228?)
-
-	* uni1E2B (U+1E2B): X=285.0,Y=-230.0 (should be at descender -228?)
-
-	* uni1E2B (U+1E2B): X=285.0,Y=-230.0 (should be at descender -228?)
-
-	* uni1E4D (U+1E4D): X=433.0,Y=746.0 (should be at cap-height 745?)
-
-	* uni1E4D (U+1E4D): X=473.0,Y=746.0 (should be at cap-height 745?)
-
-	* uni1E4F (U+1E4F): X=433.0,Y=746.0 (should be at cap-height 745?)
-
-	* uni1E4F (U+1E4F): X=473.0,Y=746.0 (should be at cap-height 745?)
-
-	* uni1E79 (U+1E79): X=387.0,Y=746.0 (should be at cap-height 745?)
-
-	* uni1E79 (U+1E79): X=427.0,Y=746.0 (should be at cap-height 745?)
-
-	* uni1E8F (U+1E8F): X=240.0,Y=2.0 (should be at baseline 0?)
-
-	* uni1EA2 (U+1EA2): X=244.0,Y=971.0 (should be at ascender 972?)
-
-	* uni1EA9 (U+1EA9): X=466.5,Y=747.0 (should be at cap-height 745?)
-
-	* uni1EAC (U+1EAC): X=322.0,Y=973.0 (should be at ascender 972?)
-
-	* uni1EBA (U+1EBA): X=251.0,Y=971.0 (should be at ascender 972?)
-
-	* uni1EBD (U+1EBD): X=416.0,Y=746.0 (should be at cap-height 745?)
-
-	* uni1EBD (U+1EBD): X=456.0,Y=746.0 (should be at cap-height 745?)
-
-	* uni1EC3 (U+1EC3): X=487.5,Y=747.0 (should be at cap-height 745?)
-
-	* uni1EC6 (U+1EC6): X=329.0,Y=973.0 (should be at ascender 972?)
-
-	* uni1EC8 (U+1EC8): X=46.0,Y=971.0 (should be at ascender 972?)
-
-	* uni1ECE (U+1ECE): X=364.0,Y=971.0 (should be at ascender 972?)
-
-	* uni1ED5 (U+1ED5): X=504.5,Y=747.0 (should be at cap-height 745?)
-
-	* uni1ED8 (U+1ED8): X=442.0,Y=973.0 (should be at ascender 972?)
-
-	* uni1EDE (U+1EDE): X=364.0,Y=971.0 (should be at ascender 972?)
-
-	* uni1EE1 (U+1EE1): X=433.0,Y=746.0 (should be at cap-height 745?)
-
-	* uni1EE1 (U+1EE1): X=473.0,Y=746.0 (should be at cap-height 745?)
-
-	* uni1EE6 (U+1EE6): X=267.0,Y=971.0 (should be at ascender 972?)
-
-	* uni1EEC (U+1EEC): X=267.0,Y=971.0 (should be at ascender 972?)
-
-	* uni1EEF (U+1EEF): X=387.0,Y=746.0 (should be at cap-height 745?)
-
-	* uni1EEF (U+1EEF): X=427.0,Y=746.0 (should be at cap-height 745?)
-
-	* ygrave (U+1EF3): X=240.0,Y=2.0 (should be at baseline 0?)
-
-	* uni1EF5 (U+1EF5): X=240.0,Y=2.0 (should be at baseline 0?)
-
-	* uni1EF6 (U+1EF6): X=234.0,Y=971.0 (should be at ascender 972?)
-
-	* uni1EF7 (U+1EF7): X=240.0,Y=2.0 (should be at baseline 0?)
-
-	* uni1EF9 (U+1EF9): X=240.0,Y=2.0 (should be at baseline 0?)
-
-	* uni1EF9 (U+1EF9): X=367.0,Y=746.0 (should be at cap-height 745?) 
-
-	* uni1EF9 (U+1EF9): X=407.0,Y=746.0 (should be at cap-height 745?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -4375,7 +2931,7 @@ The following glyphs do not have the recommended number of contours:
 	* exclamdown (U+00A1): L<<103.0,-219.0>--<105.0,318.0>> 
 
 	* exclamdown (U+00A1): L<<150.0,318.0>--<153.0,-219.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[17] PlusJakartaSans-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] PlusJakartaSans-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -4385,38 +2941,12 @@ The following glyphs do not have the recommended number of contours:
 
 	- 0x0133 (LATIN SMALL LIGATURE IJ)
  [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics_regressions">com.google.fonts/check/vertical_metrics_regressions</a>)</summary><div>
-
-
-* 🔥 **FAIL** Plus Jakarta Sans Regular: OS/2 sTypoAscender is 972 when it should be 1038 [code: bad-typo-ascender]
-* 🔥 **FAIL** Plus Jakarta Sans Regular: OS/2 sTypoDescender is -228 when it should be -222 [code: bad-typo-descender]
-* 🔥 **FAIL** Plus Jakarta Sans Regular: hhea Ascender is 972 when it should be 1038 [code: bad-hhea-ascender]
-* 🔥 **FAIL** Plus Jakarta Sans Regular: hhea Descender is -228 when it should be -222 [code: bad-hhea-descender]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 358, but got 354 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
 The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̏ j̦̑ j̦̒ į̆ [code: soft-dotted]
-</div></details><details><summary>⚠ <b>WARN:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** For now we're still accepting http URLs, but you should consider using https instead.
- [code: http]
-</div></details><details><summary>⚠ <b>WARN:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
-
-
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]
-* ⚠ **WARN** For now we're still accepting http URLs, but you should consider using https instead.
- [code: http]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -4602,174 +3132,6 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-
-	* Q (U+0051): X=545.0,Y=1.0 (should be at baseline 0?)
-
-	* p (U+0070): X=274.5,Y=1.5 (should be at baseline 0?)
-
-	* q (U+0071): X=398.5,Y=1.5 (should be at baseline 0?)
-
-	* questiondown (U+00BF): X=70.0,Y=-2.0 (should be at baseline 0?)
-
-	* questiondown (U+00BF): X=225.0,Y=2.0 (should be at baseline 0?)
-
-	* Atilde (U+00C3): X=390.0,Y=970.5 (should be at ascender 972?)
-
-	* Atilde (U+00C3): X=454.0,Y=970.5 (should be at ascender 972?)
-
-	* Ntilde (U+00D1): X=395.0,Y=970.5 (should be at ascender 972?)
-
-	* Ntilde (U+00D1): X=459.0,Y=970.5 (should be at ascender 972?)
-
-	* Otilde (U+00D5): X=463.0,Y=970.5 (should be at ascender 972?)
-
-	* Otilde (U+00D5): X=527.0,Y=970.5 (should be at ascender 972?)
-
-	* aring (U+00E5): X=322.5,Y=744.0 (should be at cap-height 745?)
-
-	* aring (U+00E5): X=267.0,Y=744.0 (should be at cap-height 745?)
-
-	* thorn (U+00FE): X=274.5,Y=1.5 (should be at baseline 0?)
-
-	* Itilde (U+0128): X=168.0,Y=970.5 (should be at ascender 972?)
-
-	* Itilde (U+0128): X=232.0,Y=970.5 (should be at ascender 972?)
-
-	* Utilde (U+0168): X=386.0,Y=970.5 (should be at ascender 972?)
-
-	* Utilde (U+0168): X=450.0,Y=970.5 (should be at ascender 972?)
-
-	* uring (U+016F): X=327.5,Y=744.0 (should be at cap-height 745?)
-
-	* uring (U+016F): X=272.0,Y=744.0 (should be at cap-height 745?)
-
-	* aringacute (U+01FB): X=322.5,Y=744.0 (should be at cap-height 745?)
-
-	* aringacute (U+01FB): X=267.0,Y=744.0 (should be at cap-height 745?)
-
-	* uni022C (U+022C): X=463.0,Y=970.5 (should be at ascender 972?)
-
-	* uni022C (U+022C): X=527.0,Y=970.5 (should be at ascender 972?)
-
-	* uni022D (U+022D): X=156.0,Y=970.0 (should be at ascender 972?)
-
-	* uni022D (U+022D): X=496.0,Y=970.0 (should be at ascender 972?)
-
-	* ring (U+02DA): X=286.5,Y=744.0 (should be at cap-height 745?)
-
-	* ring (U+02DA): X=231.0,Y=744.0 (should be at cap-height 745?)
-
-	* hookabovecomb (U+0309): X=386.0,Y=747.0 (should be at cap-height 745?)
-
-	* uni030A (U+030A): X=286.5,Y=744.0 (should be at cap-height 745?)
-
-	* uni030A (U+030A): X=231.0,Y=744.0 (should be at cap-height 745?)
-
-	* uni031B (U+031B): X=129.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni031B (U+031B): X=133.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni031B (U+031B): X=150.5,Y=744.5 (should be at cap-height 745?)
-
-	* uni1E4C (U+1E4C): X=463.0,Y=970.5 (should be at ascender 972?)
-
-	* uni1E4C (U+1E4C): X=527.0,Y=970.5 (should be at ascender 972?)
-
-	* uni1E4E (U+1E4E): X=463.0,Y=970.5 (should be at ascender 972?)
-
-	* uni1E4E (U+1E4E): X=527.0,Y=970.5 (should be at ascender 972?)
-
-	* uni1E78 (U+1E78): X=386.0,Y=970.5 (should be at ascender 972?)
-
-	* uni1E78 (U+1E78): X=450.0,Y=970.5 (should be at ascender 972?)
-
-	* uni1EA2 (U+1EA2): X=303.0,Y=973.0 (should be at ascender 972?)
-
-	* uni1EA2 (U+1EA2): X=277.5,Y=971.5 (should be at ascender 972?)
-
-	* uni1EA3 (U+1EA3): X=423.0,Y=747.0 (should be at cap-height 745?)
-
-	* uni1EA8 (U+1EA8): X=517.0,Y=974.0 (should be at ascender 972?)
-
-	* uni1EBA (U+1EBA): X=254.0,Y=973.0 (should be at ascender 972?)
-
-	* uni1EBA (U+1EBA): X=228.5,Y=971.5 (should be at ascender 972?)
-
-	* uni1EBB (U+1EBB): X=434.0,Y=747.0 (should be at cap-height 745?)
-
-	* uni1EBC (U+1EBC): X=341.0,Y=970.5 (should be at ascender 972?)
-
-	* uni1EBC (U+1EBC): X=405.0,Y=970.5 (should be at ascender 972?)
-
-	* uni1EC2 (U+1EC2): X=468.0,Y=974.0 (should be at ascender 972?)
-
-	* uni1EC8 (U+1EC8): X=81.0,Y=973.0 (should be at ascender 972?)
-
-	* uni1EC8 (U+1EC8): X=55.5,Y=971.5 (should be at ascender 972?)
-
-	* uni1EC9 (U+1EC9): X=247.0,Y=747.0 (should be at cap-height 745?)
-
-	* uni1ECE (U+1ECE): X=376.0,Y=973.0 (should be at ascender 972?)
-
-	* uni1ECE (U+1ECE): X=350.5,Y=971.5 (should be at ascender 972?)
-
-	* uni1ECF (U+1ECF): X=454.0,Y=747.0 (should be at cap-height 745?)
-
-	* uni1ED4 (U+1ED4): X=590.0,Y=974.0 (should be at ascender 972?)
-
-	* uni1EDE (U+1EDE): X=376.0,Y=973.0 (should be at ascender 972?)
-
-	* uni1EDE (U+1EDE): X=350.5,Y=971.5 (should be at ascender 972?)
-
-	* uni1EDF (U+1EDF): X=454.0,Y=747.0 (should be at cap-height 745?)
-
-	* uni1EE0 (U+1EE0): X=463.0,Y=970.5 (should be at ascender 972?)
-
-	* uni1EE0 (U+1EE0): X=527.0,Y=970.5 (should be at ascender 972?)
-
-	* uni1EE6 (U+1EE6): X=299.0,Y=973.0 (should be at ascender 972?)
-
-	* uni1EE6 (U+1EE6): X=273.5,Y=971.5 (should be at ascender 972?)
-
-	* uni1EE7 (U+1EE7): X=428.0,Y=747.0 (should be at cap-height 745?)
-
-	* uni1EEC (U+1EEC): X=299.0,Y=973.0 (should be at ascender 972?)
-
-	* uni1EEC (U+1EEC): X=273.5,Y=971.5 (should be at ascender 972?)
-
-	* uni1EED (U+1EED): X=428.0,Y=747.0 (should be at cap-height 745?)
-
-	* uni1EEE (U+1EEE): X=386.0,Y=970.5 (should be at ascender 972?)
-
-	* uni1EEE (U+1EEE): X=450.0,Y=970.5 (should be at ascender 972?)
-
-	* uni1EF6 (U+1EF6): X=273.0,Y=973.0 (should be at ascender 972?)
-
-	* uni1EF6 (U+1EF6): X=247.5,Y=971.5 (should be at ascender 972?)
-
-	* uni1EF7 (U+1EF7): X=429.0,Y=747.0 (should be at cap-height 745?)
-
-	* uni1EF8 (U+1EF8): X=360.0,Y=970.5 (should be at ascender 972?)
-
-	* uni1EF8 (U+1EF8): X=424.0,Y=970.5 (should be at ascender 972?)
-
-	* uni2077 (U+2077): X=11.0,Y=746.0 (should be at cap-height 745?)
-
-	* uni2077 (U+2077): X=373.0,Y=746.0 (should be at cap-height 745?)
-
-	* colonmonetary (U+20A1): X=331.0,Y=-2.0 (should be at baseline 0?)
-
-	* uni20BE (U+20BE): X=330.0,Y=743.0 (should be at cap-height 745?)
-
-	* uni20BE (U+20BE): X=550.0,Y=744.0 (should be at cap-height 745?)
-
-	* seveneighths (U+215E): X=11.0,Y=746.0 (should be at cap-height 745?) 
-
-	* seveneighths (U+215E): X=303.0,Y=746.0 (should be at cap-height 745?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -4926,7 +3288,7 @@ The following glyphs do not have the recommended number of contours:
 	* AEacute (U+01FC): L<<971.0,135.0>--<970.0,0.0>> 
 
 	* OE (U+0152): L<<1185.0,135.0>--<1184.0,0.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[14] PlusJakartaSans-Italic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] PlusJakartaSans-Italic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -4936,38 +3298,12 @@ The following glyphs do not have the recommended number of contours:
 
 	- 0x0133 (LATIN SMALL LIGATURE IJ)
  [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics_regressions">com.google.fonts/check/vertical_metrics_regressions</a>)</summary><div>
-
-
-* 🔥 **FAIL** Plus Jakarta Sans Regular: OS/2 sTypoAscender is 972 when it should be 1038 [code: bad-typo-ascender]
-* 🔥 **FAIL** Plus Jakarta Sans Regular: OS/2 sTypoDescender is -228 when it should be -222 [code: bad-typo-descender]
-* 🔥 **FAIL** Plus Jakarta Sans Regular: hhea Ascender is 972 when it should be 1038 [code: bad-hhea-ascender]
-* 🔥 **FAIL** Plus Jakarta Sans Regular: hhea Descender is -228 when it should be -222 [code: bad-hhea-descender]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 358, but got 354 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
 The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̏ j̦̑ j̦̒ į̆ [code: soft-dotted]
-</div></details><details><summary>⚠ <b>WARN:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** For now we're still accepting http URLs, but you should consider using https instead.
- [code: http]
-</div></details><details><summary>⚠ <b>WARN:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
-
-
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]
-* ⚠ **WARN** For now we're still accepting http URLs, but you should consider using https instead.
- [code: http]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -5214,7 +3550,7 @@ The following glyphs do not have the recommended number of contours:
 	* fl (U+FB02) contains a short segment B<<416.0,684.0>-<409.0,686.0>-<397.5,686.5>> 
 
 	* fl (U+FB02) contains a short segment B<<397.5,686.5>-<386.0,687.0>-<382.0,687.0>> [code: found-short-segments]
-</div></details><br></div></details><details><summary><b>[15] PlusJakartaSans-BoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] PlusJakartaSans-BoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -5224,38 +3560,12 @@ The following glyphs do not have the recommended number of contours:
 
 	- 0x0133 (LATIN SMALL LIGATURE IJ)
  [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics_regressions">com.google.fonts/check/vertical_metrics_regressions</a>)</summary><div>
-
-
-* 🔥 **FAIL** Plus Jakarta Sans Regular: OS/2 sTypoAscender is 972 when it should be 1038 [code: bad-typo-ascender]
-* 🔥 **FAIL** Plus Jakarta Sans Regular: OS/2 sTypoDescender is -228 when it should be -222 [code: bad-typo-descender]
-* 🔥 **FAIL** Plus Jakarta Sans Regular: hhea Ascender is 972 when it should be 1038 [code: bad-hhea-ascender]
-* 🔥 **FAIL** Plus Jakarta Sans Regular: hhea Descender is -228 when it should be -222 [code: bad-hhea-descender]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 358, but got 354 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
 The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̉ j̦̊ j̦̋ ǰ̦ j̦̏ j̦̑ j̦̒ į̆ [code: soft-dotted]
-</div></details><details><summary>⚠ <b>WARN:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** For now we're still accepting http URLs, but you should consider using https instead.
- [code: http]
-</div></details><details><summary>⚠ <b>WARN:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
-
-
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]
-* ⚠ **WARN** For now we're still accepting http URLs, but you should consider using https instead.
- [code: http]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -5616,8 +3926,8 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 57 | 166 | 1612 | 85 | 1260 | 0 |
-| 0% | 2% | 5% | 51% | 3% | 40% | 0% |
+| 0 | 28 | 129 | 1612 | 85 | 1326 | 0 |
+| 0% | 1% | 4% | 51% | 3% | 42% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
