@@ -1,9 +1,9 @@
 sources:
   - PlusJakartaSans.glyphs
   - PlusJakartaSans-Italic.glyphs
+axisOrder:
+  - wght
+  - ital
 outputDir: "../fonts"
-buildStatic: true
-buildVariable: true
-buildTTF: true
-buildOTF: false
-buildWebfont: false
+familyName: "Plus Jakarta Sans"
+version: 2.071
