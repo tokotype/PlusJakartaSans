@@ -26,6 +26,13 @@ Test the fonts with `fontbakery check-googlefonts fonts/variable/*.ttf` and `fon
 
 ## FONTLOG for Plus Jakarta Sans fonts
 
+
+### 6 May 2023 (Gumpita Rahayu) Plus Jakarta Sans v2.7.1
+
+- Fixed kerning missing in static ttf
+- Update font repository to <a href="https://github.com/googlefonts/googlefonts-project-template">googlefonts-project-template</a>
+
+
 ### 19 May 2023 (Gumpita Rahayu) Plus Jakarta Sans v2.700
 
 - Fixed shapeshifting glyphs on 'ohorn' and 'registered symbol'
