@@ -1,11 +1,6 @@
 {
 .appVersion = "3192";
 .formatVersion = 3;
-DisplayStrings = (
-"rðdysa",
-",‚„“”‘’",
-"ĳĲWinning the treble with the Blues’ Under-18s in 2016Guéhi signed his first professional contract in September 2017 and went on to help Chelsea scoop the quadruple – including the FA Youth Cup and league – that same season. Can be disabled by setting collector.cookie.enabled to false. Dimensions(in) (L x W x H): 8.2 x 5.4 x 1.1. The average summer diurnal temperature range approaches 40 °F (22 °C) in much of the state. $21 per user"
-);
 axes = (
 {
 name = Weight;
@@ -4262,7 +4257,7 @@ unicode = 7870;
 glyphname = Ecircumflexdotbelow;
 kernLeft = H;
 kernRight = E;
-lastChange = "2021-11-10 07:58:16 +0000";
+lastChange = "2021-11-11 09:55:14 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -11107,7 +11102,7 @@ unicode = 334;
 glyphname = Ocircumflex;
 kernLeft = O;
 kernRight = O;
-lastChange = "2021-11-10 07:58:16 +0000";
+lastChange = "2021-11-11 09:55:14 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -12060,7 +12055,7 @@ unicode = 7906;
 glyphname = Ohorngrave;
 kernLeft = O;
 kernRight = O;
-lastChange = "2021-11-10 07:58:16 +0000";
+lastChange = "2021-11-10 09:55:14 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -13103,7 +13098,7 @@ unicode = 80;
 glyphname = Thorn;
 kernLeft = H;
 kernRight = P;
-lastChange = "2021-11-10 04:04:52 +0000";
+lastChange = "2021-11-10 07:58:16 +0000";
 layers = (
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -13412,7 +13407,7 @@ unicode = 81;
 glyphname = Q.ss03;
 kernLeft = O;
 kernRight = O;
-lastChange = "2021-11-10 04:04:52 +0000";
+lastChange = "2021-11-11 09:41:25 +0000";
 layers = (
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -16646,7 +16641,7 @@ width = 742;
 glyphname = Uhookabove;
 kernLeft = U;
 kernRight = U;
-lastChange = "2021-11-11 09:55:14 +0000";
+lastChange = "2021-11-11 09:41:25 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -17396,7 +17391,7 @@ unicode = 7916;
 glyphname = Uhornhookabove.ss01;
 kernLeft = H;
 kernRight = H;
-lastChange = "2021-11-10 07:22:41 +0000";
+lastChange = "2021-11-10 07:55:41 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -18560,7 +18555,7 @@ unicode = 7810;
 glyphname = Wcircumflex;
 kernLeft = W;
 kernRight = W;
-lastChange = "2021-11-10 07:58:16 +0000";
+lastChange = "2021-11-11 09:41:16 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -19206,7 +19201,7 @@ unicode = 7922;
 glyphname = Yhookabove;
 kernLeft = Y;
 kernRight = Y;
-lastChange = "2021-11-10 07:07:29 +0000";
+lastChange = "2021-11-11 07:55:14 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -23309,7 +23304,7 @@ width = 616;
 glyphname = adieresis.ss03;
 kernLeft = a;
 kernRight = a;
-lastChange = "2021-11-10 07:58:16 +0000";
+lastChange = "2021-11-11 09:55:14 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -23687,7 +23682,7 @@ width = 616;
 glyphname = agrave.ss03;
 kernLeft = a;
 kernRight = a;
-lastChange = "2021-11-10 07:58:16 +0000";
+lastChange = "2021-11-11 09:55:14 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -23829,7 +23824,7 @@ width = 583;
 glyphname = ahookabove.ss02;
 kernLeft = a;
 kernRight = a;
-lastChange = "2021-11-11 09:41:25 +0000";
+lastChange = "2021-11-11 09:55:14 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -32393,7 +32388,7 @@ unicode = 305;
 glyphname = idotless.ss01;
 kernLeft = i;
 kernRight = i;
-lastChange = "2021-11-11 09:56:06 +0000";
+lastChange = "2021-11-11 12:23:00 +0000";
 layers = (
 {
 anchors = (
@@ -36769,7 +36764,7 @@ metricRight = "=l/2";
 glyphname = m;
 kernLeft = n;
 kernRight = n;
-lastChange = "2021-11-10 04:04:52 +0000";
+lastChange = "2021-11-11 09:04:25 +0000";
 layers = (
 {
 anchors = (
@@ -44067,7 +44062,7 @@ unicode = 537;
 glyphname = sdotaccent;
 kernLeft = s;
 kernRight = s;
-lastChange = "2021-11-11 09:55:14 +0000";
+lastChange = "2021-11-11 09:41:25 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -45193,7 +45188,7 @@ width = 421;
 glyphname = tdotbelow;
 kernLeft = t;
 kernRight = t;
-lastChange = "2021-11-10 07:32:09 +0000";
+lastChange = "2021-11-11 09:55:14 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -61954,7 +61949,7 @@ unicode = 63;
 },
 {
 glyphname = questiondown;
-lastChange = "2021-11-10 04:04:52 +0000";
+lastChange = "2021-11-11 09:41:25 +0000";
 layers = (
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -64135,7 +64130,7 @@ metricRight = bracketleft;
 },
 {
 glyphname = bracketright;
-lastChange = "2021-11-10 04:04:52 +0000";
+lastChange = "2021-11-12 01:42:53 +0000";
 layers = (
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -68978,7 +68973,7 @@ unicode = 8371;
 glyphname = bitcoin;
 kernLeft = H;
 kernRight = B;
-lastChange = "2021-11-10 04:04:52 +0000";
+lastChange = "2023-06-08 14:10:14 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -69217,19 +69212,19 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(450,-100,l),
-(450,48,l),
-(360,48,l),
-(360,-100,l)
+(320,-100,l),
+(320,48,l),
+(230,48,l),
+(230,-100,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(320,-100,l),
-(320,48,l),
-(230,48,l),
-(230,-100,l)
+(450,-100,l),
+(450,48,l),
+(360,48,l),
+(360,-100,l)
 );
 },
 {
