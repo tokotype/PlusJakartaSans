@@ -136,7 +136,6 @@ feature calt;
 tag = aalt;
 },
 {
-automatic = 1;
 code = "lookup ccmp_DFLT_1 {
 	lookupflag 0;
 	sub acutecomb dotaccentcomb by acutecomb_dotaccentcomb;
@@ -168,6 +167,10 @@ lookup ccmp_Other_1 {
 	@CombiningNonTopAccents = [brevebelowcomb cedillacomb dieresisbelowcomb dotbelowcomb macronbelowcomb ogonekcomb horncomb];
 	sub [i j]' @CombiningTopAccents by [idotless jdotless];
 	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
+	sub idotbelow' @CombiningTopAccents by idotless dotbelowcomb;
+	sub iogonek' @CombiningTopAccents by idotless ogonekcomb;
+	sub idotbelow' @CombiningNonTopAccents @CombiningTopAccents by idotless dotbelowcomb;
+	sub iogonek' @CombiningNonTopAccents @CombiningTopAccents by idotless ogonekcomb;
 } ccmp_Other_1;
 
 lookup ccmp_latn_1 {
@@ -854,11 +857,11 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 972;
+value = 1038;
 },
 {
 name = typoDescender;
-value = -228;
+value = -222;
 },
 {
 name = typoLineGap;
@@ -866,11 +869,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 972;
+value = 1038;
 },
 {
 name = hheaDescender;
-value = -228;
+value = -222;
 },
 {
 name = hheaLineGap;
@@ -961,11 +964,11 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 972;
+value = 1038;
 },
 {
 name = typoDescender;
-value = -228;
+value = -222;
 },
 {
 name = typoLineGap;
@@ -973,11 +976,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 972;
+value = 1038;
 },
 {
 name = hheaDescender;
-value = -228;
+value = -222;
 },
 {
 name = hheaLineGap;
@@ -1067,11 +1070,11 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 972;
+value = 1038;
 },
 {
 name = typoDescender;
-value = -228;
+value = -222;
 },
 {
 name = typoLineGap;
@@ -1079,11 +1082,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 972;
+value = 1038;
 },
 {
 name = hheaDescender;
-value = -228;
+value = -222;
 },
 {
 name = hheaLineGap;
