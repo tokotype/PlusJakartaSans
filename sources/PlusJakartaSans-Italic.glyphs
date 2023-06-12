@@ -1,13 +1,6 @@
 {
 .appVersion = "3192";
 .formatVersion = 3;
-DisplayStrings = (
-A,
-"ÐĐ",
-"ŀ",
-",‚„“”‘’",
-HOnot
-);
 axes = (
 {
 name = Weight;
@@ -138,7 +131,6 @@ feature calt;
 tag = aalt;
 },
 {
-automatic = 1;
 code = "lookup ccmp_DFLT_1 {
 	lookupflag 0;
 	sub acutecomb dotaccentcomb by acutecomb_dotaccentcomb;
@@ -170,6 +162,10 @@ lookup ccmp_Other_1 {
 	@CombiningNonTopAccents = [brevebelowcomb cedillacomb dieresisbelowcomb dotbelowcomb macronbelowcomb ogonekcomb horncomb];
 	sub [i j]' @CombiningTopAccents by [idotless jdotless];
 	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
+	sub idotbelow' @CombiningTopAccents by idotless dotbelowcomb;
+	sub iogonek' @CombiningTopAccents by idotless ogonekcomb;
+	sub idotbelow' @CombiningNonTopAccents @CombiningTopAccents by idotless dotbelowcomb;
+	sub iogonek' @CombiningNonTopAccents @CombiningTopAccents by idotless ogonekcomb;
 } ccmp_Other_1;
 
 lookup ccmp_latn_1 {
@@ -856,11 +852,11 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 972;
+value = 1038;
 },
 {
 name = typoDescender;
-value = -228;
+value = -222;
 },
 {
 name = typoLineGap;
@@ -868,11 +864,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 972;
+value = 1038;
 },
 {
 name = hheaDescender;
-value = -228;
+value = -222;
 },
 {
 name = hheaLineGap;
@@ -966,11 +962,11 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 972;
+value = 1038;
 },
 {
 name = typoDescender;
-value = -228;
+value = -222;
 },
 {
 name = typoLineGap;
@@ -978,11 +974,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 972;
+value = 1038;
 },
 {
 name = hheaDescender;
-value = -228;
+value = -222;
 },
 {
 name = hheaLineGap;
@@ -1075,11 +1071,11 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 972;
+value = 1038;
 },
 {
 name = typoDescender;
-value = -228;
+value = -222;
 },
 {
 name = typoLineGap;
@@ -1087,11 +1083,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 972;
+value = 1038;
 },
 {
 name = hheaDescender;
-value = -228;
+value = -222;
 },
 {
 name = hheaLineGap;
@@ -2449,7 +2445,7 @@ unicode = 506;
 glyphname = Atilde;
 kernLeft = A;
 kernRight = A;
-lastChange = "2021-11-11 09:55:14 +0000";
+lastChange = "2021-11-10 07:58:16 +0000";
 layers = (
 {
 layerId = "1C1CFC13-4213-4775-A214-C31251F9A91A";
@@ -7593,7 +7589,7 @@ width = 520;
 glyphname = Idblgrave;
 kernLeft = H;
 kernRight = H;
-lastChange = "2021-11-11 09:55:14 +0000";
+lastChange = "2021-11-10 07:58:16 +0000";
 layers = (
 {
 layerId = "1C1CFC13-4213-4775-A214-C31251F9A91A";
@@ -8448,7 +8444,7 @@ width = 520;
 glyphname = Iogonek;
 kernLeft = H;
 kernRight = H;
-lastChange = "2021-11-11 09:44:25 +0000";
+lastChange = "2021-11-10 07:03:53 +0000";
 layers = (
 {
 layerId = "1C1CFC13-4213-4775-A214-C31251F9A91A";
@@ -8964,7 +8960,7 @@ color = 4;
 glyphname = K;
 kernLeft = H;
 kernRight = K;
-lastChange = "2021-11-11 09:41:25 +0000";
+lastChange = "2021-11-10 07:58:16 +0000";
 layers = (
 {
 anchors = (
@@ -11747,7 +11743,7 @@ unicode = 7884;
 glyphname = Ograve;
 kernLeft = O;
 kernRight = O;
-lastChange = "2021-11-11 09:55:14 +0000";
+lastChange = "2021-11-10 07:03:53 +0000";
 layers = (
 {
 layerId = "1C1CFC13-4213-4775-A214-C31251F9A91A";
@@ -11795,7 +11791,7 @@ unicode = 210;
 glyphname = Ohookabove;
 kernLeft = O;
 kernRight = O;
-lastChange = "2021-11-11 09:55:14 +0000";
+lastChange = "2021-11-10 07:07:29 +0000";
 layers = (
 {
 layerId = "1C1CFC13-4213-4775-A214-C31251F9A91A";
@@ -11844,7 +11840,7 @@ color = 4;
 glyphname = Ohorn;
 kernLeft = O;
 kernRight = O;
-lastChange = "2021-11-11 09:41:25 +0000";
+lastChange = "2021-11-10 09:13:06 +0000";
 layers = (
 {
 anchors = (
@@ -12161,7 +12157,7 @@ unicode = 7906;
 glyphname = Ohorngrave;
 kernLeft = O;
 kernRight = O;
-lastChange = "2021-11-11 09:55:14 +0000";
+lastChange = "2021-11-10 09:55:14 +0000";
 layers = (
 {
 layerId = "1C1CFC13-4213-4775-A214-C31251F9A91A";
@@ -15291,7 +15287,7 @@ unicode = 7776;
 glyphname = Sdotbelow;
 kernLeft = S;
 kernRight = S;
-lastChange = "2021-11-11 09:55:14 +0000";
+lastChange = "2021-11-11 10:31:07 +0000";
 layers = (
 {
 layerId = "1C1CFC13-4213-4775-A214-C31251F9A91A";
@@ -15448,7 +15444,7 @@ color = 4;
 glyphname = T;
 kernLeft = T;
 kernRight = T;
-lastChange = "2021-11-11 12:17:57 +0000";
+lastChange = "2021-11-10 04:04:52 +0000";
 layers = (
 {
 anchors = (
@@ -16568,7 +16564,7 @@ width = 742;
 glyphname = Udotbelow;
 kernLeft = U;
 kernRight = U;
-lastChange = "2021-11-11 09:55:14 +0000";
+lastChange = "2021-11-10 07:58:16 +0000";
 layers = (
 {
 layerId = "1C1CFC13-4213-4775-A214-C31251F9A91A";
@@ -17550,7 +17546,7 @@ unicode = 7916;
 glyphname = Uhornhookabove.ss01;
 kernLeft = H;
 kernRight = H;
-lastChange = "2021-11-11 09:55:14 +0000";
+lastChange = "2021-11-10 07:55:41 +0000";
 layers = (
 {
 layerId = "1C1CFC13-4213-4775-A214-C31251F9A91A";
@@ -18357,7 +18353,7 @@ width = 742;
 glyphname = Utildeacute;
 kernLeft = U;
 kernRight = U;
-lastChange = "2021-11-11 09:55:14 +0000";
+lastChange = "2021-11-10 07:58:16 +0000";
 layers = (
 {
 layerId = "1C1CFC13-4213-4775-A214-C31251F9A91A";
@@ -18859,7 +18855,7 @@ unicode = 7808;
 {
 color = 4;
 glyphname = X;
-lastChange = "2021-11-11 09:41:25 +0000";
+lastChange = "2021-11-11 09:41:16 +0000";
 layers = (
 {
 anchors = (
@@ -19623,7 +19619,7 @@ unicode = 90;
 glyphname = Zacute;
 kernLeft = Z;
 kernRight = Z;
-lastChange = "2021-11-11 09:55:14 +0000";
+lastChange = "2021-11-11 07:55:14 +0000";
 layers = (
 {
 layerId = "1C1CFC13-4213-4775-A214-C31251F9A91A";
@@ -21215,7 +21211,7 @@ unicode = 7863;
 glyphname = abrevedotbelow.ss01;
 kernLeft = a;
 kernRight = a;
-lastChange = "2021-11-11 09:55:14 +0000";
+lastChange = "2021-11-10 07:58:16 +0000";
 layers = (
 {
 layerId = "1C1CFC13-4213-4775-A214-C31251F9A91A";
@@ -23000,7 +22996,7 @@ unicode = 7851;
 glyphname = acircumflextilde.ss01;
 kernLeft = a;
 kernRight = a;
-lastChange = "2021-11-11 09:55:14 +0000";
+lastChange = "2021-11-10 07:58:16 +0000";
 layers = (
 {
 layerId = "1C1CFC13-4213-4775-A214-C31251F9A91A";
@@ -23708,7 +23704,7 @@ width = 583;
 glyphname = agrave;
 kernLeft = a;
 kernRight = a;
-lastChange = "2021-11-11 09:55:14 +0000";
+lastChange = "2021-11-10 07:58:16 +0000";
 layers = (
 {
 layerId = "1C1CFC13-4213-4775-A214-C31251F9A91A";
@@ -23803,7 +23799,7 @@ width = 584;
 glyphname = agrave.ss02;
 kernLeft = a;
 kernRight = a;
-lastChange = "2021-11-11 09:55:14 +0000";
+lastChange = "2021-11-10 07:58:16 +0000";
 layers = (
 {
 layerId = "1C1CFC13-4213-4775-A214-C31251F9A91A";
@@ -26507,7 +26503,7 @@ unicode = 100;
 glyphname = dcaron;
 kernLeft = o;
 kernRight = dcaron;
-lastChange = "2021-11-11 10:04:24 +0000";
+lastChange = "2021-11-11 10:09:37 +0000";
 layers = (
 {
 layerId = "1C1CFC13-4213-4775-A214-C31251F9A91A";
@@ -28271,7 +28267,7 @@ unicode = 7877;
 glyphname = ecircumflextilde.ss03;
 kernLeft = o;
 kernRight = e;
-lastChange = "2021-11-11 09:55:14 +0000";
+lastChange = "2021-11-11 07:55:14 +0000";
 layers = (
 {
 layerId = "1C1CFC13-4213-4775-A214-C31251F9A91A";
@@ -33372,7 +33368,7 @@ width = 306;
 glyphname = idieresis;
 kernLeft = idieresis;
 kernRight = idieresis;
-lastChange = "2021-11-11 12:22:57 +0000";
+lastChange = "2021-11-11 10:46:54 +0000";
 layers = (
 {
 layerId = "1C1CFC13-4213-4775-A214-C31251F9A91A";
@@ -38572,7 +38568,7 @@ width = 612;
 glyphname = ndotaccent.ss03;
 kernLeft = n;
 kernRight = n;
-lastChange = "2021-11-11 09:55:14 +0000";
+lastChange = "2021-11-10 07:58:16 +0000";
 layers = (
 {
 layerId = "1C1CFC13-4213-4775-A214-C31251F9A91A";
@@ -41391,7 +41387,7 @@ unicode = 511;
 glyphname = otilde;
 kernLeft = o;
 kernRight = o;
-lastChange = "2021-11-11 09:55:14 +0000";
+lastChange = "2021-11-10 07:03:53 +0000";
 layers = (
 {
 layerId = "1C1CFC13-4213-4775-A214-C31251F9A91A";
@@ -49562,7 +49558,7 @@ unicode = 361;
 glyphname = utilde.ss01;
 kernLeft = u;
 kernRight = u;
-lastChange = "2021-11-11 09:55:14 +0000";
+lastChange = "2021-11-10 09:55:56 +0000";
 layers = (
 {
 layerId = "1C1CFC13-4213-4775-A214-C31251F9A91A";
@@ -57138,7 +57134,7 @@ metricRight = fourinferior;
 {
 color = 4;
 glyphname = five.dnom;
-lastChange = "2021-11-11 09:41:25 +0000";
+lastChange = "2021-11-11 10:15:25 +0000";
 layers = (
 {
 layerId = "1C1CFC13-4213-4775-A214-C31251F9A91A";
@@ -65397,7 +65393,7 @@ unicode = 8220;
 glyphname = quotedblright;
 kernLeft = quoteright;
 kernRight = quoteright;
-lastChange = "2021-11-12 01:42:48 +0000";
+lastChange = "2021-11-10 04:04:52 +0000";
 layers = (
 {
 layerId = "F445EC8D-29E3-46C7-99DD-9E4BBA6B70C5";
@@ -69666,7 +69662,7 @@ color = 4;
 glyphname = bitcoin;
 kernLeft = H;
 kernRight = B;
-lastChange = "2021-11-11 09:41:25 +0000";
+lastChange = "2023-06-08 14:10:49 +0000";
 layers = (
 {
 layerId = "9D27F576-B54C-4464-AC1E-5B62749637F3";
@@ -69723,19 +69719,19 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(397,-100,l),
-(417,48,l),
-(326,48,l),
-(306,-100,l)
+(266,-100,l),
+(286,48,l),
+(195,48,l),
+(175,-100,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(266,-100,l),
-(286,48,l),
-(195,48,l),
-(175,-100,l)
+(397,-100,l),
+(417,48,l),
+(326,48,l),
+(306,-100,l)
 );
 },
 {
@@ -77115,7 +77111,7 @@ unicode = 8776;
 {
 color = 4;
 glyphname = asciitilde;
-lastChange = "2021-11-11 09:41:25 +0000";
+lastChange = "2021-11-10 09:11:37 +0000";
 layers = (
 {
 layerId = "9D27F576-B54C-4464-AC1E-5B62749637F3";
