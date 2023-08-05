@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u.ss03" format="2">
+  <advance width="573"/>
+  <anchor x="287" y="0" name="bottom"/>
+  <anchor x="331" y="0" name="ogonek"/>
+  <anchor x="287" y="536" name="top"/>
+  <anchor x="553" y="536" name="topright"/>
+  <outline>
+    <contour>
+      <point x="281" y="-12" type="curve" smooth="yes"/>
+      <point x="410" y="-12"/>
+      <point x="496" y="73"/>
+      <point x="496" y="200" type="curve" smooth="yes"/>
+      <point x="496" y="536" type="line"/>
+      <point x="421" y="536" type="line"/>
+      <point x="421" y="205" type="line" smooth="yes"/>
+      <point x="421" y="119"/>
+      <point x="365" y="62"/>
+      <point x="281" y="62" type="curve" smooth="yes"/>
+      <point x="197" y="62"/>
+      <point x="141" y="119"/>
+      <point x="141" y="205" type="curve" smooth="yes"/>
+      <point x="141" y="536" type="line"/>
+      <point x="66" y="536" type="line"/>
+      <point x="66" y="200" type="line" smooth="yes"/>
+      <point x="66" y="73"/>
+      <point x="152" y="-12"/>
+    </contour>
+  </outline>
+</glyph>

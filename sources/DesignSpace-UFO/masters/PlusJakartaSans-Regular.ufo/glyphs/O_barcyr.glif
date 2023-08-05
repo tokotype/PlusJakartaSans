@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Obarcyr" format="2">
+  <advance width="878"/>
+  <unicode hex="04E8"/>
+  <outline>
+    <component base="O"/>
+    <contour>
+      <point x="119" y="335" type="line"/>
+      <point x="759" y="335" type="line"/>
+      <point x="759" y="410" type="line"/>
+      <point x="119" y="410" type="line"/>
+    </contour>
+  </outline>
+</glyph>

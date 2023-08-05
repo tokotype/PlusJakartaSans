@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ringcomb_acutecomb" format="2">
+  <advance width="431"/>
+  <anchor x="198" y="526" name="_top"/>
+  <outline>
+    <contour>
+      <point x="197" y="620" type="curve" smooth="yes"/>
+      <point x="249" y="620"/>
+      <point x="292" y="657"/>
+      <point x="292" y="714" type="curve" smooth="yes"/>
+      <point x="292" y="770"/>
+      <point x="249" y="808"/>
+      <point x="197" y="808" type="curve" smooth="yes"/>
+      <point x="146" y="808"/>
+      <point x="103" y="771"/>
+      <point x="103" y="714" type="curve" smooth="yes"/>
+      <point x="103" y="657"/>
+      <point x="146" y="620"/>
+    </contour>
+    <contour>
+      <point x="197" y="656" type="curve" smooth="yes"/>
+      <point x="166" y="656"/>
+      <point x="141" y="679"/>
+      <point x="141" y="714" type="curve" smooth="yes"/>
+      <point x="141" y="748"/>
+      <point x="166" y="771"/>
+      <point x="197" y="771" type="curve" smooth="yes"/>
+      <point x="228" y="771"/>
+      <point x="255" y="748"/>
+      <point x="255" y="714" type="curve" smooth="yes"/>
+      <point x="255" y="679"/>
+      <point x="228" y="656"/>
+    </contour>
+    <contour>
+      <point x="256" y="780" type="line"/>
+      <point x="328" y="900" type="line"/>
+      <point x="267" y="900" type="line"/>
+      <point x="206" y="780" type="line"/>
+    </contour>
+  </outline>
+</glyph>

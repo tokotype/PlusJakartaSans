@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u.ss01" format="2">
+  <advance width="573"/>
+  <anchor x="281" y="0" name="bottom"/>
+  <anchor x="331" y="0" name="ogonek"/>
+  <anchor x="287" y="536" name="top"/>
+  <anchor x="553" y="536" name="topright"/>
+  <outline>
+    <contour>
+      <point x="496" y="0" type="line"/>
+      <point x="496" y="536" type="line"/>
+      <point x="421" y="536" type="line"/>
+      <point x="421" y="75" type="line"/>
+      <point x="141" y="75" type="line"/>
+      <point x="141" y="536" type="line"/>
+      <point x="66" y="536" type="line"/>
+      <point x="66" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

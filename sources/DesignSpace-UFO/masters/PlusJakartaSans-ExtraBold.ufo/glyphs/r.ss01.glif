@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="r.ss01" format="2">
+  <advance width="386"/>
+  <anchor x="130" y="0" name="bottom"/>
+  <anchor x="215" y="546" name="top"/>
+  <outline>
+    <contour>
+      <point x="205" y="0" type="line"/>
+      <point x="205" y="416" type="line"/>
+      <point x="375" y="416" type="line"/>
+      <point x="375" y="546" type="line"/>
+      <point x="55" y="546" type="line"/>
+      <point x="55" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

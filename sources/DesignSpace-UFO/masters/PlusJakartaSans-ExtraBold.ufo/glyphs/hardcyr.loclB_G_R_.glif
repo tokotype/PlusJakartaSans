@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hardcyr.loclBGR" format="2">
+  <advance width="643"/>
+  <outline>
+    <component base="softcyr.loclBGR" xOffset="56"/>
+    <contour>
+      <point x="259" y="416" type="line"/>
+      <point x="11" y="416" type="line"/>
+      <point x="11" y="546" type="line"/>
+      <point x="259" y="546" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>hardcyr</string>
+  </dict>
+  </lib>
+</glyph>

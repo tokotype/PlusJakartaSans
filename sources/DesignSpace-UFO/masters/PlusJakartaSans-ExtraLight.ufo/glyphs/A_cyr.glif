@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Acyr" format="2">
+  <advance width="644"/>
+  <unicode hex="0410"/>
+  <anchor x="322" y="0" name="bottom"/>
+  <anchor x="595" y="0" name="ogonek"/>
+  <anchor x="322" y="745" name="top"/>
+  <outline>
+    <component base="A"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>A%</string>
+  </dict>
+  </lib>
+</glyph>

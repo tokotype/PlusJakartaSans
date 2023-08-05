@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Vecyr" format="2">
+  <advance width="690"/>
+  <unicode hex="0412"/>
+  <anchor x="345" y="0" name="bottom"/>
+  <anchor x="345" y="745" name="top"/>
+  <outline>
+    <component base="B"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>B%</string>
+  </dict>
+  </lib>
+</glyph>

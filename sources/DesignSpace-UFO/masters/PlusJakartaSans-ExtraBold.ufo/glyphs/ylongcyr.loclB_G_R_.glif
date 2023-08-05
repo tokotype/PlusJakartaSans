@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ylongcyr.loclBGR" format="2">
+  <advance width="804"/>
+  <outline>
+    <component base="softcyr.loclBGR"/>
+    <contour>
+      <point x="589" y="546" type="line"/>
+      <point x="739" y="546" type="line"/>
+      <point x="739" y="0" type="line"/>
+      <point x="589" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>ylongcyr</string>
+  </dict>
+  </lib>
+</glyph>

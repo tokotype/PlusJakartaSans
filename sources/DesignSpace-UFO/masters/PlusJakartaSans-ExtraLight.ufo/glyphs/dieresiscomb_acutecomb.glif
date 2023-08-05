@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dieresiscomb_acutecomb" format="2">
+  <advance width="443"/>
+  <anchor x="221" y="526" name="_top"/>
+  <outline>
+    <contour>
+      <point x="232" y="790" type="line"/>
+      <point x="340" y="940" type="line"/>
+      <point x="279" y="940" type="line"/>
+      <point x="187" y="790" type="line"/>
+    </contour>
+    <contour>
+      <point x="173" y="640" type="line"/>
+      <point x="173" y="715" type="line"/>
+      <point x="103" y="715" type="line"/>
+      <point x="103" y="640" type="line"/>
+    </contour>
+    <contour>
+      <point x="323" y="640" type="line"/>
+      <point x="323" y="715" type="line"/>
+      <point x="253" y="715" type="line"/>
+      <point x="253" y="640" type="line"/>
+    </contour>
+  </outline>
+</glyph>

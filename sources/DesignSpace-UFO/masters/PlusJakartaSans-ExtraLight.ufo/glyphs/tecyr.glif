@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tecyr" format="2">
+  <advance width="389"/>
+  <unicode hex="0442"/>
+  <outline>
+    <contour>
+      <point x="217" y="0" type="line"/>
+      <point x="217" y="486" type="line"/>
+      <point x="367" y="486" type="line"/>
+      <point x="367" y="526" type="line"/>
+      <point x="22" y="526" type="line"/>
+      <point x="22" y="486" type="line"/>
+      <point x="172" y="486" type="line"/>
+      <point x="172" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

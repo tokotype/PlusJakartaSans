@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="plusminus" format="2">
+  <advance width="678"/>
+  <unicode hex="00B1"/>
+  <outline>
+    <contour>
+      <point x="402" y="195" type="line"/>
+      <point x="402" y="333" type="line"/>
+      <point x="589" y="333" type="line"/>
+      <point x="589" y="458" type="line"/>
+      <point x="402" y="458" type="line"/>
+      <point x="402" y="595" type="line"/>
+      <point x="277" y="595" type="line"/>
+      <point x="277" y="458" type="line"/>
+      <point x="89" y="458" type="line"/>
+      <point x="89" y="333" type="line"/>
+      <point x="277" y="333" type="line"/>
+      <point x="277" y="195" type="line"/>
+    </contour>
+    <contour>
+      <point x="589" y="0" type="line"/>
+      <point x="589" y="125" type="line"/>
+      <point x="89" y="125" type="line"/>
+      <point x="89" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

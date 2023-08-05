@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="rightArrow" format="2">
+  <advance width="693"/>
+  <unicode hex="2192"/>
+  <outline>
+    <contour>
+      <point x="381" y="0" type="line"/>
+      <point x="646" y="255" type="line"/>
+      <point x="646" y="289" type="line"/>
+      <point x="381" y="526" type="line"/>
+      <point x="325" y="526" type="line"/>
+      <point x="632" y="248" type="line"/>
+      <point x="631" y="297" type="line"/>
+      <point x="325" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="612" y="252" type="line"/>
+      <point x="612" y="292" type="line"/>
+      <point x="47" y="292" type="line"/>
+      <point x="47" y="252" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hacyr" format="2">
+  <advance width="582"/>
+  <unicode hex="0445"/>
+  <anchor x="291" y="0" name="bottom"/>
+  <anchor x="291" y="546" name="top"/>
+  <outline>
+    <component base="x"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>x%</string>
+  </dict>
+  </lib>
+</glyph>

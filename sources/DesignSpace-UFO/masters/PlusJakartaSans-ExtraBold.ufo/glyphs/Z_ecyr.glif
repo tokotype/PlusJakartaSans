@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Zecyr" format="2">
+  <advance width="628"/>
+  <unicode hex="0417"/>
+  <outline>
+    <contour>
+      <point x="313" y="-12" type="curve" smooth="yes"/>
+      <point x="482" y="-12"/>
+      <point x="595" y="81"/>
+      <point x="595" y="216" type="curve" smooth="yes"/>
+      <point x="595" y="305"/>
+      <point x="545" y="374"/>
+      <point x="473" y="395" type="curve"/>
+      <point x="471" y="364" type="line"/>
+      <point x="542" y="393"/>
+      <point x="584" y="456"/>
+      <point x="584" y="537" type="curve" smooth="yes"/>
+      <point x="584" y="666"/>
+      <point x="479" y="757"/>
+      <point x="316" y="757" type="curve" smooth="yes"/>
+      <point x="178" y="757"/>
+      <point x="72" y="690"/>
+      <point x="31" y="574" type="curve"/>
+      <point x="159" y="517" type="line"/>
+      <point x="186" y="585"/>
+      <point x="240" y="623"/>
+      <point x="315" y="623" type="curve" smooth="yes"/>
+      <point x="388" y="623"/>
+      <point x="433" y="586"/>
+      <point x="433" y="530" type="curve" smooth="yes"/>
+      <point x="433" y="481"/>
+      <point x="398" y="449"/>
+      <point x="347" y="449" type="curve" smooth="yes"/>
+      <point x="212" y="449" type="line"/>
+      <point x="212" y="307" type="line"/>
+      <point x="353" y="307" type="line" smooth="yes"/>
+      <point x="405" y="307"/>
+      <point x="444" y="272"/>
+      <point x="444" y="220" type="curve" smooth="yes"/>
+      <point x="444" y="161"/>
+      <point x="392" y="122"/>
+      <point x="311" y="122" type="curve" smooth="yes"/>
+      <point x="226" y="122"/>
+      <point x="168" y="165"/>
+      <point x="140" y="248" type="curve"/>
+      <point x="11" y="191" type="line"/>
+      <point x="56" y="61"/>
+      <point x="164" y="-12"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>three%</string>
+  </dict>
+  </lib>
+</glyph>

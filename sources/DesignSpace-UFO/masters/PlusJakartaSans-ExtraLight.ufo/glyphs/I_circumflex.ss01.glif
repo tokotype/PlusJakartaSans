@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Icircumflex.ss01" format="2">
+  <advance width="364"/>
+  <outline>
+    <component base="I.ss01"/>
+    <component base="circumflexcomb" xOffset="-68" yOffset="219"/>
+  </outline>
+</glyph>

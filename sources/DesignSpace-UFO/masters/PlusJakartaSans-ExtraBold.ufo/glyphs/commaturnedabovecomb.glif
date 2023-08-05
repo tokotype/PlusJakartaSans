@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="commaturnedabovecomb" format="2">
+  <advance width="475"/>
+  <unicode hex="0312"/>
+  <anchor x="250" y="540" name="_top"/>
+  <outline>
+    <contour>
+      <point x="322" y="600" type="line"/>
+      <point x="346" y="793" type="line"/>
+      <point x="204" y="793" type="line"/>
+      <point x="129" y="600" type="line"/>
+    </contour>
+  </outline>
+</glyph>

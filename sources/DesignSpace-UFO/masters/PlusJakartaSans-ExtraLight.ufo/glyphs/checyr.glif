@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="checyr" format="2">
+  <advance width="540"/>
+  <unicode hex="0447"/>
+  <anchor x="277" y="0" name="bottom"/>
+  <anchor x="452" y="0" name="ogonek"/>
+  <anchor x="277" y="526" name="top"/>
+  <anchor x="542" y="526" name="topright"/>
+  <outline>
+    <contour>
+      <point x="251.319" y="203" type="curve" smooth="yes"/>
+      <point x="317" y="203"/>
+      <point x="372" y="220"/>
+      <point x="422" y="253" type="curve"/>
+      <point x="407" y="274" type="line"/>
+      <point x="407" y="0" type="line"/>
+      <point x="452" y="0" type="line"/>
+      <point x="452" y="526" type="line"/>
+      <point x="407" y="526" type="line"/>
+      <point x="407" y="289" type="line"/>
+      <point x="371" y="262"/>
+      <point x="314" y="246"/>
+      <point x="256.821" y="246" type="curve" smooth="yes"/>
+      <point x="162" y="246"/>
+      <point x="115" y="290"/>
+      <point x="115" y="381" type="curve" smooth="yes"/>
+      <point x="115" y="526" type="line"/>
+      <point x="70" y="526" type="line"/>
+      <point x="70" y="378" type="line" smooth="yes"/>
+      <point x="70" y="261"/>
+      <point x="130" y="203"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>u</string>
+  </dict>
+  </lib>
+</glyph>

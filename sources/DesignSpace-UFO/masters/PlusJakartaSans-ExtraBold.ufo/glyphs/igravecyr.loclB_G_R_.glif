@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="igravecyr.loclBGR" format="2">
+  <advance width="614"/>
+  <outline>
+    <component base="icyr"/>
+    <component base="gravecomb" xOffset="-6"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>igravecyr</string>
+  </dict>
+  </lib>
+</glyph>

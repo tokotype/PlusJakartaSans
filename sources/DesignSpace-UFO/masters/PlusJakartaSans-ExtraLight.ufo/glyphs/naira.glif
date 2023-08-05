@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="naira" format="2">
+  <advance width="746"/>
+  <unicode hex="20A6"/>
+  <outline>
+    <contour>
+      <point x="175" y="0" type="line"/>
+      <point x="175" y="691" type="line"/>
+      <point x="158" y="691" type="line"/>
+      <point x="570" y="0" type="line"/>
+      <point x="616" y="0" type="line"/>
+      <point x="616" y="745" type="line"/>
+      <point x="571" y="745" type="line"/>
+      <point x="571" y="58" type="line"/>
+      <point x="585" y="58" type="line"/>
+      <point x="176" y="745" type="line"/>
+      <point x="130" y="745" type="line"/>
+      <point x="130" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="696" y="350" type="line"/>
+      <point x="696" y="395" type="line"/>
+      <point x="50" y="395" type="line"/>
+      <point x="50" y="350" type="line"/>
+    </contour>
+  </outline>
+</glyph>

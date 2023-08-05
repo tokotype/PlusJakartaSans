@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Tecyr" format="2">
+  <advance width="552"/>
+  <unicode hex="0422"/>
+  <anchor x="276" y="0" name="bottom"/>
+  <anchor x="276" y="373" name="center"/>
+  <anchor x="276" y="745" name="top"/>
+  <outline>
+    <component base="T"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>T%</string>
+  </dict>
+  </lib>
+</glyph>

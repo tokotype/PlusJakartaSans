@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="upTipRightArrow" format="2">
+  <advance width="956"/>
+  <unicode hex="21B1"/>
+  <outline>
+    <component base="upTipLeftArrow" xScale="-1" xOffset="856"/>
+  </outline>
+</glyph>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ocyr" format="2">
+  <advance width="662"/>
+  <unicode hex="043E"/>
+  <anchor x="331" y="0" name="bottom"/>
+  <anchor x="331" y="263" name="center"/>
+  <anchor x="381" y="0" name="ogonek"/>
+  <anchor x="331" y="526" name="top"/>
+  <anchor x="642" y="526" name="topright"/>
+  <outline>
+    <component base="o"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>o%</string>
+  </dict>
+  </lib>
+</glyph>

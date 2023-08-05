@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="horncomb" format="2">
+  <advance width="438"/>
+  <unicode hex="031B"/>
+  <outline>
+    <contour>
+      <point x="156" y="640" type="line" smooth="yes"/>
+      <point x="246" y="640"/>
+      <point x="309" y="683"/>
+      <point x="309" y="779" type="curve" smooth="yes"/>
+      <point x="309" y="815"/>
+      <point x="299" y="840"/>
+      <point x="286" y="868" type="curve"/>
+      <point x="160" y="868" type="line"/>
+      <point x="170" y="843"/>
+      <point x="180" y="813"/>
+      <point x="180" y="792" type="curve" smooth="yes"/>
+      <point x="180" y="740"/>
+      <point x="145" y="743"/>
+      <point x="133" y="743" type="curve" smooth="yes"/>
+      <point x="129" y="743" type="line"/>
+      <point x="129" y="640" type="line"/>
+    </contour>
+  </outline>
+</glyph>

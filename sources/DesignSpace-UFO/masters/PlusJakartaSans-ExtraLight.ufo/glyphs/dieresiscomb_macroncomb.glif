@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dieresiscomb_macroncomb" format="2">
+  <advance width="456"/>
+  <anchor x="228" y="526" name="_top"/>
+  <outline>
+    <contour>
+      <point x="188" y="640" type="line"/>
+      <point x="188" y="715" type="line"/>
+      <point x="118" y="715" type="line"/>
+      <point x="118" y="640" type="line"/>
+    </contour>
+    <contour>
+      <point x="338" y="640" type="line"/>
+      <point x="338" y="715" type="line"/>
+      <point x="268" y="715" type="line"/>
+      <point x="268" y="640" type="line"/>
+    </contour>
+    <contour>
+      <point x="353" y="830" type="line"/>
+      <point x="353" y="870" type="line"/>
+      <point x="103" y="870" type="line"/>
+      <point x="103" y="830" type="line"/>
+    </contour>
+  </outline>
+</glyph>

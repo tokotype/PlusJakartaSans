@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ercyr" format="2">
+  <advance width="673"/>
+  <unicode hex="0440"/>
+  <anchor x="337" y="0" name="bottom"/>
+  <anchor x="337" y="546" name="top"/>
+  <outline>
+    <component base="p"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>p%</string>
+  </dict>
+  </lib>
+</glyph>

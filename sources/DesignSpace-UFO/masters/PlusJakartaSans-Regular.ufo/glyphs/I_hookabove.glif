@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ihookabove" format="2">
+  <advance width="256"/>
+  <unicode hex="1EC8"/>
+  <outline>
+    <component base="I"/>
+    <component base="hookabovecomb" xOffset="-68" yOffset="209"/>
+  </outline>
+</glyph>

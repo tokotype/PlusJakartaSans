@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ereversedcyr" format="2">
+  <advance width="611"/>
+  <unicode hex="044D"/>
+  <anchor x="326" y="0" name="bottom"/>
+  <anchor x="326" y="273" name="center"/>
+  <anchor x="376" y="0" name="ogonek"/>
+  <anchor x="326" y="546" name="top"/>
+  <anchor x="631" y="546" name="topright"/>
+  <outline>
+    <contour>
+      <point x="288" y="-12" type="curve" smooth="yes"/>
+      <point x="458" y="-12"/>
+      <point x="578" y="111"/>
+      <point x="578" y="274" type="curve" smooth="yes"/>
+      <point x="578" y="436"/>
+      <point x="459" y="558"/>
+      <point x="288" y="558" type="curve" smooth="yes"/>
+      <point x="163" y="558"/>
+      <point x="66" y="493"/>
+      <point x="33" y="396" type="curve"/>
+      <point x="154" y="344" type="line"/>
+      <point x="175" y="399"/>
+      <point x="224" y="434"/>
+      <point x="288" y="434" type="curve" smooth="yes"/>
+      <point x="377" y="434"/>
+      <point x="433" y="367"/>
+      <point x="433" y="273" type="curve" smooth="yes"/>
+      <point x="433" y="179"/>
+      <point x="377" y="112"/>
+      <point x="288" y="112" type="curve" smooth="yes"/>
+      <point x="224" y="112"/>
+      <point x="175" y="146"/>
+      <point x="154" y="202" type="curve"/>
+      <point x="33" y="149" type="line"/>
+      <point x="65" y="54"/>
+      <point x="163" y="-12"/>
+    </contour>
+    <contour>
+      <point x="501" y="214" type="line"/>
+      <point x="501" y="332" type="line"/>
+      <point x="221" y="332" type="line"/>
+      <point x="221" y="214" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>o+hyphen%</string>
+  </dict>
+  </lib>
+</glyph>

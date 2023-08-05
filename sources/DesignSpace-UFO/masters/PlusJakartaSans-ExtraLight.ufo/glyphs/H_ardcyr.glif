@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Hardcyr" format="2">
+  <advance width="719"/>
+  <unicode hex="042A"/>
+  <anchor x="397" y="0" name="bottom"/>
+  <anchor x="397" y="745" name="top"/>
+  <outline>
+    <contour>
+      <point x="223" y="745" type="line"/>
+      <point x="22" y="745" type="line"/>
+      <point x="22" y="700" type="line"/>
+      <point x="173" y="700" type="line"/>
+      <point x="173" y="0" type="line"/>
+      <point x="417" y="0" type="line" smooth="yes"/>
+      <point x="556" y="0"/>
+      <point x="653" y="93"/>
+      <point x="653" y="228" type="curve" smooth="yes"/>
+      <point x="653" y="363"/>
+      <point x="557" y="455"/>
+      <point x="417" y="455" type="curve" smooth="yes"/>
+      <point x="223" y="455" type="line"/>
+    </contour>
+    <contour>
+      <point x="223" y="45" type="line"/>
+      <point x="223" y="410" type="line"/>
+      <point x="417" y="410" type="line" smooth="yes"/>
+      <point x="526" y="410"/>
+      <point x="603" y="335"/>
+      <point x="603" y="227" type="curve" smooth="yes"/>
+      <point x="603" y="119"/>
+      <point x="527" y="45"/>
+      <point x="417" y="45" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

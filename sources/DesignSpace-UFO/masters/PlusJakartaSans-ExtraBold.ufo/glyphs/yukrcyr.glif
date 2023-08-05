@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yukrcyr" format="2">
+  <advance width="260"/>
+  <unicode hex="0457"/>
+  <anchor x="130" y="0" name="bottom"/>
+  <outline>
+    <component base="dieresiscomb" xOffset="-189"/>
+    <contour>
+      <point x="205" y="0" type="line"/>
+      <point x="205" y="546" type="line"/>
+      <point x="55" y="546" type="line"/>
+      <point x="55" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>afii10103+uni0308</string>
+  </dict>
+  </lib>
+</glyph>

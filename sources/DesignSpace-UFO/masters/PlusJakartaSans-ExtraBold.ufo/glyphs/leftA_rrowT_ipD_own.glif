@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="leftArrowTipDown" format="2">
+  <advance width="889"/>
+  <unicode hex="2B10"/>
+  <outline>
+    <component base="rightTipDownArrow" xScale="-1" xOffset="889"/>
+  </outline>
+</glyph>

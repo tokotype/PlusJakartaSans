@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="whiteDiamond" format="2">
+  <advance width="843"/>
+  <unicode hex="25C7"/>
+  <outline>
+    <contour>
+      <point x="806" y="373" type="line"/>
+      <point x="421" y="757" type="line"/>
+      <point x="37" y="373" type="line"/>
+      <point x="422" y="-12" type="line"/>
+    </contour>
+    <contour>
+      <point x="94" y="373" type="line"/>
+      <point x="421" y="700" type="line"/>
+      <point x="749" y="373" type="line"/>
+      <point x="422" y="45" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Efcyr" format="2">
+  <advance width="930"/>
+  <unicode hex="0424"/>
+  <anchor x="432" y="0" name="bottom"/>
+  <anchor x="432" y="373" name="center"/>
+  <anchor x="437" y="0" name="ogonek"/>
+  <anchor x="432" y="745" name="top"/>
+  <anchor x="854" y="745" name="topright"/>
+  <outline>
+    <contour>
+      <point x="452" y="52" type="line"/>
+      <point x="452" y="100" type="line"/>
+      <point x="432" y="100" type="line" smooth="yes"/>
+      <point x="230" y="100"/>
+      <point x="127" y="223"/>
+      <point x="127" y="376" type="curve" smooth="yes"/>
+      <point x="127" y="524"/>
+      <point x="230" y="649"/>
+      <point x="432" y="649" type="curve" smooth="yes"/>
+      <point x="452" y="649" type="line"/>
+      <point x="452" y="697" type="line"/>
+      <point x="432" y="697" type="line" smooth="yes"/>
+      <point x="211" y="697"/>
+      <point x="77" y="562"/>
+      <point x="77" y="375" type="curve" smooth="yes"/>
+      <point x="77" y="187"/>
+      <point x="211" y="52"/>
+      <point x="432" y="52" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="490" y="-20" type="line"/>
+      <point x="490" y="765" type="line"/>
+      <point x="440" y="765" type="line"/>
+      <point x="440" y="-20" type="line"/>
+    </contour>
+    <contour>
+      <point x="478" y="52" type="line"/>
+      <point x="498" y="52" type="line" smooth="yes"/>
+      <point x="719" y="52"/>
+      <point x="853" y="187"/>
+      <point x="853" y="375" type="curve" smooth="yes"/>
+      <point x="853" y="562"/>
+      <point x="719" y="697"/>
+      <point x="498" y="697" type="curve" smooth="yes"/>
+      <point x="478" y="697" type="line"/>
+      <point x="478" y="649" type="line"/>
+      <point x="498" y="649" type="line" smooth="yes"/>
+      <point x="700" y="649"/>
+      <point x="803" y="524"/>
+      <point x="803" y="376" type="curve" smooth="yes"/>
+      <point x="803" y="223"/>
+      <point x="700" y="100"/>
+      <point x="498" y="100" type="curve" smooth="yes"/>
+      <point x="478" y="100" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>O+I</string>
+  </dict>
+  </lib>
+</glyph>

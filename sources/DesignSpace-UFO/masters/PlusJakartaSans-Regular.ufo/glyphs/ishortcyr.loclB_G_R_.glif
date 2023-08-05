@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ishortcyr.loclBGR" format="2">
+  <advance width="573"/>
+  <anchor x="287" y="0" name="bottom"/>
+  <anchor x="459" y="0" name="ogonek"/>
+  <anchor x="553" y="536" name="topright"/>
+  <outline>
+    <component base="icyr.loclBGR"/>
+    <component base="brevecomb" xOffset="26"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>icyr.loclBGR+brevecomb</string>
+  </dict>
+  </lib>
+</glyph>

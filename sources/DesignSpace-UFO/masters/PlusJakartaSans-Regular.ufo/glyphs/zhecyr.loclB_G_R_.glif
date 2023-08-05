@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zhecyr.loclBGR" format="2">
+  <advance width="825"/>
+  <outline>
+    <contour>
+      <point x="375" y="0" type="line"/>
+      <point x="450" y="0" type="line"/>
+      <point x="450" y="173" type="line"/>
+      <point x="540" y="266" type="line"/>
+      <point x="724" y="0" type="line"/>
+      <point x="814" y="0" type="line"/>
+      <point x="591" y="321" type="line"/>
+      <point x="795" y="536" type="line"/>
+      <point x="698" y="536" type="line"/>
+      <point x="450" y="278" type="line"/>
+      <point x="450" y="757" type="line"/>
+      <point x="375" y="757" type="line"/>
+      <point x="375" y="278" type="line"/>
+      <point x="127" y="536" type="line"/>
+      <point x="30" y="536" type="line"/>
+      <point x="234" y="321" type="line"/>
+      <point x="11" y="0" type="line"/>
+      <point x="101" y="0" type="line"/>
+      <point x="285" y="266" type="line"/>
+      <point x="375" y="173" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>zhecyr</string>
+  </dict>
+  </lib>
+</glyph>

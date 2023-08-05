@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ntilde.ss03" format="2">
+  <advance width="573"/>
+  <outline>
+    <component base="n.ss03"/>
+    <component base="tildecomb" xOffset="25"/>
+  </outline>
+</glyph>

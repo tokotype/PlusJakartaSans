@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="decyr.loclBGR" format="2">
+  <advance width="664"/>
+  <anchor x="332" y="-240" name="bottom"/>
+  <anchor x="332" y="526" name="top"/>
+  <outline>
+    <component base="g"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>g</string>
+  </dict>
+  </lib>
+</glyph>

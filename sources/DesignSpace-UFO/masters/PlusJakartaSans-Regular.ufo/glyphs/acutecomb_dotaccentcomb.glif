@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="acutecomb_dotaccentcomb" format="2">
+  <advance width="486"/>
+  <anchor x="243" y="536" name="_top"/>
+  <outline>
+    <contour>
+      <point x="269" y="640" type="line"/>
+      <point x="383" y="790" type="line"/>
+      <point x="280" y="790" type="line"/>
+      <point x="193" y="640" type="line"/>
+    </contour>
+    <contour>
+      <point x="203" y="740" type="line"/>
+      <point x="203" y="840" type="line"/>
+      <point x="103" y="840" type="line"/>
+      <point x="103" y="740" type="line"/>
+    </contour>
+  </outline>
+</glyph>
