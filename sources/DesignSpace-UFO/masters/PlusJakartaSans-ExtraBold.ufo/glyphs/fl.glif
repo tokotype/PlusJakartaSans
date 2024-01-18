@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fl" format="2">
+  <advance width="670"/>
+  <unicode hex="FB02"/>
+  <anchor x="335" y="0" name="caret_1"/>
+  <outline>
+    <component base="f.liga"/>
+    <component base="l" xOffset="410"/>
+  </outline>
+</glyph>

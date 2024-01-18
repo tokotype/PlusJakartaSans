@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="northEastArrow" format="2">
+  <advance width="629"/>
+  <unicode hex="2197"/>
+  <outline>
+    <component base="southEastArrow" yScale="-1" yOffset="473"/>
+  </outline>
+</glyph>

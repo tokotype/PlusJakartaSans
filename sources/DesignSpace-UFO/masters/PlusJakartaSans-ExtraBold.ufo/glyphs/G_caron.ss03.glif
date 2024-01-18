@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Gcaron.ss03" format="2">
+  <advance width="792"/>
+  <outline>
+    <component base="G.ss03"/>
+    <component base="caroncomb" xOffset="83" yOffset="199"/>
+  </outline>
+</glyph>

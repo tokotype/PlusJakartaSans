@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="leftHookArrow" format="2">
+  <advance width="914"/>
+  <unicode hex="21A9"/>
+  <outline>
+    <contour>
+      <point x="642" y="252" type="line" smooth="yes"/>
+      <point x="771" y="252"/>
+      <point x="857" y="328"/>
+      <point x="857" y="441" type="curve" smooth="yes"/>
+      <point x="857" y="554"/>
+      <point x="771" y="630"/>
+      <point x="642" y="630" type="curve" smooth="yes"/>
+      <point x="632" y="630" type="line"/>
+      <point x="632" y="590" type="line"/>
+      <point x="642" y="590" type="line" smooth="yes"/>
+      <point x="747" y="590"/>
+      <point x="817" y="530"/>
+      <point x="817" y="441" type="curve" smooth="yes"/>
+      <point x="817" y="352"/>
+      <point x="747" y="292"/>
+      <point x="642" y="292" type="curve" smooth="yes"/>
+      <point x="77" y="292" type="line"/>
+      <point x="77" y="252" type="line"/>
+    </contour>
+    <contour>
+      <point x="364" y="0" type="line"/>
+      <point x="58" y="297" type="line"/>
+      <point x="57" y="248" type="line"/>
+      <point x="364" y="526" type="line"/>
+      <point x="308" y="526" type="line"/>
+      <point x="43" y="289" type="line"/>
+      <point x="43" y="255" type="line"/>
+      <point x="308" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

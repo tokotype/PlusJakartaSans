@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Icyr" format="2">
+  <advance width="742"/>
+  <unicode hex="0418"/>
+  <anchor x="371" y="0" name="bottom"/>
+  <anchor x="371" y="745" name="top"/>
+  <outline>
+    <contour>
+      <point x="521" y="0" type="line"/>
+      <point x="521" y="556" type="line"/>
+      <point x="579" y="541" type="line"/>
+      <point x="186" y="0" type="line"/>
+      <point x="66" y="0" type="line"/>
+      <point x="66" y="745" type="line"/>
+      <point x="221" y="745" type="line"/>
+      <point x="221" y="193" type="line"/>
+      <point x="157" y="208" type="line"/>
+      <point x="557" y="745" type="line"/>
+      <point x="676" y="745" type="line"/>
+      <point x="676" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>N%</string>
+  </dict>
+  </lib>
+</glyph>

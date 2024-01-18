@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="rlinebelow.ss02" format="2">
+  <advance width="449"/>
+  <outline>
+    <component base="r.ss02"/>
+    <component base="macronbelowcomb" xOffset="-96"/>
+  </outline>
+</glyph>

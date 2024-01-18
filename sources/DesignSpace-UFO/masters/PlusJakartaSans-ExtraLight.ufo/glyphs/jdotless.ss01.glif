@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="jdotless.ss01" format="2">
+  <advance width="201"/>
+  <anchor x="101" y="-240" name="bottom"/>
+  <anchor x="91" y="526" name="top"/>
+  <outline>
+    <contour>
+      <point x="113" y="-220" type="line"/>
+      <point x="113" y="526" type="line"/>
+      <point x="68" y="526" type="line"/>
+      <point x="68" y="-180" type="line"/>
+      <point x="-57" y="-180" type="line"/>
+      <point x="-57" y="-220" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="abrevehookabove.ss02" format="2">
+  <advance width="590"/>
+  <outline>
+    <component base="a.ss02"/>
+    <component base="brevecomb_hookabovecomb" xOffset="47"/>
+  </outline>
+</glyph>

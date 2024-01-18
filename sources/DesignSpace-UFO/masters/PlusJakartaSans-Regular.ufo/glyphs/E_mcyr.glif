@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Emcyr" format="2">
+  <advance width="836"/>
+  <unicode hex="041C"/>
+  <anchor x="418" y="0" name="bottom"/>
+  <anchor x="418" y="745" name="top"/>
+  <outline>
+    <component base="M"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>M%</string>
+  </dict>
+  </lib>
+</glyph>

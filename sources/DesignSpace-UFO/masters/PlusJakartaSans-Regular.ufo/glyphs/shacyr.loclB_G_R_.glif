@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="shacyr.loclBGR" format="2">
+  <advance width="908"/>
+  <anchor x="454" y="0" name="bottom"/>
+  <anchor x="454" y="536" name="top"/>
+  <outline>
+    <contour>
+      <point x="767" y="536" type="line"/>
+      <point x="767" y="217" type="line" smooth="yes"/>
+      <point x="767" y="121"/>
+      <point x="708" y="63"/>
+      <point x="631" y="63" type="curve" smooth="yes"/>
+      <point x="554" y="63"/>
+      <point x="497" y="120"/>
+      <point x="497" y="217" type="curve" smooth="yes"/>
+      <point x="497" y="536" type="line"/>
+      <point x="422" y="536" type="line"/>
+      <point x="422" y="217" type="line" smooth="yes"/>
+      <point x="422" y="121"/>
+      <point x="363" y="63"/>
+      <point x="286" y="63" type="curve" smooth="yes"/>
+      <point x="209" y="63"/>
+      <point x="152" y="120"/>
+      <point x="152" y="217" type="curve" smooth="yes"/>
+      <point x="152" y="536" type="line"/>
+      <point x="77" y="536" type="line"/>
+      <point x="77" y="188" type="line" smooth="yes"/>
+      <point x="77" y="74"/>
+      <point x="169" y="-12"/>
+      <point x="277" y="-12" type="curve" smooth="yes"/>
+      <point x="357" y="-12"/>
+      <point x="429" y="33"/>
+      <point x="456" y="115" type="curve"/>
+      <point x="435" y="114" type="line"/>
+      <point x="463" y="39"/>
+      <point x="535" y="-12"/>
+      <point x="618" y="-12" type="curve" smooth="yes"/>
+      <point x="688" y="-12"/>
+      <point x="750" y="25"/>
+      <point x="779" y="87" type="curve"/>
+      <point x="767" y="102" type="line"/>
+      <point x="767" y="0" type="line"/>
+      <point x="842" y="0" type="line"/>
+      <point x="842" y="536" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>m</string>
+  </dict>
+  </lib>
+</glyph>

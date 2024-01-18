@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="K.ss03" format="2">
+  <advance width="712"/>
+  <anchor x="356" y="0" name="bottom"/>
+  <anchor x="356" y="745" name="top"/>
+  <outline>
+    <contour>
+      <point x="701" y="-6" type="line"/>
+      <point x="701" y="124" type="line"/>
+      <point x="666" y="124" type="line" smooth="yes"/>
+      <point x="618" y="124"/>
+      <point x="587" y="150"/>
+      <point x="549" y="215" type="curve" smooth="yes"/>
+      <point x="384" y="499" type="line"/>
+      <point x="375" y="389" type="line"/>
+      <point x="670" y="745" type="line"/>
+      <point x="476" y="745" type="line"/>
+      <point x="178" y="387" type="line"/>
+      <point x="221" y="372" type="line"/>
+      <point x="221" y="745" type="line"/>
+      <point x="66" y="745" type="line"/>
+      <point x="66" y="0" type="line"/>
+      <point x="221" y="0" type="line"/>
+      <point x="221" y="204" type="line"/>
+      <point x="313" y="315" type="line"/>
+      <point x="402" y="160" type="line" smooth="yes"/>
+      <point x="484" y="17"/>
+      <point x="541" y="-6"/>
+      <point x="659" y="-6" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

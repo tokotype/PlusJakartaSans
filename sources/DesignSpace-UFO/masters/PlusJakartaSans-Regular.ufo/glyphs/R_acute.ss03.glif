@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Racute.ss03" format="2">
+  <advance width="643"/>
+  <outline>
+    <component base="R.ss03"/>
+    <component base="acutecomb" xOffset="175" yOffset="209"/>
+  </outline>
+</glyph>

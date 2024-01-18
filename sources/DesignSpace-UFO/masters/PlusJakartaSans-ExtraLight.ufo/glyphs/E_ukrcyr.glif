@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Eukrcyr" format="2">
+  <advance width="788"/>
+  <unicode hex="0404"/>
+  <anchor x="453" y="0" name="bottom"/>
+  <anchor x="453" y="373" name="center"/>
+  <anchor x="503" y="0" name="ogonek"/>
+  <anchor x="453" y="745" name="top"/>
+  <anchor x="875" y="745" name="topright"/>
+  <outline>
+    <component base="Ereversedcyr" xScale="-1" xOffset="788"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>O+macron%</string>
+  </dict>
+  </lib>
+</glyph>

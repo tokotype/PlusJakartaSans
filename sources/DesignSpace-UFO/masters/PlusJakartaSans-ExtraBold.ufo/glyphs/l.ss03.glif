@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="l.ss03" format="2">
+  <advance width="303"/>
+  <anchor x="130" y="0" name="bottom"/>
+  <anchor x="130" y="392" name="center"/>
+  <anchor x="340" y="372" name="dot"/>
+  <anchor x="130" y="745" name="top"/>
+  <anchor x="260" y="546" name="topright"/>
+  <outline>
+    <contour>
+      <point x="275" y="-6" type="line"/>
+      <point x="275" y="124" type="line"/>
+      <point x="271" y="124" type="line" smooth="yes"/>
+      <point x="228" y="124"/>
+      <point x="205" y="145"/>
+      <point x="205" y="185" type="curve" smooth="yes"/>
+      <point x="205" y="757" type="line"/>
+      <point x="55" y="757" type="line"/>
+      <point x="55" y="174" type="line" smooth="yes"/>
+      <point x="55" y="50"/>
+      <point x="115" y="-6"/>
+      <point x="248" y="-6" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="4.0">
+ <axes>
+  <axis default="400" maximum="800" name="weight" minimum="200" tag="wght">
+   <labelname xml:lang="en">Weight</labelname>
+   <map output="200" input="200"/>
+   <map output="300" input="300"/>
+   <map output="400" input="400"/>
+   <map output="500" input="500"/>
+   <map output="600" input="600"/>
+   <map output="700" input="700"/>
+   <map output="800" input="800"/>
+  </axis>
+ </axes>
+ <sources>
+  <source stylename="Regular" name="ExtraBold" familyname="Plus Jakarta Sans" filename="masters/PlusJakartaSans-ExtraBold.ufo">
+   <location>
+    <dimension name="weight" xvalue="800"/>
+   </location>
+  </source>
+  <source stylename="Regular" name="ExtraLight" familyname="Plus Jakarta Sans" filename="masters/PlusJakartaSans-ExtraLight.ufo">
+   <location>
+    <dimension name="weight" xvalue="200"/>
+   </location>
+  </source>
+  <source stylename="Regular" name="Regular" familyname="Plus Jakarta Sans" filename="masters/PlusJakartaSans-Regular.ufo">
+   <lib copy="1"/>
+   <groups copy="1"/>
+   <info copy="1"/>
+   <features copy="1"/>
+   <location>
+    <dimension name="weight" xvalue="400"/>
+   </location>
+  </source>
+ </sources>
+ <lib>
+  <dict>
+   <key>GSDimensionPlugin.Dimensions</key>
+   <dict>
+    <key>1C1CFC13-4213-4775-A214-C31251F9A91A</key>
+    <dict>
+     <key>HH</key>
+     <integer>45</integer>
+     <key>HV</key>
+     <integer>50</integer>
+     <key>OH</key>
+     <integer>48</integer>
+     <key>OV</key>
+     <integer>50</integer>
+     <key>nV</key>
+     <integer>45</integer>
+     <key>nd</key>
+     <integer>40</integer>
+     <key>oH</key>
+     <integer>43</integer>
+     <key>oV</key>
+     <integer>48</integer>
+     <key>tH</key>
+     <integer>40</integer>
+    </dict>
+    <key>30C2FD74-1A74-41AC-9C29-B288AE1DBDD7</key>
+    <dict>
+     <key>HH</key>
+     <integer>75</integer>
+     <key>HV</key>
+     <integer>80</integer>
+     <key>OH</key>
+     <integer>75</integer>
+     <key>OV</key>
+     <integer>80</integer>
+     <key>nV</key>
+     <integer>75</integer>
+     <key>nd</key>
+     <integer>68</integer>
+     <key>oH</key>
+     <integer>75</integer>
+     <key>oV</key>
+     <integer>80</integer>
+     <key>tH</key>
+     <integer>75</integer>
+    </dict>
+    <key>9398AC28-6BE1-4A79-9C94-3CBC2F226CE7</key>
+    <dict>
+     <key>HH</key>
+     <integer>135</integer>
+     <key>HV</key>
+     <integer>155</integer>
+     <key>OH</key>
+     <integer>140</integer>
+     <key>OV</key>
+     <integer>155</integer>
+     <key>nV</key>
+     <integer>150</integer>
+     <key>nd</key>
+     <integer>118</integer>
+     <key>oH</key>
+     <integer>135</integer>
+     <key>oV</key>
+     <integer>155</integer>
+     <key>tH</key>
+     <integer>130</integer>
+    </dict>
+    <key>C1DB0BE6-5704-4A8C-8C00-D80E72C16D98</key>
+    <dict>
+     <key>HH</key>
+     <integer>45</integer>
+     <key>HV</key>
+     <integer>50</integer>
+     <key>OH</key>
+     <integer>48</integer>
+     <key>OV</key>
+     <integer>50</integer>
+     <key>nV</key>
+     <integer>45</integer>
+     <key>nd</key>
+     <integer>40</integer>
+     <key>oH</key>
+     <integer>43</integer>
+     <key>oV</key>
+     <integer>48</integer>
+     <key>tH</key>
+     <integer>40</integer>
+    </dict>
+   </dict>
+   <key>com.schriftgestaltung.font.Enforce Compatibility Check</key>
+   <integer>1</integer>
+   <key>com.schriftgestaltung.font.Use Line Breaks</key>
+   <integer>1</integer>
+   <key>com.schriftgestaltung.font.Write DisplayStrings</key>
+   <integer>1</integer>
+   <key>com.schriftgestaltung.font.gasp Table</key>
+   <dict>
+    <key>20</key>
+    <integer>7</integer>
+    <key>65535</key>
+    <integer>15</integer>
+    <key>8</key>
+    <integer>10</integer>
+   </dict>
+  </dict>
+ </lib>
+ <instances>
+  <instance stylename="ExtraLight" name="ExtraLight" familyname="Plus Jakarta Sans" filename="instances/PlusJakartaSans-ExtraLight.ufo">
+   <location>
+    <dimension name="weight" xvalue="200"/>
+   </location>
+  </instance>
+  <instance stylename="Light" name="Light" familyname="Plus Jakarta Sans" filename="instances/PlusJakartaSans-Light.ufo">
+   <location>
+    <dimension name="weight" xvalue="300"/>
+   </location>
+  </instance>
+  <instance stylename="Regular" name="Regular" familyname="Plus Jakarta Sans" filename="instances/PlusJakartaSans-Regular.ufo">
+   <location>
+    <dimension name="weight" xvalue="400"/>
+   </location>
+  </instance>
+  <instance stylename="Medium" name="Medium" familyname="Plus Jakarta Sans" filename="instances/PlusJakartaSans-Medium.ufo">
+   <location>
+    <dimension name="weight" xvalue="500"/>
+   </location>
+  </instance>
+  <instance stylename="SemiBold" name="SemiBold" familyname="Plus Jakarta Sans" filename="instances/PlusJakartaSans-SemiBold.ufo">
+   <location>
+    <dimension name="weight" xvalue="600"/>
+   </location>
+  </instance>
+  <instance stylename="Bold" name="Bold" familyname="Plus Jakarta Sans" filename="instances/PlusJakartaSans-Bold.ufo">
+   <location>
+    <dimension name="weight" xvalue="700"/>
+   </location>
+  </instance>
+  <instance stylename="ExtraBold" name="ExtraBold" familyname="Plus Jakarta Sans" filename="instances/PlusJakartaSans-ExtraBold.ufo">
+   <location>
+    <dimension name="weight" xvalue="800"/>
+   </location>
+  </instance>
+  <instance stylename="Regular" name="Regular" familyname="Plus Jakarta Sans" filename="instances/PlusJakartaSans-Regular.ufo">
+   <location>
+    <dimension name="weight" xvalue="200"/>
+   </location>
+  </instance>
+ </instances>
+</designspace>

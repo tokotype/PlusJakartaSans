@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="greater.case" format="2">
+  <advance width="606"/>
+  <outline>
+    <component base="greater" yOffset="120"/>
+  </outline>
+</glyph>

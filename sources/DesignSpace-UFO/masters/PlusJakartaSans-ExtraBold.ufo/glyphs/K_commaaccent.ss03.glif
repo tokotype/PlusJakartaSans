@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Kcommaaccent.ss03" format="2">
+  <advance width="712"/>
+  <outline>
+    <component base="K.ss03"/>
+    <component base="commaaccentcomb" xOffset="107"/>
+  </outline>
+</glyph>

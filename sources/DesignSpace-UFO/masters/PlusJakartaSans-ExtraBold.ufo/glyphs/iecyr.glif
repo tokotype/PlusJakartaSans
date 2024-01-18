@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="iecyr" format="2">
+  <advance width="611"/>
+  <unicode hex="0435"/>
+  <anchor x="306" y="0" name="bottom"/>
+  <anchor x="318" y="0" name="ogonek"/>
+  <anchor x="306" y="546" name="top"/>
+  <outline>
+    <component base="e"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>e%</string>
+  </dict>
+  </lib>
+</glyph>

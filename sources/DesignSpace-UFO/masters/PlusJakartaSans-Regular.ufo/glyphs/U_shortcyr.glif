@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ushortcyr" format="2">
+  <advance width="612"/>
+  <unicode hex="040E"/>
+  <anchor x="745" y="0" name="bottom"/>
+  <outline>
+    <component base="Ucyr"/>
+    <component base="brevecomb" xOffset="46" yOffset="209"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>afii10037+uni0306</string>
+  </dict>
+  </lib>
+</glyph>

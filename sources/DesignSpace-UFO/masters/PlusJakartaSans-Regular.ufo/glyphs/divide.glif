@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="divide" format="2">
+  <advance width="606"/>
+  <unicode hex="00F7"/>
+  <outline>
+    <contour>
+      <point x="553" y="213" type="line"/>
+      <point x="553" y="288" type="line"/>
+      <point x="53" y="288" type="line"/>
+      <point x="53" y="213" type="line"/>
+    </contour>
+    <contour>
+      <point x="343" y="0" type="line"/>
+      <point x="343" y="103" type="line"/>
+      <point x="263" y="103" type="line"/>
+      <point x="263" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="343" y="397" type="line"/>
+      <point x="343" y="500" type="line"/>
+      <point x="263" y="500" type="line"/>
+      <point x="263" y="397" type="line"/>
+    </contour>
+  </outline>
+</glyph>

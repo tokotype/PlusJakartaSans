@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Iocyr" format="2">
+  <advance width="612"/>
+  <unicode hex="0401"/>
+  <anchor x="328" y="0" name="bottom"/>
+  <anchor x="468" y="0" name="ogonek"/>
+  <outline>
+    <component base="Iecyr"/>
+    <component base="dieresiscomb" xOffset="85" yOffset="209"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>afii10022+uni0308</string>
+  </dict>
+  </lib>
+</glyph>

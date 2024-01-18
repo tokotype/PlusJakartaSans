@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="f.liga" format="2">
+  <advance width="387"/>
+  <outline>
+    <contour>
+      <point x="188" y="0" type="line"/>
+      <point x="188" y="486" type="line"/>
+      <point x="491" y="486" type="line"/>
+      <point x="491" y="526" type="line"/>
+      <point x="188" y="526" type="line"/>
+      <point x="188" y="579" type="line" smooth="yes"/>
+      <point x="188" y="664"/>
+      <point x="233" y="714"/>
+      <point x="308" y="714" type="curve" smooth="yes"/>
+      <point x="319" y="714"/>
+      <point x="333" y="713"/>
+      <point x="344" y="711" type="curve"/>
+      <point x="344" y="752" type="line"/>
+      <point x="334" y="755"/>
+      <point x="321" y="757"/>
+      <point x="305" y="757" type="curve" smooth="yes"/>
+      <point x="208" y="757"/>
+      <point x="143" y="691"/>
+      <point x="143" y="579" type="curve" smooth="yes"/>
+      <point x="143" y="526" type="line"/>
+      <point x="34" y="526" type="line"/>
+      <point x="34" y="486" type="line"/>
+      <point x="143" y="486" type="line"/>
+      <point x="143" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

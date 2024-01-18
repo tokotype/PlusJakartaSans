@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="iukrcyr" format="2">
+  <advance width="221"/>
+  <unicode hex="0456"/>
+  <anchor x="111" y="0" name="bottom"/>
+  <outline>
+    <component base="i"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>i%</string>
+  </dict>
+  </lib>
+</glyph>

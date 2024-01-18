@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="divideinferior" format="2">
+  <advance width="456"/>
+  <outline>
+    <contour>
+      <point x="403" y="227" type="line"/>
+      <point x="403" y="294" type="line"/>
+      <point x="53" y="294" type="line"/>
+      <point x="53" y="227" type="line"/>
+    </contour>
+    <contour>
+      <point x="265" y="85" type="line"/>
+      <point x="265" y="161" type="line"/>
+      <point x="190" y="161" type="line"/>
+      <point x="190" y="85" type="line"/>
+    </contour>
+    <contour>
+      <point x="265" y="359" type="line"/>
+      <point x="265" y="435" type="line"/>
+      <point x="190" y="435" type="line"/>
+      <point x="190" y="359" type="line"/>
+    </contour>
+  </outline>
+</glyph>

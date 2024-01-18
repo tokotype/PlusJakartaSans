@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ldot.ss03" format="2">
+  <advance width="376"/>
+  <outline>
+    <component base="l.ss03"/>
+    <component base="_dot.l" xOffset="166" yOffset="55"/>
+  </outline>
+</glyph>

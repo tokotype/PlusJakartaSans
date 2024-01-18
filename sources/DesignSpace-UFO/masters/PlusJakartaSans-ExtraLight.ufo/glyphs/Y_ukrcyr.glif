@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Yukrcyr" format="2">
+  <advance width="248"/>
+  <unicode hex="0407"/>
+  <outline>
+    <component base="I"/>
+    <component base="dieresiscomb" xOffset="-89" yOffset="219"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>uni0406+dieresiscomb</string>
+  </dict>
+  </lib>
+</glyph>

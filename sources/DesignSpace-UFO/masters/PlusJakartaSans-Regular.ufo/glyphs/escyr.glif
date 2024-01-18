@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="escyr" format="2">
+  <advance width="600"/>
+  <unicode hex="0441"/>
+  <anchor x="322" y="0" name="bottom"/>
+  <anchor x="322" y="536" name="top"/>
+  <outline>
+    <component base="c"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>c%</string>
+  </dict>
+  </lib>
+</glyph>

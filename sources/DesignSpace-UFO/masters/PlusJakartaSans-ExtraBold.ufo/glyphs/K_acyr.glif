@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Kacyr" format="2">
+  <advance width="687"/>
+  <unicode hex="041A"/>
+  <anchor x="344" y="0" name="bottom"/>
+  <anchor x="344" y="745" name="top"/>
+  <outline>
+    <component base="K"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>K%</string>
+  </dict>
+  </lib>
+</glyph>
